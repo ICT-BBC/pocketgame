@@ -70,31 +70,42 @@ function Game(){
 		this.logicStep();
 		this.graphicsStep();
 		requestAnimationFrame(this.loop.bind(this));
-	}
+	};
 	
 	this.logicStep = function(){
 		for(var player of this.players){
 			player.step();
 		}
-	}
+	};
 	
 	this.graphicsStep = function(){
 		this.graphics.render();
-	}
+	};
 	
 	this.createPlayerFromGamepad = function(pad){
-		this.players.push(
-			new Player(
-				{
-					 x: Math.random()*canvas.width
-					,y: Math.random()*canvas.height
-				}
-				,5
-				,0
-				,pad
-			)
+		var player = new Player(
+			{
+				 x: Math.random()*canvas.width
+				,y: Math.random()*canvas.height
+			}
+			,5
+			,0
+			,pad
 		);
-	}
+		this.players.push(player);
+		
+		return player;
+	};
+	
+	this.removePlayer = function(player){
+		for(var i = 0; i < this.players.length; i++){
+			console.log(this.players[i], player);
+			if(this.players[i] == player){
+				this.players.splice(i, 1);
+				return i;
+			}
+		}
+	};
 	
 	this.loop();
 	
@@ -200,8 +211,8 @@ function ControllerInput(){
 		var id = pad.index;
 		console.log("disconn "+id);
 		
+		game.removePlayer(this.controllers[id].player);
 		this.controllers[id] = null;
-		console.log(this.controllers);
 	}.bind(this));
 }
 
