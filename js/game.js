@@ -24,6 +24,8 @@ function Game(){
 	this.graphics = new Graphics(this, canvas, canvasContainer);
 	this.input = new Input();
 	
+	this.controllerInput = new ControllerInput();
+	
 	this.players.push(
 		new Player(
 			{
@@ -80,6 +82,20 @@ function Game(){
 		this.graphics.render();
 	}
 	
+	this.createPlayerFromGamepad = function(pad){
+		this.players.push(
+			new Player(
+				{
+					 x: Math.random()*canvas.width
+					,y: Math.random()*canvas.height
+				}
+				,5
+				,0
+				,pad
+			)
+		);
+	}
+	
 	this.loop();
 	
 }
@@ -99,6 +115,9 @@ function Graphics(game, canvas, canvasContainer){
 				0,
 				2 * Math.PI
 			);
+			context.lineWidth = 3;
+			context.fillStyle = player.color;
+			context.fill();
 			context.stroke();
 		}
 	}
@@ -115,6 +134,7 @@ function Player(pos, points, angle, controller){
 	this.points = points;
 	this.angle = angle;
 	this.isMoving = false;
+	this.color = colorHash(Math.random()+"").hex;
 	
 	var timeLast = performance.now();
 		
@@ -126,7 +146,7 @@ function Player(pos, points, angle, controller){
 		var movementDist = c.player.speed * (timeDiff/1000);
 		var controls = controller.getControls();
 		
-		this.isMoving = (controls.x != 0 || controls.y != 0);
+		this.isMoving = (Math.abs(controls.x) > 0.5 || Math.abs(controls.y) > 0.5);
 		
 		if(this.isMoving){
 			
@@ -145,13 +165,54 @@ function Input(){
 	
 	window.addEventListener("keyup", function(e){
 		this.keys[e.code] = false;
-		console.log(this.keys);
 	}.bind(this));
 	
 	window.addEventListener("keydown", function(e){
 		this.keys[e.code] = true;
-		console.log(this.keys);
 	}.bind(this));
+}
+
+function ControllerInput(){
+	this.controllers = [];
+	
+	window.addEventListener("gamepadconnected", function(e){
+		//console.log(e);
+		var pad = e.gamepad;
+		var id = pad.index;
+		console.log("connect "+id);
+		
+		var padObject = new Gamepad(pad);
+		padObject.player = game.createPlayerFromGamepad(padObject);
+		this.controllers[id] = padObject;
+	}.bind(this));
+	
+	window.addEventListener("gamepaddisconnected", function(e){
+		//console.log(e);
+		var pad = e.gamepad;
+		var id = pad.index;
+		console.log("disconn "+id);
+		
+		this.controllers[id] = null;
+		console.log(this.controllers);
+	}.bind(this));
+}
+
+function Gamepad(pad){
+	this.player = null;
+	this.pad = pad;
+	
+	this.getControls = function(){
+		
+		this.pad = navigator.getGamepads()[pad.index];
+		
+		var x = pad.axes[0];
+		var y = pad.axes[1];
+		
+		return {
+			 x: x
+			,y: y
+		};
+	};
 }
 
 function Controller(input, keys){
@@ -173,12 +234,37 @@ function Controller(input, keys){
 		}
 		
 		return {
-			 y: y
-			,x: x
-		}
-	}
+			 x: x
+			,y: y
+		};
+	};
 }
 
+function colorHash(inputString){
+	inputString = "seed"+inputString;
+	var sum = 0;
+	
+	for(var i in inputString){
+		sum += inputString.charCodeAt(i);
+	}
 
-If you need any laser equipments, just feel free to contact us!
-If you need any laser equipments, just feel free to contact us!
+	r = ~~(('0.'+Math.sin(sum+1).toString().substr(6))*256);
+	g = ~~(('0.'+Math.sin(sum+2).toString().substr(6))*256);
+	b = ~~(('0.'+Math.sin(sum+3).toString().substr(6))*256);
+
+	var rgb = "rgb("+r+", "+g+", "+b+")";
+
+	var hex = "#";
+
+	hex += ("00" + r.toString(16)).substr(-2,2).toUpperCase();
+	hex += ("00" + g.toString(18)).substr(-2,2).toUpperCase();
+	hex += ("00" + b.toString(20)).substr(-2,2).toUpperCase();
+
+	return {
+		 r: r
+		,g: g
+		,b: b
+		,rgb: rgb
+		,hex: hex
+	};
+}
