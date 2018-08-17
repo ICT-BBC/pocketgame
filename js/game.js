@@ -3,6 +3,7 @@
 var c = {
 	player: {
 		 speed: 200 //pixels per second
+		,controllerDeadzone: 0.4
 	}
 };
 
@@ -99,7 +100,6 @@ function Game(){
 	
 	this.removePlayer = function(player){
 		for(var i = 0; i < this.players.length; i++){
-			console.log(this.players[i], player);
 			if(this.players[i] == player){
 				this.players.splice(i, 1);
 				return i;
@@ -165,7 +165,10 @@ function Player(pos, points, angle, controller){
 		var movementDist = c.player.speed * (timeDiff/1000);
 		var controls = controller.getControls();
 		
-		this.isMoving = (Math.abs(controls.x) > 0.5 || Math.abs(controls.y) > 0.5);
+		this.isMoving = (
+			   Math.abs(controls.x) > c.player.controllerDeadzone
+			|| Math.abs(controls.y) > c.player.controllerDeadzone
+		);
 		
 		if(this.isMoving){
 			
@@ -198,7 +201,7 @@ function ControllerInput(){
 		//console.log(e);
 		var pad = e.gamepad;
 		var id = pad.index;
-		console.log("connect "+id);
+		//console.log("connect "+id);
 		
 		var padObject = new Gamepad(pad);
 		padObject.player = game.createPlayerFromGamepad(padObject);
@@ -209,7 +212,7 @@ function ControllerInput(){
 		//console.log(e);
 		var pad = e.gamepad;
 		var id = pad.index;
-		console.log("disconn "+id);
+		//console.log("disconn "+id);
 		
 		game.removePlayer(this.controllers[id].player);
 		this.controllers[id] = null;
