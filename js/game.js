@@ -1,9 +1,14 @@
 
 
 var c = {
-	player: {
+	 player: {
 		 speed: 200 //pixels per second
 		,controllerDeadzone: 0.4
+	}
+	,graphics: {
+		 playerWidth: 60
+		,playerHeight: 60
+		,
 	}
 };
 
@@ -13,16 +18,20 @@ function Game(){
 	
 	this.players = [];
 	
-	var canvas = document.getElementById("renderCanvas");
+	/*var canvas = document.getElementById("renderCanvas");
 	var canvasContainer = document.getElementById("canvasContainer");
 	
 	var height = ~~(canvasContainer.clientHeight);
 	var width = ~~(canvasContainer.clientWidth);
 
 	canvas.height = height;
-	canvas.width = width;
+	canvas.width = width;*/
 	
-	this.graphics = new Graphics(this, canvas, canvasContainer);
+	var world = document.getElementById("world");
+	var height = world.clientHeight;
+	var width = world.clientWidth;
+	
+	this.graphics = new Graphics(this);
 	this.input = new Input();
 	
 	this.controllerInput = new ControllerInput();
@@ -30,8 +39,8 @@ function Game(){
 	this.players.push(
 		new Player(
 			{
-				 x: Math.random()*canvas.width
-				,y: Math.random()*canvas.height
+				 x: Math.random()*width
+				,y: Math.random()*height
 			}
 			,5
 			,0
@@ -50,8 +59,8 @@ function Game(){
 	this.players.push(
 		new Player(
 			{
-				 x: Math.random()*canvas.width
-				,y: Math.random()*canvas.height
+				 x: Math.random()*width
+				,y: Math.random()*height
 			}
 			,5
 			,0
@@ -86,8 +95,8 @@ function Game(){
 	this.createPlayerFromGamepad = function(pad){
 		var player = new Player(
 			{
-				 x: Math.random()*canvas.width
-				,y: Math.random()*canvas.height
+				 x: Math.random()*width
+				,y: Math.random()*height
 			}
 			,5
 			,0
