@@ -61,3 +61,9 @@ html, body{
 		transform: scale(1);
 	}
 }
+
+
+#debugCanvas{
+	position: absolute;
+	z-index: 100000;
+}

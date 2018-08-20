@@ -7,14 +7,23 @@
 	angle: radians
 */
 
-function Player(pos, points, angle, controller){
+function Player(game, pos, points, angle, controller){
 	this.pos = pos;
 	this.points = points;
 	this.angle = angle;
 	this.isMoving = false;
 	this.color = colorHash(Math.random()+"").hex;
+	this.colliding = false;
+	this.hitbox = new Hitbox(
+		new Circle(
+			 c.graphics.playerWidth/2
+			,this.pos.x
+			,this.pos.y
+		)
+	);
 	
 	var timeLast = performance.now();
+	var lastShotTime = 0;
 		
 	this.step = function(){
 		var timeNow = performance.now();
@@ -34,6 +43,31 @@ function Player(pos, points, angle, controller){
 			
 			this.pos.x += Math.sin(this.angle)*movementDist;
 			this.pos.y -= Math.cos(this.angle)*movementDist;
+		}
+		
+		this.hitbox.moveTo(this.pos);
+		
+		this.collidesWith = [];
+		this.isColliding = false;
+		for(var other of game.players){
+			if(other != this){
+				if(this.hitbox.intersects(other.hitbox)){
+					this.isColliding = true;
+					this.collidesWith.push(other);
+				}
+			}
+		}
+		
+		for(var other of this.collidesWith){
+			var collisionVector = this.hitbox.getCollisionVector(other.hitbox);
+			this.pos.x += collisionVector.x * c.player.bounceSpeed * (timeDiff/1000);
+			this.pos.y += collisionVector.y * c.player.bounceSpeed * (timeDiff/1000);
+		}
+		
+		var timeSinceLastShot = timeNow - lastShotTime;
+		if(controls.shoot && timeSinceLastShot >= c.projectile.timeout){
+			game.addProjectile(this);
+			lastShotTime = timeNow;
 		}
 		
 	}

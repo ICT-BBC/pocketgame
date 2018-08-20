@@ -47,10 +47,12 @@ function Gamepad(pad){
 		
 		var x = pad.axes[0];
 		var y = pad.axes[1];
+		var shoot = pad.buttons[0].pressed;
 		
 		return {
 			 x: x
 			,y: y
+			,shoot: shoot
 		};
 	};
 }
@@ -73,9 +75,12 @@ function Controller(input, keys){
 			x++;
 		}
 		
+		var shoot = input.keys[keys.shoot];
+		
 		return {
 			 x: x
 			,y: y
+			,shoot: shoot
 		};
 	};
 }

@@ -9,9 +9,9 @@ function Graphics(game){
 			 id: "drone"
 			,path: assetPath + "drone.svg"
 		},
-		marker: {
-			 id: "marker"
-			,path: assetPath + "marker.svg"
+		projectile: {
+			 id: "projectile"
+			,path: assetPath + "projectile.svg"
 		},
 		fuel: {
 			 id: "fuel"
@@ -25,13 +25,23 @@ function Graphics(game){
 	
 	var world;
 	var droneTemplate;
-	var markerTemplate;
+	var projectileTemplate;
 	var fuelTemplate;
+	
+	var width;
+	var height;
+	
+	var canvas;
+	var context;
 	
 	init();
 	
 	
 	this.render = function(){
+		if(DEBUG){
+			context.clearRect(0, 0, width, height);
+		}
+		
 		for(var player of game.players){
 			if(!player.graphics){
 				let element = document.createElement("div");
@@ -45,6 +55,66 @@ function Graphics(game){
 			player.graphics.style.top = player.pos.y + "px";
 			player.graphics.style.left = player.pos.x + "px";
 			player.graphics.firstChild.style.transform = "rotate("+(player.angle-Math.PI)+"rad)";
+			
+			if(DEBUG){
+				context.beginPath();
+				context.arc(
+					player.pos.x,
+					player.pos.y,
+					player.hitbox.circles.r,
+					0,
+					2 * Math.PI
+				);
+				context.strokeStyle = "rgba(0, 0, 0, 1)";
+				if(player.isColliding){
+					context.fillStyle = "rgba(255, 100, 0, 0.6)";
+				} else {
+					context.fillStyle = "rgba(0, 255, 0, 0.6)";
+				}
+				context.fill();
+				context.stroke();
+			}
+		}
+		
+		for(var projectile of game.projectiles){
+			if(!projectile.graphics){
+				let element = document.createElement("div");
+				element.className = "projectileContainer";
+				element.innerHTML = projectileTemplate;
+					
+				projectile.graphics = element;
+				world.appendChild(element);
+			}
+			
+			projectile.graphics.style.top = projectile.pos.y + "px";
+			projectile.graphics.style.left = projectile.pos.x + "px";
+			projectile.graphics.firstChild.style.transform = "rotate("+(projectile.angle-Math.PI)+"rad)";
+			
+			if(DEBUG){
+				context.beginPath();
+				context.arc(
+					projectile.pos.x,
+					projectile.pos.y,
+					projectile.hitbox.circles.r,
+					0,
+					2 * Math.PI
+				);
+				context.strokeStyle = "rgba(0, 0, 0, 1)";
+				if(projectile.isColliding){
+					context.fillStyle = "rgba(255, 255, 0, 0.6)";
+				} else {
+					context.fillStyle = "rgba(0, 255, 255, 0.8)";
+				}
+				context.fill();
+				//context.stroke();
+			}
+		}
+	}
+	
+	this.removeEntity = function(entity){
+		if(entity.graphics){
+			world.removeChild(entity.graphics);
+			return entity;
 		}
 	}
 	
@@ -52,6 +122,19 @@ function Graphics(game){
 	function init(){
 		world = document.getElementById("world");
 		world.style.backgroundImage = "url("+assets.background.path+")";
+		
+		width = world.clientWidth;
+		height = world.clientHeight;
+		
+		if(DEBUG){
+			canvas = document.createElement("canvas");
+			canvas.id = "debugCanvas";
+			canvas.height = height;
+			canvas.width = width;
+			context = canvas.getContext("2d");
+			
+			world.appendChild(canvas);
+		}
 
 		droneTemplate = document.createElement("object");
 		droneTemplate.type = "image/svg+xml";
@@ -64,16 +147,16 @@ function Graphics(game){
 		tempContainer.appendChild(droneTemplate);
 		droneTemplate = tempContainer.innerHTML;
 
-		markerTemplate = document.createElement("object");
-		markerTemplate.type = "image/svg+xml";
-		markerTemplate.data = assets.marker.path;
-		markerTemplate.className = "marker";
-		markerTemplate.width = c.graphics.markerWidth;
-		markerTemplate.style.marginTop = (-c.graphics.markerHeight/2)+"px";
-		markerTemplate.style.marginLeft = (-c.graphics.markerWidth0/2)+"px";
+		projectileTemplate = document.createElement("object");
+		projectileTemplate.type = "image/svg+xml";
+		projectileTemplate.data = assets.projectile.path;
+		projectileTemplate.className = "projectile";
+		projectileTemplate.width = c.graphics.projectileDiameter;
+		projectileTemplate.style.marginTop = (-c.graphics.projectileDiameter/2)+"px";
+		projectileTemplate.style.marginLeft = (-c.graphics.projectileDiameter/2)+"px";
 		tempContainer = document.createElement("div");
-		tempContainer.appendChild(markerTemplate);
-		markerTemplate = tempContainer.innerHTML;
+		tempContainer.appendChild(projectileTemplate);
+		projectileTemplate = tempContainer.innerHTML;
 
 		fuelTemplate = document.createElement("object");
 		fuelTemplate.type = "image/svg+xml";
