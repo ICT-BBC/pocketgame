@@ -64,11 +64,33 @@ function Player(game, pos, points, angle, controller){
 			this.pos.y += collisionVector.y * c.player.bounceSpeed * (timeDiff/1000);
 		}
 		
+		if(game.walls.intersects(this.hitbox.circles)){
+			this.isColliding = true;
+			
+			var collisionVector = game.walls.getCollisionVector(this.hitbox.circles);
+			this.pos.x += collisionVector.x * c.player.speed * (timeDiff/1000);
+			this.pos.y += collisionVector.y * c.player.speed * (timeDiff/1000);
+		}
+		
 		var timeSinceLastShot = timeNow - lastShotTime;
 		if(controls.shoot && timeSinceLastShot >= c.projectile.timeout){
 			game.addProjectile(this);
 			lastShotTime = timeNow;
 		}
 		
+	}
+	
+	this.increasePoints = function(){
+		if(this.points < c.player.maxPoints){
+			this.points++;
+		}
+	}
+	
+	this.decreasePoints = function(){
+		if(this.points > c.player.minPoints){
+			this.points--;
+		} else {
+			game.removePlayer(this);
+		}
 	}
 }

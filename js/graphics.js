@@ -33,6 +33,7 @@ function Graphics(game){
 	
 	var canvas;
 	var context;
+	var fontSize = 36;
 	
 	init();
 	
@@ -40,6 +41,9 @@ function Graphics(game){
 	this.render = function(){
 		if(DEBUG){
 			context.clearRect(0, 0, width, height);
+			context.font = fontSize+"px monospace";
+			context.textAlign = "center";
+			context.textBaseline = "middle";
 		}
 		
 		for(var player of game.players){
@@ -73,6 +77,11 @@ function Graphics(game){
 				}
 				context.fill();
 				context.stroke();
+				
+				context.fillStyle = "rgba(0, 0, 0, 1.0)";
+				context.fillText(player.points, player.pos.x+2, player.pos.y+2);
+				context.fillStyle = "rgba(255, 255, 255, 1.0)";
+				context.fillText(player.points, player.pos.x, player.pos.y);
 			}
 		}
 		
@@ -103,10 +112,44 @@ function Graphics(game){
 				if(projectile.isColliding){
 					context.fillStyle = "rgba(255, 255, 0, 0.6)";
 				} else {
-					context.fillStyle = "rgba(0, 255, 255, 0.8)";
+					context.fillStyle = "rgba(0, 255, 255, 0.6)";
 				}
 				context.fill();
-				//context.stroke();
+				context.stroke();
+			}
+		}
+		
+		for(var fuel of game.fuels){
+			if(!fuel.graphics){
+				let element = document.createElement("div");
+				element.className = "fuelContainer";
+				element.innerHTML = fuelTemplate;
+					
+				fuel.graphics = element;
+				world.appendChild(element);
+			}
+			
+			fuel.graphics.style.top = fuel.pos.y + "px";
+			fuel.graphics.style.left = fuel.pos.x + "px";
+			fuel.graphics.firstChild.style.transform = "rotate("+(fuel.angle-Math.PI)+"rad)";
+			
+			if(DEBUG){
+				context.beginPath();
+				context.arc(
+					fuel.pos.x,
+					fuel.pos.y,
+					fuel.hitbox.circles.r,
+					0,
+					2 * Math.PI
+				);
+				context.strokeStyle = "rgba(0, 0, 0, 1)";
+				if(fuel.isColliding){
+					context.fillStyle = "rgba(255, 0, 0, 0.6)";
+				} else {
+					context.fillStyle = "rgba(255, 0, 255, 0.6)";
+				}
+				context.fill();
+				context.stroke();
 			}
 		}
 	}

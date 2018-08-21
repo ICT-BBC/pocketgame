@@ -1,21 +1,30 @@
 
-var DEBUG = false;
+var DEBUG = true;
 
 var c = {
 	 player: {
 		 speed: 200 //pixels per second
 		,bounceSpeed: 105 // force pushing outwards while intersecting with other player
 		,controllerDeadzone: 0.4
+		,minPoints: 0
+		,maxPoints: 9
 	}
 	,projectile: {
 		 speed: 500
 		,timeout: 700 // ms between shots
+	}
+	,fuel: {
+		 chancePerSecond: 0.1 // chance of one fuel appearing 
+		,maxCount: 10 // maximum number of fuels on screen at one time
+		,padding: 50 // minimum possible distance to window edge
 	}
 	,graphics: {
 		 playerWidth: 60
 		,playerHeight: 69
 		,projectileDiameter: 30
 		,projectileHitboxDiameter: 26
+		,fuelWidth: 20
+		,fuelHeight: 35
 	}
 };
 
@@ -25,6 +34,7 @@ function Game(){
 	
 	this.players = [];
 	this.projectiles = [];
+	this.fuels = [];
 	
 	/*var canvas = document.getElementById("renderCanvas");
 	var canvasContainer = document.getElementById("canvasContainer");
@@ -38,6 +48,8 @@ function Game(){
 	var world = document.getElementById("world");
 	var height = world.clientHeight;
 	var width = world.clientWidth;
+	
+	this.walls = new Walls(width, height);
 	
 	this.graphics = new Graphics(this);
 	this.input = new Input();
@@ -82,7 +94,7 @@ function Game(){
 					,down: "ArrowDown"
 					,right: "ArrowRight"
 					,left: "ArrowLeft"
-					,shoot: "Key0"
+					,shoot: "Numpad0"
 				}
 			)
 		)
@@ -94,7 +106,18 @@ function Game(){
 		requestAnimationFrame(this.loop.bind(this));
 	};
 	
+	var timeLast = performance.now();
+	
 	this.logicStep = function(){
+		
+		var timeNow = performance.now();
+		var timeDiff = timeNow - timeLast;
+		timeLast = timeNow;
+		
+		if(this.fuels.length < c.fuel.maxCount && Math.random() < timeDiff * (c.fuel.chancePerSecond/1000)){
+			this.addRandomFuel();
+		}
+		
 		for(var player of this.players){
 			player.step();
 		}
@@ -125,6 +148,7 @@ function Game(){
 	};
 	
 	this.removePlayer = function(player){
+		this.graphics.removeEntity(player);
 		for(var i = 0; i < this.players.length; i++){
 			if(this.players[i] == player){
 				this.players.splice(i, 1);
@@ -154,6 +178,36 @@ function Game(){
 			}
 		}
 	};
+	
+	this.addRandomFuel = function(){
+		var pos = {
+			 x: Math.random() * (width-2*c.fuel.padding) + c.fuel.padding
+			,y: Math.random() * (height-2*c.fuel.padding) + c.fuel.padding
+		};
+		return this.addFuel(pos);
+	}
+	
+	this.addFuel = function(pos){
+		var fuel = new Fuel(
+			 this
+			,pos
+		);
+		this.fuels.push(fuel);
+		
+		return fuel;
+	};
+	
+	this.removeFuel = function(fuel){
+		this.graphics.removeEntity(fuel);
+		for(var i = 0; i < this.fuels.length; i++){
+			if(this.fuels[i] == fuel){
+				this.fuels.splice(i, 1);
+				return i;
+			}
+		}
+	};
+	
+	this.addRandomFuel();
 	
 	this.loop();
 	
