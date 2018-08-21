@@ -8,7 +8,7 @@ var c = {
 		,controllerDeadzone: 0.4
 	}
 	,projectile: {
-		 speed: 700
+		 speed: 500
 		,timeout: 700 // ms between shots
 	}
 	,graphics: {
