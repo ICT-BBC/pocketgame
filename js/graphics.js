@@ -6,20 +6,19 @@ function Graphics(game){
 
 	var assets = {
 		drone: {
-			 id: "drone"
-			,path: assetPath + "drone.svg"
+			path: assetPath + "drone.svg"
 		},
 		projectile: {
-			 id: "projectile"
-			,path: assetPath + "projectile.svg"
+			path: assetPath + "projectile1.svg"
 		},
 		fuel: {
-			 id: "fuel"
-			,path: assetPath + "fuel.svg"
+			path: assetPath + "fuel.svg"
 		},
 		background: {
-			 id: "background"
-			,path: assetPath + "floortile.svg"
+			path: assetPath + "floortile.svg"
+		},
+		numbers: {
+			path: assetPath + "numbers/"
 		}
 	};
 	
@@ -27,6 +26,8 @@ function Graphics(game){
 	var droneTemplate;
 	var projectileTemplate;
 	var fuelTemplate;
+	var numberContainerTemplate;
+	var numbersTemplates = [];
 	
 	var width;
 	var height;
@@ -50,7 +51,16 @@ function Graphics(game){
 			if(!player.graphics){
 				let element = document.createElement("div");
 				element.className = "droneContainer";
-				element.innerHTML = droneTemplate;
+				
+				let rotateContainer = document.createElement("div");
+				element.appendChild(rotateContainer);
+				
+				rotateContainer.innerHTML = droneTemplate;
+				rotateContainer.style.filter = "hue-rotate("+player.color+"deg)";
+				
+				player.numbersContainer = rotateContainer.appendChild(document.createElement("div"));
+				player.numbersContainer.className = "numbersContainer";
+				player.numbersContainer.innerHTML = numbersTemplates[player.points];
 					
 				player.graphics = element;
 				world.appendChild(element);
@@ -59,6 +69,7 @@ function Graphics(game){
 			player.graphics.style.top = player.pos.y + "px";
 			player.graphics.style.left = player.pos.x + "px";
 			player.graphics.firstChild.style.transform = "rotate("+(player.angle-Math.PI)+"rad)";
+			player.numbersContainer.firstChild.style.transform = "rotate("+(-player.angle-Math.PI)+"rad)";
 			
 			if(DEBUG){
 				context.beginPath();
@@ -89,7 +100,14 @@ function Graphics(game){
 			if(!projectile.graphics){
 				let element = document.createElement("div");
 				element.className = "projectileContainer";
-				element.innerHTML = projectileTemplate;
+				element.style.filter = "hue-rotate("+projectile.player.color+"deg)";
+					
+				let rotateContainer = document.createElement("div");
+				element.appendChild(rotateContainer);
+				
+				rotateContainer.innerHTML = droneTemplate;
+				
+				rotateContainer.innerHTML = projectileTemplate;
 					
 				projectile.graphics = element;
 				world.appendChild(element);
@@ -97,7 +115,7 @@ function Graphics(game){
 			
 			projectile.graphics.style.top = projectile.pos.y + "px";
 			projectile.graphics.style.left = projectile.pos.x + "px";
-			projectile.graphics.firstChild.style.transform = "rotate("+(projectile.angle-Math.PI)+"rad)";
+			projectile.graphics.firstChild.firstChild.style.transform = "rotate("+(projectile.angle-Math.PI)+"rad)";
 			
 			if(DEBUG){
 				context.beginPath();
@@ -154,6 +172,10 @@ function Graphics(game){
 		}
 	}
 	
+	this.updatePlayerPoints = function(player){
+		player.numbersContainer.innerHTML = numbersTemplates[player.points];
+	}
+	
 	this.removeEntity = function(entity){
 		if(entity.graphics){
 			world.removeChild(entity.graphics);
@@ -200,6 +222,12 @@ function Graphics(game){
 		tempContainer = document.createElement("div");
 		tempContainer.appendChild(projectileTemplate);
 		projectileTemplate = tempContainer.innerHTML;
+		
+		numberContainerTemplate = document.createElement("div");
+		numberContainerTemplate.className = "numberContainer";
+		tempContainer = document.createElement("div");
+		tempContainer.appendChild(numberContainerTemplate);
+		numberContainerTemplate = tempContainer.innerHTML;
 
 		fuelTemplate = document.createElement("object");
 		fuelTemplate.type = "image/svg+xml";
@@ -211,6 +239,45 @@ function Graphics(game){
 		tempContainer = document.createElement("div");
 		tempContainer.appendChild(fuelTemplate);
 		fuelTemplate = tempContainer.innerHTML;
+		
+		
+		var numberTemplate = document.createElement("object");
+		numberTemplate.type = "image/svg+xml";
+		numberTemplate.className = "number";
+		//numberTemplate.width = c.graphics.numberWidth;
+		//numberTemplate.style.marginTop = (-c.graphics.numberHeight/2)+"px";
+		//numberTemplate.style.marginLeft = (-c.graphics.numberWidth/2)+"px";
+		
+		for(var i = 0; i <= 9; i++){
+			numberTemplate.data = assets.numbers.path + i + ".svg";
+			tempContainer = document.createElement("div");
+			tempContainer.appendChild(numberTemplate);
+			numbersTemplates[i] = tempContainer.innerHTML;
+		}
+	}
+	
+	this.playVictoryAnimation = function(winner){
+		console.log("bort");
+		var overlay = document.createElement("div")
+		overlay.id ="victoryOverlay";
+		overlay.innerHTML = '<span>Winner!</span>';
+		overlay.style.filter = "hue-rotate("+winner.color+"deg)";
+		world.appendChild(overlay);
+		winner.graphics.style.transition = "left, top";
+		winner.graphics.style.transitionDuration = "2s";
+		winner.graphics.style.transitionTimingFunction = "ease-in-out";
+		winner.graphics.firstChild.style.transition = "width";
+		winner.graphics.firstChild.style.transitionDuration = "2s";
+		
+		setTimeout(function(){
+			
+			console.log(winner);
+			
+			overlay.style.opacity = 1;
+			winner.graphics.style.left = (width/2)+"px";
+			winner.graphics.style.top = (height/2)+"px";
+			//winner.graphics.firstChild.style.width = "300px";
+		}.bind(this), 100);
 	}
 
 	

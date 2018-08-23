@@ -1,447 +1,413 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg5001" viewBox="0 0 251.9 289.4" enable-background="new 0 0 251.9 289.4">
-  <defs id="defs4757">
-    <linearGradient id="linearGradient7145">
-      <stop id="stop2073" offset="0" stop-opacity=".342"/>
-      <stop offset=".574" id="stop2078" stop-opacity=".767"/>
-      <stop id="stop2080" offset=".784" stop-opacity=".653"/>
-      <stop id="stop2075" offset="1" stop-opacity=".339"/>
-    </linearGradient>
-    <linearGradient id="linearGradient7145-3">
-      <stop offset="0" id="stop7141"/>
-      <stop offset="1" id="stop7143" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient gradientUnits="userSpaceOnUse" gradientTransform="rotate(180 125.06 149.23)" r="8.839" cy="245.24" cx="124.24" id="SVGID_1_">
-      <stop id="stop4752" offset="0" stop-color="#A0A0A0"/>
-      <stop id="stop4754" offset="1" stop-color="#323232"/>
-    </radialGradient>
-    <filter id="filter9925-9" x="-.024" width="1.048" y="-.024" height="1.048" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation=".818" id="feGaussianBlur9927-2"/>
-    </filter>
-    <linearGradient xlink:href="#linearGradient7145-3" id="linearGradient5224" gradientUnits="userSpaceOnUse" gradientTransform="translate(.07 -.212)" x1="-39.905" y1="-73.59" x2="-1.598" y2="-53.311"/>
-    <radialGradient xlink:href="#linearGradient7145" id="radialGradient2071-9" cx="199.6" cy="52.2" fx="199.6" fy="52.2" r="41.262" gradientUnits="userSpaceOnUse"/>
-    <filter id="filter4913-8" x="-.357" width="1.715" y="-.358" height="1.716" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="8.509" id="feGaussianBlur4915-1"/>
-    </filter>
-    <filter id="filter5658" x="-.099" width="1.198" y="-.073" height="1.146" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="2.359" id="feGaussianBlur5660"/>
-    </filter>
-    <radialGradient xlink:href="#linearGradient7145" id="radialGradient2071-9-2" cx="199.6" cy="52.2" fx="199.6" fy="52.2" r="41.262" gradientUnits="userSpaceOnUse"/>
-    <filter id="filter4913-8-1" x="-.357" width="1.715" y="-.358" height="1.716" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="8.509" id="feGaussianBlur4915-1-9"/>
-    </filter>
-    <filter id="filter9925-9-0" x="-.024" width="1.048" y="-.024" height="1.048" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation=".818" id="feGaussianBlur9927-2-5"/>
-    </filter>
-    <filter id="filter5658-7" x="-.099" width="1.198" y="-.073" height="1.146" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="2.359" id="feGaussianBlur5660-4"/>
-    </filter>
-    <radialGradient xlink:href="#linearGradient7145" id="radialGradient2071-9-2-7" cx="199.6" cy="52.2" fx="199.6" fy="52.2" r="41.262" gradientUnits="userSpaceOnUse"/>
-    <filter id="filter4913-8-1-5" x="-.357" width="1.715" y="-.358" height="1.716" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="8.509" id="feGaussianBlur4915-1-9-9"/>
-    </filter>
-    <filter id="filter9925-9-0-7" x="-.024" width="1.048" y="-.024" height="1.048" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation=".818" id="feGaussianBlur9927-2-5-8"/>
-    </filter>
-    <filter id="filter5658-7-3" x="-.099" width="1.198" y="-.073" height="1.146" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="2.359" id="feGaussianBlur5660-4-8"/>
-    </filter>
-    <radialGradient xlink:href="#linearGradient7145" id="radialGradient2071-9-2-7-0" cx="199.6" cy="52.2" fx="199.6" fy="52.2" r="41.262" gradientUnits="userSpaceOnUse"/>
-    <filter id="filter4913-8-1-5-6" x="-.357" width="1.715" y="-.358" height="1.716" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="8.509" id="feGaussianBlur4915-1-9-9-2"/>
-    </filter>
-    <filter id="filter9925-9-0-7-1" x="-.024" width="1.048" y="-.024" height="1.048" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation=".818" id="feGaussianBlur9927-2-5-8-9"/>
-    </filter>
-    <filter id="filter5658-7-3-8" x="-.099" width="1.198" y="-.073" height="1.146" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="2.359" id="feGaussianBlur5660-4-8-0"/>
-    </filter>
-    <linearGradient xlink:href="#linearGradient7145-3" id="linearGradient6473" gradientUnits="userSpaceOnUse" gradientTransform="translate(.07 -.212)" x1="-39.905" y1="-73.59" x2="-1.598" y2="-53.311"/>
-    <linearGradient xlink:href="#linearGradient7145-3" id="linearGradient6583" gradientUnits="userSpaceOnUse" gradientTransform="translate(.07 -.212)" x1="-39.905" y1="-73.59" x2="-1.598" y2="-53.311"/>
-    <linearGradient xlink:href="#linearGradient7145-3" id="linearGradient6693" gradientUnits="userSpaceOnUse" gradientTransform="translate(.07 -.212)" x1="-39.905" y1="-73.59" x2="-1.598" y2="-53.311"/>
-  </defs>
-  <style id="style4759">
-    .st0{fill:#232323}.st1{fill:#fff200}.st4{fill:#6e6e6e}.st5{fill:#444}.st7{fill:none;stroke:#000;stroke-width:.3969;stroke-miterlimit:10}.st8{fill:#fff}.st11,.st9{fill:none;stroke:#000;stroke-width:1.873;stroke-miterlimit:10}.st11{stroke-linecap:round;stroke-linejoin:round}
-  </style>
-  <g id="drone">
-    <path class="st0" d="M112.8 230s-16.2 1.8-19.4 13c-3.2 11.2 13.7 45.2 13.7 45.2s-26.2-34.1-17.6-47.6c8.6-13.5 26-23.4 26-23.4s-4.2 9.8-2.7 12.8" id="path4761" fill="#232323"/>
-    <path class="st1" d="M113.5 233.3s-14.3 2.5-17.3 9.3c-3 6.7 3.4 34.3 10.9 45.7-7-11.4-20.2-36-13.6-47.3 6.6-11.3 19.3-11 19.3-11l.7 3.3" id="path4763" fill="#fff200"/>
-    <path d="M124.1 212.9S74.2 233.5 91 261.7c16.8 28.2 16.1 26.6 16.1 26.6s-16.8-37.9-10.6-46.2c6.2-8.3 22.8-9.2 22.8-9.2l4.8-20" stroke-miterlimit="10" id="path4765" fill="none" stroke="#000" stroke-width="2.286" stroke-linecap="round" stroke-linejoin="round"/>
-    <path class="st0" d="M139.2 230s16.2 1.8 19.4 13c3.2 11.2-13.7 45.2-13.7 45.2s26.2-34.1 17.6-47.6c-8.6-13.5-26-23.4-26-23.4s4.2 9.8 2.7 12.8" id="path4767" fill="#232323"/>
-    <path class="st1" d="M138.5 233.3s14.3 2.5 17.3 9.3c3 6.7-3.4 34.3-10.9 45.7 7-11.4 20.2-36 13.6-47.3-6.5-11.3-19.3-11-19.3-11l-.7 3.3" id="path4769" fill="#fff200"/>
-    <path d="M127.8 212.9s49.9 20.6 33.1 48.8c-16.8 28.2-16.1 26.6-16.1 26.6s16.8-37.9 10.6-46.2c-6.1-8.3-23.4-9.8-23.4-9.8l-4.2-19.4" stroke-miterlimit="10" id="path4771" fill="none" stroke="#000" stroke-width="1.828" stroke-linecap="round" stroke-linejoin="round"/>
-    <path id="path4773" d="M168 83.4c.7-1.9 1.8-3.5 2.9-5 .6-.7 1.2-1.5 1.8-2.1.6-.7 1.3-1.3 2.1-1.9 1.5-1.1 3.3-1.9 4.7-3.2 1.4-1.2 2.6-2.7 3.6-4.3.5-.8 1-1.6 1.6-2.4.6-.8 1.2-1.5 1.8-2.2 1.2-1.4 2.4-2.9 3.8-4.1 1.4-1.3 2.8-2.4 4.4-3.5.8-.5 1.6-1.1 2.4-1.6.8-.5 1.7-1 2.6-1.4l.3.3c-.4.9-.9 1.8-1.4 2.6-.5.8-1 1.6-1.6 2.4-1.1 1.5-2.3 3-3.5 4.4-1.3 1.4-2.7 2.6-4.1 3.8-.7.6-1.4 1.2-2.2 1.8-.8.6-1.6 1.1-2.4 1.6-1.6 1-3.1 2.2-4.3 3.6-1.2 1.4-2.1 3.2-3.2 4.7-.6.8-1.2 1.4-1.9 2.1l-2.1 1.8c-1.5 1.1-3.1 2.2-5 2.9l-.3-.3" class="st4" fill="#6e6e6e"/>
-    <path id="path4775" d="M83.7 83.7c-1.9-.7-3.5-1.8-5-2.9-.7-.6-1.5-1.2-2.1-1.8-.7-.6-1.3-1.3-1.9-2.1-1.1-1.5-1.9-3.3-3.2-4.7-1.2-1.4-2.7-2.6-4.3-3.6-.8-.5-1.6-1-2.4-1.6-.8-.6-1.5-1.2-2.2-1.8-1.4-1.2-2.9-2.4-4.1-3.8-1.3-1.4-2.4-2.8-3.5-4.4-.5-.8-1.1-1.6-1.6-2.4-.5-.8-1-1.7-1.4-2.6l.3-.3c.9.4 1.8.9 2.6 1.4.8.5 1.6 1 2.4 1.6 1.5 1.1 3 2.3 4.4 3.5 1.4 1.3 2.6 2.7 3.8 4.1.6.7 1.2 1.4 1.8 2.2.6.8 1.1 1.6 1.6 2.4 1 1.6 2.2 3.1 3.6 4.3 1.4 1.2 3.2 2.1 4.7 3.2.8.6 1.4 1.2 2.1 1.9l1.8 2.1c1.1 1.5 2.2 3.1 2.9 5l-.3.3" class="st4" fill="#6e6e6e"/>
-    <path id="path4777" d="M168.3 168.1c1.9.7 3.5 1.8 5 2.9.7.6 1.5 1.2 2.1 1.8.7.6 1.3 1.3 1.9 2.1 1.1 1.5 1.9 3.3 3.2 4.7 1.2 1.4 2.7 2.6 4.3 3.6.8.5 1.6 1 2.4 1.6.8.6 1.5 1.2 2.2 1.8 1.4 1.2 2.9 2.4 4.1 3.8 1.3 1.4 2.4 2.8 3.5 4.4.5.8 1.1 1.6 1.6 2.4.5.8 1 1.7 1.4 2.6l-.3.3c-.9-.4-1.8-.9-2.6-1.4-.8-.5-1.6-1-2.4-1.6-1.5-1.1-3-2.3-4.4-3.5-1.4-1.3-2.6-2.7-3.8-4.1-.6-.7-1.2-1.4-1.8-2.2-.6-.8-1.1-1.6-1.6-2.4-1-1.6-2.2-3.1-3.6-4.3-1.4-1.2-3.2-2.1-4.7-3.2-.8-.6-1.4-1.2-2.1-1.9l-1.8-2.1c-1.1-1.5-2.2-3.1-2.9-5l.3-.3" class="st4" fill="#6e6e6e"/>
-    <path id="path4779" d="M83.9 168.4c-.7 1.9-1.8 3.5-2.9 5-.6.7-1.2 1.5-1.8 2.1-.6.7-1.3 1.3-2.1 1.9-1.5 1.1-3.3 1.9-4.7 3.2-1.4 1.2-2.6 2.7-3.6 4.3-.5.8-1 1.6-1.6 2.4-.6.8-1.2 1.5-1.8 2.2-1.2 1.4-2.4 2.9-3.8 4.1-1.4 1.3-2.8 2.4-4.4 3.5-.8.5-1.6 1.1-2.4 1.6-.8.5-1.7 1-2.6 1.4l-.3-.3c.4-.9.9-1.8 1.4-2.6.5-.8 1-1.6 1.6-2.4 1.1-1.5 2.3-3 3.5-4.4 1.3-1.4 2.7-2.6 4.1-3.8.7-.6 1.4-1.2 2.2-1.8.8-.6 1.6-1.1 2.4-1.6 1.6-1 3.1-2.2 4.3-3.6 1.2-1.4 2.1-3.2 3.2-4.7.6-.8 1.2-1.4 1.9-2.1l2.1-1.8c1.5-1.1 3.1-2.2 5-2.9l.3.3" class="st4" fill="#6e6e6e"/>
-    <path class="st0" d="M52.2 104.2c2.3 0 4.6-.2 6.9-.5-1.1 7.1-1.7 14.5-1.7 22 0 7.8.6 15.3 1.8 22.5-2.3-.3-4.6-.5-7-.5C23.4 147.7.1 171 .1 199.8s23.3 52.1 52.1 52.1c20.5 0 38.2-11.8 46.7-29l27.1 18 27.2-18.1c8.5 17.2 26.2 29 46.7 29 28.8 0 52.1-23.3 52.1-52.1s-23.3-52.1-52.1-52.1c-2.4 0-4.7.2-7 .5 1.2-7.2 1.8-14.8 1.8-22.5 0-7.6-.6-14.9-1.7-22 2.3.3 4.6.5 6.9.5 28.8 0 52.1-23.3 52.1-52.1S228.7-.1 199.9-.1c-22.2 0-41.2 13.9-48.7 33.6-7.8-4.4-16.3-6.8-25.1-6.8s-17.3 2.4-25.1 6.8C93.4 13.9 74.4 0 52.2 0 23.4 0 .1 23.3.1 52.1s23.3 52.1 52.1 52.1M52 243c-23.7 0-42.9-19.2-42.9-42.9s19.2-42.9 42.9-42.9 42.9 19.2 42.9 42.9S75.7 243 52 243M199.6 9.2c23.7 0 42.9 19.2 42.9 42.9S223.3 95 199.6 95s-42.9-19.2-42.9-42.9 19.2-42.9 42.9-42.9m0 147.9c23.7 0 42.9 19.2 42.9 42.9s-19.2 43-42.9 43c-17.3 0-32.2-10.2-39-24.9h-.1c-2.5-5.5-3.9-11.5-3.9-17.9.1-23.8 19.3-43.1 43-43.1M52 9.2c23.7 0 43 19.2 43 42.9S75.7 95 52 95 9.1 75.8 9.1 52.1 28.3 9.2 52 9.2" id="path4783" fill="#232323"/>
-    <path class="st5" d="M126 26.7c-8.9 0-17.3 2.4-25.1 6.8C93.4 13.9 74.4 0 52.1 0 23.4 0 0 23.3 0 52.1s23.3 52.1 52.1 52.1c2.3 0 4.6-.2 6.9-.5-1.1 7.1-1.7 14.5-1.7 22 0 7.8.6 15.3 1.8 22.5-2.3-.3-4.6-.5-7-.5-28.7.1-52.1 23.5-52.1 52.2C0 228.6 23.3 252 52.1 252c20.5 0 38.2-11.8 46.7-29l27.1 18 .1-214.3M52 243c-23.7 0-42.9-19.2-42.9-42.9s19.2-42.9 42.9-42.9 42.9 19.2 42.9 42.9S75.7 243 52 243M52 9.2c23.7 0 42.9 19.2 42.9 42.9S75.7 95 52 95 9.1 75.8 9.1 52.1 28.3 9.2 52 9.2" id="path4785" fill="#444"/>
-    <path id="path4787" d="M52.1 252.2c28.8 0 52.1-23.3 52.1-52.1S80.9 148 52.1 148 0 171.3 0 200.1s23.3 52.1 52.1 52.1m0-95c23.7 0 42.9 19.2 42.9 42.9S75.8 243 52.1 243 9.2 223.8 9.2 200.1s19.2-42.9 42.9-42.9" class="st0" fill="#232323"/>
-    <path id="path4789" d="M52.1 104.3c28.8 0 52.1-23.3 52.1-52.1S80.9.1 52.1.1 0 23.4 0 52.2s23.3 52.1 52.1 52.1m0-95C75.8 9.3 95 28.5 95 52.2S75.8 95.1 52.1 95.1 9.2 75.9 9.2 52.2 28.4 9.3 52.1 9.3" class="st0" fill="#232323"/>
-    <path id="path4791" d="M199.6 104.3c28.8 0 52.1-23.3 52.1-52.1S228.4.1 199.6.1s-52.1 23.3-52.1 52.1 23.4 52.1 52.1 52.1m0-95c23.7 0 42.9 19.2 42.9 42.9s-19.2 42.9-42.9 42.9-42.9-19.2-42.9-42.9 19.2-42.9 42.9-42.9" class="st0" fill="#232323"/>
-    <path id="path4793" d="M199.6 252.2c28.8 0 52.1-23.3 52.1-52.1S228.4 148 199.6 148s-52.1 23.3-52.1 52.1 23.4 52.1 52.1 52.1m0-95c23.7 0 42.9 19.2 42.9 42.9S223.3 243 199.6 243s-42.9-19.2-42.9-42.9 19.2-42.9 42.9-42.9" class="st0" fill="#232323"/>
-    <path d="M125.9 241.1l24.4-32.4-24.3-182-.1 214.4" id="path4797" fill="#444"/>
-    <path d="M126 241.1l-24.5-32.4 24.5-182v214.4" id="path4799" fill="#232323"/>
-    <path d="M179.1 131.4h10c.3 0 .6-.3.6-.6v-10c0-.3-.3-.6-.6-.6h-10c-.3 0-.6.3-.6.6v10c0 .4.3.6.6.6" id="path4801"/>
-    <path class="st1" d="M167.7 125v1.8c0 .1 0 .1.1.1h.8c.1 0 .1 0 .1-.1V125c0-.1 0-.1-.1-.1h-.8c-.1 0-.1 0-.1.1" id="path4803" fill="#fff200"/>
-    <path d="M178.7 125.9h-10" stroke-miterlimit="10" id="path4805" fill="none" stroke="#000" stroke-width=".794"/>
-    <path class="st7" d="M184.1 131.4s-5.3 6.1.8 6.8c3 .3-1.7 5.8 1 8s7.3-.2 7.3-.2" stroke-miterlimit="10" id="path4807" fill="none" stroke="#000" stroke-width=".397"/>
-    <path d="M193.6 144.7h-.9c-.1 0-.1.1-.1.1v2.5c0 .1.1.1.1.1h.9c.1 0 .1-.1.1-.1v-2.5c0-.1 0-.1-.1-.1" id="path4809"/>
-    <path class="st1" d="M183.2 131.9h1.8c.1 0 .1 0 .1-.1v-.8c0-.1 0-.1-.1-.1h-1.8c-.1 0-.1 0-.1.1v.8c0 .1 0 .1.1.1" id="path4811" fill="#fff200"/>
-    <path class="st7" d="M184.1 120.3s-5.3-6.1.8-6.8c3-.3-1.7-5.8 1-8s7.3.2 7.3.2" stroke-miterlimit="10" id="path4813" fill="none" stroke="#000" stroke-width=".397"/>
-    <path d="M193.6 107.1h-.9c-.1 0-.1-.1-.1-.1v-2.5c0-.1.1-.1.1-.1h.9c.1 0 .1.1.1.1v2.5s0 .1-.1.1" id="path4815"/>
-    <path class="st1" d="M183.2 120.8h1.8c.1 0 .1 0 .1-.1v-.8c0-.1 0-.1-.1-.1h-1.8c-.1 0-.1 0-.1.1v.8c0 .1 0 .1.1.1" id="path4817" fill="#fff200"/>
-    <path class="st1" d="M178.1 125v1.8c0 .1 0 .1.1.1h.8c.1 0 .1 0 .1-.1V125c0-.1 0-.1-.1-.1h-.8c-.1 0-.1 0-.1.1" id="path4819" fill="#fff200"/>
-    <path d="M73 131.4H63c-.3 0-.6-.3-.6-.6v-10c0-.3.3-.6.6-.6h10c.3 0 .6.3.6.6v10c-.1.4-.3.6-.6.6" id="path4821"/>
-    <path class="st1" d="M84.4 125v1.8c0 .1 0 .1-.1.1h-.8c-.1 0-.1 0-.1-.1V125c0-.1 0-.1.1-.1h.8c.1 0 .1 0 .1.1" id="path4823" fill="#fff200"/>
-    <path d="M73.3 125.9h10.1" stroke-miterlimit="10" id="path4825" fill="none" stroke="#000" stroke-width=".794"/>
-    <path class="st7" d="M68 131.4s5.3 6.1-.8 6.8c-3 .3 1.7 5.8-1 8s-7.3-.2-7.3-.2" stroke-miterlimit="10" id="path4827" fill="none" stroke="#000" stroke-width=".397"/>
-    <path class="st1" d="M68.9 131.9h-1.8c-.1 0-.1 0-.1-.1v-.8c0-.1 0-.1.1-.1h1.8c.1 0 .1 0 .1.1v.8c0 .1-.1.1-.1.1" id="path4831" fill="#fff200"/>
-    <path class="st7" d="M68 120.3s5.3-6.1-.8-6.8c-3-.3 1.7-5.8-1-8s-7.3.2-7.3.2" stroke-miterlimit="10" id="path4833" fill="none" stroke="#000" stroke-width=".397"/>
-    <path d="M58.4 107.1h.9c.1 0 .1-.1.1-.1v-2.5c0-.1-.1-.1-.1-.1h-.9c-.1 0-.1.1-.1.1v2.5l.1.1" id="path4835"/>
-    <path class="st1" d="M68.9 120.8h-1.8c-.1 0-.1 0-.1-.1v-.8c0-.1 0-.1.1-.1h1.8c.1 0 .1 0 .1.1v.8c0 .1-.1.1-.1.1" id="path4837" fill="#fff200"/>
-    <path class="st1" d="M74 125v1.8c0 .1 0 .1-.1.1h-.8c-.1 0-.1 0-.1-.1V125c0-.1 0-.1.1-.1h.8c.1 0 .1 0 .1.1" id="path4839" fill="#fff200"/>
-    <path class="st0" d="M126 85.5c22.3 0 40.4 18.1 40.4 40.4 0 22.3-18.1 40.4-40.4 40.4-22.3 0-40.4-18.1-40.4-40.4 0-22.3 18.2-40.4 40.4-40.4" id="path4841" fill="#232323"/>
-    <path d="M161.9 125.9a35.9 35.9 0 1 1-71.8 0 35.9 35.9 0 0 1 71.8 0" id="path4843" fill="#444"/>
-    <path class="st8" d="M126 165.1c-21.6 0-39.2-17.5-39.2-39.2 0-21.7 17.5-39.2 39.2-39.2 21.6 0 39.2 17.5 39.2 39.2 0 21.7-17.5 39.2-39.2 39.2m0 2.4c23 0 41.6-18.7 41.6-41.6 0-22.9-18.6-41.7-41.6-41.7s-41.6 18.7-41.6 41.6c0 22.9 18.7 41.7 41.6 41.7" id="path4845" fill="#fff"/>
-    <g id="prop1">
-      <animateTransform attributeName="transform"
-        attributeType="XML"
-        type="rotate"
-        from="360 200 52.2"
-        to="0 200 52.2"
-        dur="250ms"
-        repeatCount="indefinite"
-      />
-      <g transform="matrix(-1 0 0 1 399.2 0)" id="prop1-full">
-        <circle r="41.262" cy="52.2" cx="199.6" id="circle4631-9-4-9-0" opacity=".46" fill="url(#radialGradient2071-9-2-7-0)" stroke-width=".647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-        <g id="g4946-7-7-3-2">
-          <g id="g4459-8-4-7-2" transform="matrix(.63652 0 0 .63652 72.55 18.973)" filter="url(#filter4913-8-1-5-6)">
-            <path class="st0" d="M228.05 24l-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path4847-6-2-8-8-9" fill="#232323"/>
-            <path class="st5" d="M228.05 24l-27 26.6s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path4849-4-5-5-7-7" fill="#444"/>
-            <path class="st0" d="M171.15 80.4l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path4851-1-3-8-4-5" fill="#232323"/>
-            <path class="st5" d="M171.15 80.4l27.1-26.6s1.9 2.1-1.7 5.4c-3.6 3.3-10.8 12.1-19.8 18.6-3.3 2.5-4.9 3.2-5.6 2.6" id="path4853-2-4-2-1-6" fill="#444"/>
-            <path id="path4855-8-9-6-9-4" d="M198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path4857-8-0-0-0-6" d="M201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6 1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g transform="scale(.63652) rotate(60 230.775 165.812)" id="g4930-2-6-9-3" filter="url(#filter4913-8-1-5-6)">
-            <path id="path4918-0-6-8-7" d="M228.05 24l-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path4920-1-4-8-9" d="M228.05 24l-27 26.6s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path4922-9-6-5-7" d="M171.15 80.4l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path4924-6-2-8-4" d="M171.15 80.4l27.1-26.6s1.9 2.1-1.7 5.4c-3.6 3.3-10.8 12.1-19.8 18.6-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path4926-2-8-4-9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6 1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path4928-1-9-3-1" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-        </g>
-      </g>
-      <g id="prop1-half" transform="matrix(-1 0 0 1 251.7 0)">
-        <g id="g9463-6-0-1-0" filter="url(#filter9925-9-0-7-1)">
-          <path id="path7137-8-7-3-6" transform="rotate(135)" d="M40.96-73.751A40.89 40.89 0 0 1 20.517-38.34a40.89 40.89 0 0 1-40.89 0A40.89 40.89 0 0 1-40.82-73.751" fill="url(#linearGradient6473)" stroke-width=".647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-          <use xlink:href="#path7137-8-7-3-6" id="use8189-3-0-8-0" transform="rotate(-180 52.1 52.2)" width="100%" height="100%"/>
-        </g>
-        <g id="g9719-8-1-0-8" filter="url(#filter5658-7-3-8)">
-          <g transform="rotate(-30 53.095 51.433)" id="g9383-3-0-9-5" opacity=".103">
-            <path id="path9371-3-1-7-3" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path9373-3-3-9-9" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path9375-8-7-9-4" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path9377-0-7-3-1" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path9379-4-2-2-5" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path9381-7-6-4-4" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g id="g9369-6-4-3-1" transform="rotate(-20 53.676 51.191)" opacity=".235">
-            <path class="st0" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path9357-8-5-7-5" fill="#232323"/>
-            <path class="st5" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path9359-9-2-1-5" fill="#444"/>
-            <path class="st0" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path9361-0-0-2-4" fill="#232323"/>
-            <path class="st5" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" id="path9363-6-2-2-9" fill="#444"/>
-            <path id="path9365-8-9-0-8" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path9367-7-0-2-3" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g transform="rotate(-10 55.404 50.471)" id="g9355-9-9-1-8" opacity=".467">
-            <path id="path9343-0-9-7-5" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path9345-3-4-5-2" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path9347-3-5-1-2" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path9349-3-1-7-2" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path9351-7-0-4-7" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path9353-3-3-1-0" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g id="g7028-2-7-7-3" transform="translate(.25 .6)">
-            <path class="st0" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path4847-65-8-1-4" fill="#232323"/>
-            <path class="st5" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path4849-2-8-1-6" fill="#444"/>
-            <path class="st0" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path4851-6-6-1-3" fill="#232323"/>
-            <path class="st5" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" id="path4853-5-0-7-6" fill="#444"/>
-            <path id="path4855-87-4-0-3" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path4857-9-6-4-3" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g transform="translate(-.372 -.395)" id="g6981">
-      <path d="M203.437 49.13a4.9 4.9 0 1 1-6.93 6.93 4.9 4.9 0 0 1 6.93-6.93" id="path4879" fill="#fff" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-      <path id="path4883" d="M202.164 50.403a3.1 3.1 0 1 1-4.384 4.384 3.1 3.1 0 0 1 4.384-4.384" fill="#fff200"/>
-      <path id="path4885" d="M200.538 52.029a.8.8 0 1 1-1.131 1.131.8.8 0 0 1 1.131-1.131"/>
-    </g>
-    <path d="M58.4 144.7h.9c.1 0 .1.1.1.1v2.5c0 .1-.1.1-.1.1h-.9c-.1 0-.1-.1-.1-.1v-2.5c0-.1.1-.1.1-.1" id="path4829"/>
-    <g id="prop3">
-      <animateTransform attributeName="transform"
-        attributeType="XML"
-        type="rotate"
-        from="360 52.1 200.1"
-        to="0 52.1 200.1"
-        dur="250ms"
-        repeatCount="indefinite"
-      />
-      <g transform="matrix(-1 0 0 1 251.7 147.9)" id="prop3-full">
-        <circle r="41.262" cy="52.2" cx="199.6" id="circle4631-9-4" opacity=".46" fill="url(#radialGradient2071-9-2)" stroke-width=".647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-        <g id="g4946-7-7">
-          <g id="g4459-8-4" transform="matrix(.63652 0 0 .63652 72.55 18.973)" filter="url(#filter4913-8-1)">
-            <path class="st0" d="M228.05 24l-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path4847-6-2-8" fill="#232323"/>
-            <path class="st5" d="M228.05 24l-27 26.6s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path4849-4-5-5" fill="#444"/>
-            <path class="st0" d="M171.15 80.4l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path4851-1-3-8" fill="#232323"/>
-            <path class="st5" d="M171.15 80.4l27.1-26.6s1.9 2.1-1.7 5.4c-3.6 3.3-10.8 12.1-19.8 18.6-3.3 2.5-4.9 3.2-5.6 2.6" id="path4853-2-4-2" fill="#444"/>
-            <path id="path4855-8-9-6" d="M198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path4857-8-0-0" d="M201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6 1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g transform="scale(.63652) rotate(60 230.775 165.812)" id="g4930-2-6" filter="url(#filter4913-8-1)">
-            <path id="path4918-0-6" d="M228.05 24l-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path4920-1-4" d="M228.05 24l-27 26.6s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path4922-9-6" d="M171.15 80.4l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path4924-6-2" d="M171.15 80.4l27.1-26.6s1.9 2.1-1.7 5.4c-3.6 3.3-10.8 12.1-19.8 18.6-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path4926-2-8" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6 1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path4928-1-9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-        </g>
-      </g>
-      <g id="prop3-half" transform="matrix(-1 0 0 1 104.2 147.9)">
-        <g id="g9463-6-0" filter="url(#filter9925-9-0)">
-          <path id="path7137-8-7" transform="rotate(135)" d="M40.96-73.751A40.89 40.89 0 0 1 20.517-38.34a40.89 40.89 0 0 1-40.89 0A40.89 40.89 0 0 1-40.82-73.751" fill="url(#linearGradient6693)" stroke-width=".647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-          <use xlink:href="#path7137-8-7" id="use8189-3-0" transform="rotate(-180 52.1 52.2)" width="100%" height="100%"/>
-        </g>
-        <g id="g9719-8-1" filter="url(#filter5658-7)">
-          <g transform="rotate(-30 53.095 51.433)" id="g9383-3-0" opacity=".103">
-            <path id="path9371-3-1" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path9373-3-3" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path9375-8-7" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path9377-0-7" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path9379-4-2" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path9381-7-6" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g id="g9369-6-4" transform="rotate(-20 53.676 51.191)" opacity=".235">
-            <path class="st0" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path9357-8-5" fill="#232323"/>
-            <path class="st5" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path9359-9-2" fill="#444"/>
-            <path class="st0" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path9361-0-0" fill="#232323"/>
-            <path class="st5" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" id="path9363-6-2" fill="#444"/>
-            <path id="path9365-8-9" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path9367-7-0" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g transform="rotate(-10 55.404 50.471)" id="g9355-9-9" opacity=".467">
-            <path id="path9343-0-9" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path9345-3-4" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path9347-3-5" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path9349-3-1" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path9351-7-0" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path9353-3-3" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g id="g7028-2-7" transform="translate(.25 .6)">
-            <path class="st0" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path4847-65-8" fill="#232323"/>
-            <path class="st5" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path4849-2-8" fill="#444"/>
-            <path class="st0" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path4851-6-6" fill="#232323"/>
-            <path class="st5" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" id="path4853-5-0" fill="#444"/>
-            <path id="path4855-87-4" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path4857-9-6" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g transform="translate(-.08 .183)" id="g7079">
-      <path d="M55.645 196.453a4.9 4.9 0 1 1-6.93 6.93 4.9 4.9 0 0 1 6.93-6.93" id="path4899" fill="#fff" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-      <path id="path4903" d="M54.37 197.728a3.1 3.1 0 1 1-4.385 4.384 3.1 3.1 0 0 1 4.384-4.384" fill="#fff200"/>
-      <path id="path4905" d="M52.743 199.355a.8.8 0 1 1-1.131 1.131.8.8 0 0 1 1.131-1.131"/>
-    </g>
-    <g id="prop2">
-      <animateTransform attributeName="transform"
-        attributeType="XML"
-        type="rotate"
-        from="0 200, 200.1"
-        to="360 200, 200.1"
-        dur="250ms"
-        repeatCount="indefinite"
-      />
-      <g transform="translate(0 147.9)" id="prop2-full">
-        <circle r="41.262" cy="52.2" cx="199.6" id="circle4631-9" opacity=".46" fill="url(#radialGradient2071-9)" stroke-width=".647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-        <g id="g4946-7">
-          <g id="g4459-8" transform="matrix(.63652 0 0 .63652 72.55 18.973)" filter="url(#filter4913-8)">
-            <path class="st0" d="M228.05 24l-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path4847-6-2" fill="#232323"/>
-            <path class="st5" d="M228.05 24l-27 26.6s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path4849-4-5" fill="#444"/>
-            <path class="st0" d="M171.15 80.4l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path4851-1-3" fill="#232323"/>
-            <path class="st5" d="M171.15 80.4l27.1-26.6s1.9 2.1-1.7 5.4c-3.6 3.3-10.8 12.1-19.8 18.6-3.3 2.5-4.9 3.2-5.6 2.6" id="path4853-2-4" fill="#444"/>
-            <path id="path4855-8-9" d="M198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path4857-8-0" d="M201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6 1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g transform="scale(.63652) rotate(60 230.775 165.812)" id="g4930-2" filter="url(#filter4913-8)">
-            <path id="path4918-0" d="M228.05 24l-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path4920-1" d="M228.05 24l-27 26.6s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path4922-9" d="M171.15 80.4l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path4924-6" d="M171.15 80.4l27.1-26.6s1.9 2.1-1.7 5.4c-3.6 3.3-10.8 12.1-19.8 18.6-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path4926-2" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6 1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path4928-1" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-        </g>
-      </g>
-      <g id="prop2-half" transform="translate(147.5 147.9)">
-        <g id="g9463-6" filter="url(#filter9925-9)">
-          <path id="path7137-8" transform="rotate(135)" d="M40.96-73.751A40.89 40.89 0 0 1 20.517-38.34a40.89 40.89 0 0 1-40.89 0A40.89 40.89 0 0 1-40.82-73.751" fill="url(#linearGradient5224)" stroke-width=".647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-          <use xlink:href="#path7137-8" id="use8189-3" transform="rotate(-180 52.1 52.2)" width="100%" height="100%"/>
-        </g>
-        <g id="g9719-8" filter="url(#filter5658)">
-          <g transform="rotate(-30 53.095 51.433)" id="g9383-3" opacity=".103">
-            <path id="path9371-3" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path9373-3" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path9375-8" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path9377-0" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path9379-4" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path9381-7" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g id="g9369-6" transform="rotate(-20 53.676 51.191)" opacity=".235">
-            <path class="st0" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path9357-8" fill="#232323"/>
-            <path class="st5" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path9359-9" fill="#444"/>
-            <path class="st0" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path9361-0" fill="#232323"/>
-            <path class="st5" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" id="path9363-6" fill="#444"/>
-            <path id="path9365-8" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path9367-7" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g transform="rotate(-10 55.404 50.471)" id="g9355-9" opacity=".467">
-            <path id="path9343-0" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path9345-3" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path9347-3" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path9349-3" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path9351-7" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path9353-3" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g id="g7028-2" transform="translate(.25 .6)">
-            <path class="st0" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path4847-65" fill="#232323"/>
-            <path class="st5" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path4849-2" fill="#444"/>
-            <path class="st0" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path4851-6" fill="#232323"/>
-            <path class="st5" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" id="path4853-5" fill="#444"/>
-            <path id="path4855-87" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path4857-9" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g transform="translate(-.18 .988)" id="g7114">
-      <path id="path4919" stroke-miterlimit="10" d="M203.246 195.647a4.9 4.9 0 1 1-6.93 6.93 4.9 4.9 0 0 1 6.93-6.93" fill="#fff" stroke="#000" stroke-width="1.873"/>
-      <path id="path4921" d="M201.973 196.92a3.1 3.1 0 1 1-4.384 4.384 3.1 3.1 0 0 1 4.384-4.384" fill="#fff200"/>
-      <path id="path4923" d="M200.347 198.547a.8.8 0 1 1-1.132 1.13.8.8 0 0 1 1.132-1.13"/>
-    </g>
-    <path class="st8" d="M101.4 191.3c8.4 0 15.8 6 17.4 14.3.9 4.7 0 9.4-2.6 13.4s-6.7 6.6-11.3 7.6c-1.2.2-2.3.3-3.5.3-8.4 0-15.8-6-17.4-14.3-1.9-9.6 4.3-19 14-20.9 1-.3 2.2-.4 3.4-.4" id="path4925" fill="#fff"/>
-    <path d="M101.4 225.6c-7.9 0-14.7-5.6-16.2-13.3-.9-4.3 0-8.8 2.5-12.4 2.5-3.7 6.2-6.2 10.5-7.1 1.1-.2 2.2-.3 3.3-.3 7.9 0 14.7 5.6 16.2 13.3 1.8 9-4 17.7-13 19.5-1.2.2-2.3.3-3.3.3m0 2.5c1.2 0 2.5-.1 3.7-.4 10.3-2.1 17-12.1 14.9-22.4-1.8-9-9.7-15.3-18.6-15.3-1.2 0-2.5.1-3.7.4-10.3 2.1-17 12.1-14.9 22.4 1.7 9 9.7 15.3 18.6 15.3" id="path4927"/>
-    <path d="M108.544 207.561a7.3 7.3 0 1 1-14.317 2.862 7.3 7.3 0 0 1 14.317-2.862" id="path4929"/>
-    <path id="path4931" d="M107.1 217.4c1.1-.7 2-1.7 2.7-2.8" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4933" d="M91.4 211c.3 1.4.8 2.6 1.6 3.7" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4935" d="M103.4 199.1c-1.3-.3-2.7-.3-4 0-1.4.3-2.6.8-3.7 1.6-1.1.7-2 1.7-2.7 2.8" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4937" d="M111.3 207.1c-.3-1.4-.8-2.6-1.6-3.7" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4939" d="M98.2 222.8c1.8.4 3.6.4 5.4 0" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4941" d="M89.4 201.3c-1.1 1.6-1.8 3.3-2.2 5.1" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4943" d="M112.7 201.5c-1-1.5-2.3-2.9-3.9-4s-3.3-1.8-5.1-2.2c-1.8-.4-3.6-.4-5.4 0" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4945" d="M112.5 217c1.1-1.6 1.8-3.3 2.2-5.1" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path d="M112.7 185.2l-42.6 18.2H70l-1.6-3.8v-.1l42.6-18.2h.1l1.6 3.9" id="path4949"/>
-    <path class="st8" d="M150.3 191c1.2 0 2.3.1 3.5.3 9.6 1.9 15.9 11.3 14 20.9-1.7 8.3-9 14.3-17.4 14.3-1.2 0-2.3-.1-3.5-.3-4.7-.9-8.7-3.6-11.3-7.6-2.6-4-3.6-8.7-2.6-13.4 1.6-8.2 8.9-14.2 17.3-14.2" id="path4951" fill="#fff"/>
-    <path d="M150.4 227.8v-2.5c-1.1 0-2.2-.1-3.3-.3-9-1.8-14.8-10.5-13-19.5 1.5-7.7 8.4-13.3 16.2-13.3 1.1 0 2.2.1 3.3.3 4.3.9 8.1 3.4 10.5 7.1 2.5 3.7 3.3 8.1 2.5 12.4-1.5 7.7-8.4 13.3-16.2 13.3v2.5c8.9 0 16.8-6.3 18.6-15.3 2.1-10.3-4.6-20.3-14.9-22.4-1.3-.3-2.5-.4-3.7-.4-8.9 0-16.8 6.3-18.6 15.3-2.1 10.3 4.6 20.3 14.9 22.4 1.2.2 2.4.4 3.7.4" id="path4953"/>
-    <path d="M151.744 201.53a7.3 7.3 0 1 1-2.862 14.317 7.3 7.3 0 0 1 2.862-14.317" id="path4955"/>
-    <path id="path4957" d="M144.7 217.1c-1.1-.7-2-1.7-2.7-2.8" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4959" d="M160.3 210.7c-.3 1.4-.8 2.6-1.6 3.7" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4961" d="M148.3 198.8c1.3-.3 2.7-.3 4 0 1.4.3 2.6.8 3.7 1.6 1.1.7 2 1.7 2.7 2.8" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4963" d="M140.4 206.8c.3-1.4.8-2.6 1.6-3.7" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4965" d="M153.5 222.5c-1.8.4-3.6.4-5.4 0" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4967" d="M162.3 201c1.1 1.6 1.8 3.3 2.2 5.1" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4969" d="M139 201.2c1-1.5 2.3-2.9 3.9-4s3.3-1.8 5.1-2.2c1.8-.4 3.6-.4 5.4 0" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path id="path4971" d="M139.2 216.7c-1.1-1.6-1.8-3.3-2.2-5.1" class="st11" fill="none" stroke="#000" stroke-width="1.873" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-    <path d="M139.1 184.9l42.6 18.2h.1l1.6-3.8v-.1L140.8 181h-.1l-1.6 3.9c-.1-.1-.1 0 0 0" id="path4975"/>
-    <path d="M140.3 53.2a14.4 14.4 0 1 1-28.8 0 14.4 14.4 0 0 1 28.8 0" id="path4977" fill="#828282"/>
-    <path id="path4979" d="M127 64.8a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0" fill="#3c3c3c"/>
-    <path id="path4981" d="M127 41.7a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0" fill="#3c3c3c"/>
-    <path id="path4983" d="M134.824 44.343a1.1 1.1 0 1 1-1.556 1.555 1.1 1.1 0 0 1 1.556-1.555" fill="#3c3c3c"/>
-    <path id="path4985" d="M118.495 60.63a1.1 1.1 0 1 1-1.556 1.555 1.1 1.1 0 0 1 1.556-1.556" fill="#3c3c3c"/>
-    <path id="path4987" d="M138.5 53.2a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0" fill="#3c3c3c"/>
-    <path id="path4989" d="M115.4 53.2a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0" fill="#3c3c3c"/>
-    <path id="path4991" d="M134.806 60.652a1.1 1.1 0 1 1-1.555 1.556 1.1 1.1 0 0 1 1.555-1.556" fill="#3c3c3c"/>
-    <path id="path4993" d="M118.513 44.32a1.1 1.1 0 1 1-1.555 1.555 1.1 1.1 0 0 1 1.555-1.556" fill="#3c3c3c"/>
-    <path d="M134.7 53.2a8.8 8.8 0 1 1-17.6 0 8.8 8.8 0 0 1 17.6 0" id="path4997" fill="url(#SVGID_1_)"/>
-    <path class="st1" d="M112.3 123.1v-17.6l4.5 4.5v12l-2.8 2.8-1.7-1.7m24.3-18.4l-4.4 4.5h-14.6l-4.4-4.5h23.4m0 41.9h-23.5l4.4-4.5h14.6l4.5 4.5m-3.9-23.2l2.3 2.2-2.3 2.2H117l-2.2-2.2 2.2-2.2h15.7m4.8 4.8v17.6l-4.5-4.5v-12l2.9-2.8 1.6 1.7" id="path4999" fill="#fff200"/>
-    <g id="prop0">
-      <animateTransform attributeName="transform"
-        attributeType="XML"
-        type="rotate"
-        from="0 52.1 52.2"
-        to="360 52.1 52.2"
-        dur="250ms"
-        repeatCount="indefinite"
-      />
-      <g transform="translate(-147.5)" id="prop0-full">
-        <circle r="41.262" cy="52.2" cx="199.6" id="circle4631-9-4-9" opacity=".46" fill="url(#radialGradient2071-9-2-7)" stroke-width=".647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-        <g id="g4946-7-7-3">
-          <g id="g4459-8-4-7" transform="matrix(.63652 0 0 .63652 72.55 18.973)" filter="url(#filter4913-8-1-5)">
-            <path class="st0" d="M228.05 24l-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path4847-6-2-8-8" fill="#232323"/>
-            <path class="st5" d="M228.05 24l-27 26.6s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path4849-4-5-5-7" fill="#444"/>
-            <path class="st0" d="M171.15 80.4l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path4851-1-3-8-4" fill="#232323"/>
-            <path class="st5" d="M171.15 80.4l27.1-26.6s1.9 2.1-1.7 5.4c-3.6 3.3-10.8 12.1-19.8 18.6-3.3 2.5-4.9 3.2-5.6 2.6" id="path4853-2-4-2-1" fill="#444"/>
-            <path id="path4855-8-9-6-9" d="M198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path4857-8-0-0-0" d="M201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6 1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g transform="scale(.63652) rotate(60 230.775 165.812)" id="g4930-2-6-9" filter="url(#filter4913-8-1-5)">
-            <path id="path4918-0-6-8" d="M228.05 24l-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path4920-1-4-8" d="M228.05 24l-27 26.6s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path4922-9-6-5" d="M171.15 80.4l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path4924-6-2-8" d="M171.15 80.4l27.1-26.6s1.9 2.1-1.7 5.4c-3.6 3.3-10.8 12.1-19.8 18.6-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path4926-2-8-4" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6 1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path4928-1-9-3" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-        </g>
-      </g>
-      <g id="prop0-half">
-        <g id="g9463-6-0-1" filter="url(#filter9925-9-0-7)">
-          <path id="path7137-8-7-3" transform="rotate(135)" d="M40.96-73.751A40.89 40.89 0 0 1 20.517-38.34a40.89 40.89 0 0 1-40.89 0A40.89 40.89 0 0 1-40.82-73.751" fill="url(#linearGradient6583)" stroke-width=".647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
-          <use xlink:href="#path7137-8-7-3" id="use8189-3-0-8" transform="rotate(-180 52.1 52.2)" width="100%" height="100%"/>
-        </g>
-        <g id="g9719-8-1-0" filter="url(#filter5658-7-3)">
-          <g transform="rotate(-30 53.095 51.433)" id="g9383-3-0-9" opacity=".103">
-            <path id="path9371-3-1-7" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path9373-3-3-9" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path9375-8-7-9" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path9377-0-7-3" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path9379-4-2-2" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path9381-7-6-4" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g id="g9369-6-4-3" transform="rotate(-20 53.676 51.191)" opacity=".235">
-            <path class="st0" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path9357-8-5-7" fill="#232323"/>
-            <path class="st5" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path9359-9-2-1" fill="#444"/>
-            <path class="st0" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path9361-0-0-2" fill="#232323"/>
-            <path class="st5" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" id="path9363-6-2-2" fill="#444"/>
-            <path id="path9365-8-9-0" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path9367-7-0-2" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g transform="rotate(-10 55.404 50.471)" id="g9355-9-9-1" opacity=".467">
-            <path id="path9343-0-9-7" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" class="st0" fill="#232323"/>
-            <path id="path9345-3-4-5" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" class="st5" fill="#444"/>
-            <path id="path9347-3-5-1" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" class="st0" fill="#232323"/>
-            <path id="path9349-3-1-7" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" class="st5" fill="#444"/>
-            <path class="st9" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" id="path9351-7-0-4" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path class="st9" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" id="path9353-3-3-1" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-          <g id="g7028-2-7-7" transform="translate(.25 .6)">
-            <path class="st0" d="M80.3 23.4L53.3 50s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" id="path4847-65-8-1" fill="#232323"/>
-            <path class="st5" d="M80.3 23.4L53.3 50s-1.9-2.1 1.7-5.4c3.6-3.3 10.8-12.1 19.8-18.6 3.2-2.5 4.8-3.2 5.5-2.6" id="path4849-2-8-1" fill="#444"/>
-            <path class="st0" d="M23.4 79.8l27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" id="path4851-6-6-1" fill="#232323"/>
-            <path class="st5" d="M23.4 79.8l27.1-26.6s1.9 2.1-1.7 5.4C45.2 61.9 38 70.7 29 77.2c-3.3 2.5-4.9 3.2-5.6 2.6" id="path4853-5-0-7" fill="#444"/>
-            <path id="path4855-87-4-0" d="M50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4C33.9 73.8 24.6 81.2 23.4 80c-1.2-1.2 6.2-10.5 16.5-20.8 7.7-7.1 9.2-7.3 10.4-6.1" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-            <path id="path4857-9-6-4" d="M53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4C69.8 29.4 79.1 22 80.3 23.2c1.2 1.2-6.2 10.5-16.5 20.8-7.7 7.2-9.3 7.4-10.5 6.2" class="st9" fill="none" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g transform="translate(-.075 .976)" id="g7020">
-      <path d="M55.64 47.762a4.9 4.9 0 1 1-6.93 6.93 4.9 4.9 0 0 1 6.93-6.93" id="path4859" fill="#fff" stroke="#000" stroke-width="1.873" stroke-miterlimit="10"/>
-      <path id="path4863" d="M54.367 49.034a3.1 3.1 0 1 1-4.384 4.385 3.1 3.1 0 0 1 4.384-4.385" fill="#fff200"/>
-      <path id="path4865" d="M52.74 50.66a.8.8 0 1 1-1.13 1.132.8.8 0 0 1 1.13-1.131"/>
-    </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 251.9 289.4" version="1.1" viewBox="0 0 251.9 289.4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="l">
+   <stop stop-opacity=".342" offset="0"/>
+   <stop stop-opacity=".767" offset=".574"/>
+   <stop stop-opacity=".653" offset=".784"/>
+   <stop stop-opacity=".339" offset="1"/>
+  </linearGradient>
+  <linearGradient id="k">
+   <stop offset="0"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="SVGID_1_" cx="124.24" cy="245.24" r="8.839" gradientTransform="rotate(180 125.06 149.23)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#A0A0A0" offset="0"/>
+   <stop stop-color="#323232" offset="1"/>
+  </radialGradient>
+  <filter id="p" x="-.024" y="-.024" width="1.048" height="1.048" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation=".818"/>
+  </filter>
+  <linearGradient id="b" x1="-39.905" x2="-1.598" y1="-73.59" y2="-53.311" gradientTransform="translate(.07 -.212)" gradientUnits="userSpaceOnUse" xlink:href="#k"/>
+  <radialGradient id="a" cx="199.6" cy="52.2" r="41.262" gradientUnits="userSpaceOnUse" xlink:href="#l"/>
+  <filter id="f" x="-.357" y="-.358" width="1.715" height="1.716" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="8.509"/>
+  </filter>
+  <filter id="t" x="-.099" y="-.073" width="1.198" height="1.146" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="2.359"/>
+  </filter>
+  <filter id="e" x="-.357" y="-.358" width="1.715" height="1.716" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="8.509"/>
+  </filter>
+  <filter id="o" x="-.024" y="-.024" width="1.048" height="1.048" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation=".818"/>
+  </filter>
+  <filter id="s" x="-.099" y="-.073" width="1.198" height="1.146" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="2.359"/>
+  </filter>
+  <filter id="d" x="-.357" y="-.358" width="1.715" height="1.716" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="8.509"/>
+  </filter>
+  <filter id="n" x="-.024" y="-.024" width="1.048" height="1.048" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation=".818"/>
+  </filter>
+  <filter id="r" x="-.099" y="-.073" width="1.198" height="1.146" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="2.359"/>
+  </filter>
+  <filter id="c" x="-.357" y="-.358" width="1.715" height="1.716" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="8.509"/>
+  </filter>
+  <filter id="m" x="-.024" y="-.024" width="1.048" height="1.048" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation=".818"/>
+  </filter>
+  <filter id="q" x="-.099" y="-.073" width="1.198" height="1.146" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="2.359"/>
+  </filter>
+ </defs>
+ <style>.st0{fill:#232323}.st1{fill:#fff200}.st4{fill:#6e6e6e}.st5{fill:#444}.st7{fill:none;stroke:#000;stroke-width:.3969;stroke-miterlimit:10}.st8{fill:#fff}.st11,.st9{fill:none;stroke:#000;stroke-width:1.873;stroke-miterlimit:10}.st11{stroke-linecap:round;stroke-linejoin:round}</style>
+ <g id="drone">
+  <path class="st0" d="m112.8 230s-16.2 1.8-19.4 13 13.7 45.2 13.7 45.2-26.2-34.1-17.6-47.6 26-23.4 26-23.4-4.2 9.8-2.7 12.8" fill="#232323"/>
+  <path class="st1" d="m113.5 233.3s-14.3 2.5-17.3 9.3c-3 6.7 3.4 34.3 10.9 45.7-7-11.4-20.2-36-13.6-47.3s19.3-11 19.3-11l.7 3.3" fill="#fff200"/>
+  <path d="m124.1 212.9s-49.9 20.6-33.1 48.8 16.1 26.6 16.1 26.6-16.8-37.9-10.6-46.2 22.8-9.2 22.8-9.2l4.8-20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.286"/>
+  <path class="st0" d="m139.2 230s16.2 1.8 19.4 13-13.7 45.2-13.7 45.2 26.2-34.1 17.6-47.6-26-23.4-26-23.4 4.2 9.8 2.7 12.8" fill="#232323"/>
+  <path class="st1" d="m138.5 233.3s14.3 2.5 17.3 9.3c3 6.7-3.4 34.3-10.9 45.7 7-11.4 20.2-36 13.6-47.3-6.5-11.3-19.3-11-19.3-11l-.7 3.3" fill="#fff200"/>
+  <path d="m127.8 212.9s49.9 20.6 33.1 48.8-16.1 26.6-16.1 26.6 16.8-37.9 10.6-46.2c-6.1-8.3-23.4-9.8-23.4-9.8l-4.2-19.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.828"/>
+  <g fill="#6e6e6e">
+   <path class="st4" d="m168 83.4c.7-1.9 1.8-3.5 2.9-5 .6-.7 1.2-1.5 1.8-2.1.6-.7 1.3-1.3 2.1-1.9 1.5-1.1 3.3-1.9 4.7-3.2 1.4-1.2 2.6-2.7 3.6-4.3.5-.8 1-1.6 1.6-2.4s1.2-1.5 1.8-2.2c1.2-1.4 2.4-2.9 3.8-4.1 1.4-1.3 2.8-2.4 4.4-3.5.8-.5 1.6-1.1 2.4-1.6s1.7-1 2.6-1.4l.3.3c-.4.9-.9 1.8-1.4 2.6s-1 1.6-1.6 2.4c-1.1 1.5-2.3 3-3.5 4.4-1.3 1.4-2.7 2.6-4.1 3.8-.7.6-1.4 1.2-2.2 1.8s-1.6 1.1-2.4 1.6c-1.6 1-3.1 2.2-4.3 3.6s-2.1 3.2-3.2 4.7c-.6.8-1.2 1.4-1.9 2.1l-2.1 1.8c-1.5 1.1-3.1 2.2-5 2.9l-.3-.3"/>
+   <path class="st4" d="m83.7 83.7c-1.9-.7-3.5-1.8-5-2.9-.7-.6-1.5-1.2-2.1-1.8-.7-.6-1.3-1.3-1.9-2.1-1.1-1.5-1.9-3.3-3.2-4.7-1.2-1.4-2.7-2.6-4.3-3.6-.8-.5-1.6-1-2.4-1.6s-1.5-1.2-2.2-1.8c-1.4-1.2-2.9-2.4-4.1-3.8-1.3-1.4-2.4-2.8-3.5-4.4-.5-.8-1.1-1.6-1.6-2.4s-1-1.7-1.4-2.6l.3-.3c.9.4 1.8.9 2.6 1.4s1.6 1 2.4 1.6c1.5 1.1 3 2.3 4.4 3.5 1.4 1.3 2.6 2.7 3.8 4.1.6.7 1.2 1.4 1.8 2.2s1.1 1.6 1.6 2.4c1 1.6 2.2 3.1 3.6 4.3s3.2 2.1 4.7 3.2c.8.6 1.4 1.2 2.1 1.9l1.8 2.1c1.1 1.5 2.2 3.1 2.9 5l-.3.3"/>
+   <path class="st4" d="m168.3 168.1c1.9.7 3.5 1.8 5 2.9.7.6 1.5 1.2 2.1 1.8.7.6 1.3 1.3 1.9 2.1 1.1 1.5 1.9 3.3 3.2 4.7 1.2 1.4 2.7 2.6 4.3 3.6.8.5 1.6 1 2.4 1.6s1.5 1.2 2.2 1.8c1.4 1.2 2.9 2.4 4.1 3.8 1.3 1.4 2.4 2.8 3.5 4.4.5.8 1.1 1.6 1.6 2.4s1 1.7 1.4 2.6l-.3.3c-.9-.4-1.8-.9-2.6-1.4s-1.6-1-2.4-1.6c-1.5-1.1-3-2.3-4.4-3.5-1.4-1.3-2.6-2.7-3.8-4.1-.6-.7-1.2-1.4-1.8-2.2s-1.1-1.6-1.6-2.4c-1-1.6-2.2-3.1-3.6-4.3s-3.2-2.1-4.7-3.2c-.8-.6-1.4-1.2-2.1-1.9l-1.8-2.1c-1.1-1.5-2.2-3.1-2.9-5l.3-.3"/>
+   <path class="st4" d="m83.9 168.4c-.7 1.9-1.8 3.5-2.9 5-.6.7-1.2 1.5-1.8 2.1-.6.7-1.3 1.3-2.1 1.9-1.5 1.1-3.3 1.9-4.7 3.2-1.4 1.2-2.6 2.7-3.6 4.3-.5.8-1 1.6-1.6 2.4s-1.2 1.5-1.8 2.2c-1.2 1.4-2.4 2.9-3.8 4.1-1.4 1.3-2.8 2.4-4.4 3.5-.8.5-1.6 1.1-2.4 1.6s-1.7 1-2.6 1.4l-.3-.3c.4-.9.9-1.8 1.4-2.6s1-1.6 1.6-2.4c1.1-1.5 2.3-3 3.5-4.4 1.3-1.4 2.7-2.6 4.1-3.8.7-.6 1.4-1.2 2.2-1.8s1.6-1.1 2.4-1.6c1.6-1 3.1-2.2 4.3-3.6s2.1-3.2 3.2-4.7c.6-.8 1.2-1.4 1.9-2.1l2.1-1.8c1.5-1.1 3.1-2.2 5-2.9l.3.3"/>
   </g>
+  <path class="st0" d="M52.2 104.2c2.3 0 4.6-.2 6.9-.5-1.1 7.1-1.7 14.5-1.7 22 0 7.8.6 15.3 1.8 22.5-2.3-.3-4.6-.5-7-.5C23.4 147.7.1 171 .1 199.8s23.3 52.1 52.1 52.1c20.5 0 38.2-11.8 46.7-29l27.1 18 27.2-18.1c8.5 17.2 26.2 29 46.7 29 28.8 0 52.1-23.3 52.1-52.1s-23.3-52.1-52.1-52.1c-2.4 0-4.7.2-7 .5 1.2-7.2 1.8-14.8 1.8-22.5 0-7.6-.6-14.9-1.7-22 2.3.3 4.6.5 6.9.5 28.8 0 52.1-23.3 52.1-52.1S228.7-.1 199.9-.1c-22.2 0-41.2 13.9-48.7 33.6-7.8-4.4-16.3-6.8-25.1-6.8s-17.3 2.4-25.1 6.8C93.4 13.9 74.4 0 52.2 0 23.4 0 .1 23.3.1 52.1s23.3 52.1 52.1 52.1M52 243c-23.7 0-42.9-19.2-42.9-42.9s19.2-42.9 42.9-42.9 42.9 19.2 42.9 42.9S75.7 243 52 243M199.6 9.2c23.7 0 42.9 19.2 42.9 42.9S223.3 95 199.6 95s-42.9-19.2-42.9-42.9 19.2-42.9 42.9-42.9m0 147.9c23.7 0 42.9 19.2 42.9 42.9s-19.2 43-42.9 43c-17.3 0-32.2-10.2-39-24.9h-.1c-2.5-5.5-3.9-11.5-3.9-17.9.1-23.8 19.3-43.1 43-43.1M52 9.2c23.7 0 43 19.2 43 42.9S75.7 95 52 95 9.1 75.8 9.1 52.1 28.3 9.2 52 9.2" fill="#232323"/>
+  <path class="st5" d="M126 26.7c-8.9 0-17.3 2.4-25.1 6.8C93.4 13.9 74.4 0 52.1 0 23.4 0 0 23.3 0 52.1s23.3 52.1 52.1 52.1c2.3 0 4.6-.2 6.9-.5-1.1 7.1-1.7 14.5-1.7 22 0 7.8.6 15.3 1.8 22.5-2.3-.3-4.6-.5-7-.5-28.7.1-52.1 23.5-52.1 52.2C0 228.6 23.3 252 52.1 252c20.5 0 38.2-11.8 46.7-29l27.1 18 .1-214.3M52 243c-23.7 0-42.9-19.2-42.9-42.9s19.2-42.9 42.9-42.9 42.9 19.2 42.9 42.9S75.7 243 52 243M52 9.2c23.7 0 42.9 19.2 42.9 42.9S75.7 95 52 95 9.1 75.8 9.1 52.1 28.3 9.2 52 9.2" fill="#444"/>
+  <g fill="#232323">
+   <path class="st0" d="M52.1 252.2c28.8 0 52.1-23.3 52.1-52.1S80.9 148 52.1 148 0 171.3 0 200.1s23.3 52.1 52.1 52.1m0-95c23.7 0 42.9 19.2 42.9 42.9S75.8 243 52.1 243 9.2 223.8 9.2 200.1s19.2-42.9 42.9-42.9"/>
+   <path class="st0" d="M52.1 104.3c28.8 0 52.1-23.3 52.1-52.1S80.9.1 52.1.1 0 23.4 0 52.2s23.3 52.1 52.1 52.1m0-95C75.8 9.3 95 28.5 95 52.2S75.8 95.1 52.1 95.1 9.2 75.9 9.2 52.2 28.4 9.3 52.1 9.3"/>
+   <path class="st0" d="M199.6 104.3c28.8 0 52.1-23.3 52.1-52.1S228.4.1 199.6.1s-52.1 23.3-52.1 52.1 23.4 52.1 52.1 52.1m0-95c23.7 0 42.9 19.2 42.9 42.9s-19.2 42.9-42.9 42.9-42.9-19.2-42.9-42.9 19.2-42.9 42.9-42.9"/>
+   <path class="st0" d="m199.6 252.2c28.8 0 52.1-23.3 52.1-52.1s-23.3-52.1-52.1-52.1-52.1 23.3-52.1 52.1 23.4 52.1 52.1 52.1m0-95c23.7 0 42.9 19.2 42.9 42.9s-19.2 42.9-42.9 42.9-42.9-19.2-42.9-42.9 19.2-42.9 42.9-42.9"/>
+  </g>
+  <path d="m125.9 241.1 24.4-32.4-24.3-182-.1 214.4" fill="#444"/>
+  <path d="m126 241.1-24.5-32.4 24.5-182v214.4" fill="#232323"/>
+  <path d="m179.1 131.4h10c.3 0 .6-.3.6-.6v-10c0-.3-.3-.6-.6-.6h-10c-.3 0-.6.3-.6.6v10c0 .4.3.6.6.6"/>
+  <path class="st1" d="M167.7 125v1.8c0 .1 0 .1.1.1h.8c.1 0 .1 0 .1-.1V125c0-.1 0-.1-.1-.1h-.8c-.1 0-.1 0-.1.1" fill="#fff200"/>
+  <path d="m178.7 125.9h-10" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".794"/>
+  <path class="st7" d="m184.1 131.4s-5.3 6.1.8 6.8c3 .3-1.7 5.8 1 8s7.3-.2 7.3-.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".397"/>
+  <path d="m193.6 144.7h-.9c-.1 0-.1.1-.1.1v2.5c0 .1.1.1.1.1h.9c.1 0 .1-.1.1-.1v-2.5c0-.1 0-.1-.1-.1"/>
+  <path class="st1" d="m183.2 131.9h1.8c.1 0 .1 0 .1-.1v-.8c0-.1 0-.1-.1-.1h-1.8c-.1 0-.1 0-.1.1v.8c0 .1 0 .1.1.1" fill="#fff200"/>
+  <path class="st7" d="m184.1 120.3s-5.3-6.1.8-6.8c3-.3-1.7-5.8 1-8s7.3.2 7.3.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".397"/>
+  <path d="m193.6 107.1h-.9c-.1 0-.1-.1-.1-.1v-2.5c0-.1.1-.1.1-.1h.9c.1 0 .1.1.1.1v2.5s0 .1-.1.1"/>
+  <path class="st1" d="m183.2 120.8h1.8c.1 0 .1 0 .1-.1v-.8c0-.1 0-.1-.1-.1h-1.8c-.1 0-.1 0-.1.1v.8c0 .1 0 .1.1.1" fill="#fff200"/>
+  <path class="st1" d="M178.1 125v1.8c0 .1 0 .1.1.1h.8c.1 0 .1 0 .1-.1V125c0-.1 0-.1-.1-.1h-.8c-.1 0-.1 0-.1.1" fill="#fff200"/>
+  <path d="M73 131.4H63c-.3 0-.6-.3-.6-.6v-10c0-.3.3-.6.6-.6h10c.3 0 .6.3.6.6v10c-.1.4-.3.6-.6.6"/>
+  <path class="st1" d="M84.4 125v1.8c0 .1 0 .1-.1.1h-.8c-.1 0-.1 0-.1-.1V125c0-.1 0-.1.1-.1h.8c.1 0 .1 0 .1.1" fill="#fff200"/>
+  <path d="m73.3 125.9h10.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".794"/>
+  <path class="st7" d="m68 131.4s5.3 6.1-.8 6.8c-3 .3 1.7 5.8-1 8s-7.3-.2-7.3-.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".397"/>
+  <path class="st1" d="m68.9 131.9h-1.8c-.1 0-.1 0-.1-.1v-.8c0-.1 0-.1.1-.1h1.8c.1 0 .1 0 .1.1v.8c0 .1-.1.1-.1.1" fill="#fff200"/>
+  <path class="st7" d="m68 120.3s5.3-6.1-.8-6.8c-3-.3 1.7-5.8-1-8s-7.3.2-7.3.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".397"/>
+  <path d="m58.4 107.1h.9c.1 0 .1-.1.1-.1v-2.5c0-.1-.1-.1-.1-.1h-.9c-.1 0-.1.1-.1.1v2.5l.1.1"/>
+  <path class="st1" d="m68.9 120.8h-1.8c-.1 0-.1 0-.1-.1v-.8c0-.1 0-.1.1-.1h1.8c.1 0 .1 0 .1.1v.8c0 .1-.1.1-.1.1" fill="#fff200"/>
+  <path class="st1" d="M74 125v1.8c0 .1 0 .1-.1.1h-.8c-.1 0-.1 0-.1-.1V125c0-.1 0-.1.1-.1h.8c.1 0 .1 0 .1.1" fill="#fff200"/>
+  <path class="st0" d="m126 85.5c22.3 0 40.4 18.1 40.4 40.4s-18.1 40.4-40.4 40.4-40.4-18.1-40.4-40.4 18.2-40.4 40.4-40.4" fill="#232323"/>
+  <path d="m161.9 125.9a35.9 35.9 0 11-71.8 0 35.9 35.9 0 0171.8 0" fill="#444"/>
+  <path class="st8" d="m126 165.1c-21.6 0-39.2-17.5-39.2-39.2s17.5-39.2 39.2-39.2c21.6 0 39.2 17.5 39.2 39.2s-17.5 39.2-39.2 39.2m0 2.4c23 0 41.6-18.7 41.6-41.6s-18.6-41.7-41.6-41.7-41.6 18.7-41.6 41.6 18.7 41.7 41.6 41.7" fill="#fff"/>
+  <g id="prop1">
+   <animateTransform attributeName="transform" attributeType="XML" dur="250ms" from="360 200 52.2" repeatCount="indefinite" to="0 200 52.2" type="rotate"/>
+   <g id="prop1-full" transform="matrix(-1 0 0 1 399.2 0)">
+    <circle cx="199.6" cy="52.2" r="41.262" fill="url(#a)" opacity=".46" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".647"/>
+    <g transform="matrix(.63652 0 0 .63652 72.55 18.973)" filter="url(#c)">
+     <path class="st0" d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+     <path class="st5" d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+     <path class="st0" d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+     <path class="st5" d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+     <path class="st9" d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     <path class="st9" d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+    </g>
+    <g transform="scale(.63652) rotate(60 230.78 165.81)" filter="url(#c)">
+     <path class="st0" d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+     <path class="st5" d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+     <path class="st0" d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+     <path class="st5" d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+     <path class="st9" d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     <path class="st9" d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+    </g>
+   </g>
+   <g id="prop1-half" transform="matrix(-1 0 0 1 251.7 0)">
+    <g filter="url(#m)">
+     <path id="g" transform="rotate(135)" d="m40.96-73.751a40.89 40.89 0 01-20.443 35.411 40.89 40.89 0 01-40.89 0 40.89 40.89 0 01-20.447-35.411" fill="url(#b)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".647"/>
+     <use transform="rotate(180 52.1 52.2)" width="100%" height="100%" xlink:href="#g"/>
+    </g>
+    <g filter="url(#q)">
+     <g transform="rotate(-30 53.095 51.433)" opacity=".103">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="rotate(-20 53.676 51.191)" opacity=".235">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="rotate(-10 55.404 50.471)" opacity=".467">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="translate(.25 .6)">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="translate(-.372 -.395)">
+   <path d="m203.44 49.13a4.9 4.9 0 11-6.93 6.93 4.9 4.9 0 016.93-6.93" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+   <path d="m202.16 50.403a3.1 3.1 0 11-4.384 4.384 3.1 3.1 0 014.384-4.384" fill="#fff200"/>
+   <path d="m200.54 52.029a.8.8 0 11-1.131 1.131.8.8 0 011.131-1.131"/>
+  </g>
+  <path d="m58.4 144.7h.9c.1 0 .1.1.1.1v2.5c0 .1-.1.1-.1.1h-.9c-.1 0-.1-.1-.1-.1v-2.5c0-.1.1-.1.1-.1"/>
+  <g id="prop3">
+   <animateTransform attributeName="transform" attributeType="XML" dur="250ms" from="360 52.1 200.1" repeatCount="indefinite" to="0 52.1 200.1" type="rotate"/>
+   <g id="prop3-full" transform="matrix(-1 0 0 1 251.7 147.9)">
+    <circle cx="199.6" cy="52.2" r="41.262" fill="url(#a)" opacity=".46" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".647"/>
+    <g transform="matrix(.63652 0 0 .63652 72.55 18.973)" filter="url(#e)">
+     <path class="st0" d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+     <path class="st5" d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+     <path class="st0" d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+     <path class="st5" d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+     <path class="st9" d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     <path class="st9" d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+    </g>
+    <g transform="scale(.63652) rotate(60 230.78 165.81)" filter="url(#e)">
+     <path class="st0" d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+     <path class="st5" d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+     <path class="st0" d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+     <path class="st5" d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+     <path class="st9" d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     <path class="st9" d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+    </g>
+   </g>
+   <g id="prop3-half" transform="matrix(-1 0 0 1 104.2 147.9)">
+    <g filter="url(#o)">
+     <path id="i" transform="rotate(135)" d="m40.96-73.751a40.89 40.89 0 01-20.443 35.411 40.89 40.89 0 01-40.89 0 40.89 40.89 0 01-20.447-35.411" fill="url(#b)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".647"/>
+     <use transform="rotate(180 52.1 52.2)" width="100%" height="100%" xlink:href="#i"/>
+    </g>
+    <g filter="url(#s)">
+     <g transform="rotate(-30 53.095 51.433)" opacity=".103">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="rotate(-20 53.676 51.191)" opacity=".235">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="rotate(-10 55.404 50.471)" opacity=".467">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="translate(.25 .6)">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="translate(-.08 .183)">
+   <path d="m55.645 196.45a4.9 4.9 0 11-6.93 6.93 4.9 4.9 0 016.93-6.93" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+   <path d="m54.37 197.73a3.1 3.1 0 11-4.385 4.384 3.1 3.1 0 014.384-4.384" fill="#fff200"/>
+   <path d="m52.743 199.36a.8.8 0 11-1.131 1.131.8.8 0 011.131-1.131"/>
+  </g>
+  <g id="prop2">
+   <animateTransform attributeName="transform" attributeType="XML" dur="250ms" from="0 200, 200.1" repeatCount="indefinite" to="360 200, 200.1" type="rotate"/>
+   <g id="prop2-full" transform="translate(0 147.9)">
+    <circle cx="199.6" cy="52.2" r="41.262" fill="url(#a)" opacity=".46" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".647"/>
+    <g transform="matrix(.63652 0 0 .63652 72.55 18.973)" filter="url(#f)">
+     <path class="st0" d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+     <path class="st5" d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+     <path class="st0" d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+     <path class="st5" d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+     <path class="st9" d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     <path class="st9" d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+    </g>
+    <g transform="scale(.63652) rotate(60 230.78 165.81)" filter="url(#f)">
+     <path class="st0" d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+     <path class="st5" d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+     <path class="st0" d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+     <path class="st5" d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+     <path class="st9" d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     <path class="st9" d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+    </g>
+   </g>
+   <g id="prop2-half" transform="translate(147.5 147.9)">
+    <g filter="url(#p)">
+     <path id="j" transform="rotate(135)" d="m40.96-73.751a40.89 40.89 0 01-20.443 35.411 40.89 40.89 0 01-40.89 0 40.89 40.89 0 01-20.447-35.411" fill="url(#b)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".647"/>
+     <use transform="rotate(180 52.1 52.2)" width="100%" height="100%" xlink:href="#j"/>
+    </g>
+    <g filter="url(#t)">
+     <g transform="rotate(-30 53.095 51.433)" opacity=".103">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="rotate(-20 53.676 51.191)" opacity=".235">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="rotate(-10 55.404 50.471)" opacity=".467">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="translate(.25 .6)">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="translate(-.18 .988)">
+   <path d="m203.25 195.65a4.9 4.9 0 11-6.93 6.93 4.9 4.9 0 016.93-6.93" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+   <path d="m201.97 196.92a3.1 3.1 0 11-4.384 4.384 3.1 3.1 0 014.384-4.384" fill="#fff200"/>
+   <path d="m200.35 198.55a.8.8 0 11-1.132 1.13.8.8 0 011.132-1.13"/>
+  </g>
+  <path class="st8" d="m101.4 191.3c8.4 0 15.8 6 17.4 14.3.9 4.7 0 9.4-2.6 13.4s-6.7 6.6-11.3 7.6c-1.2.2-2.3.3-3.5.3-8.4 0-15.8-6-17.4-14.3-1.9-9.6 4.3-19 14-20.9 1-.3 2.2-.4 3.4-.4" fill="#fff"/>
+  <path d="m101.4 225.6c-7.9 0-14.7-5.6-16.2-13.3-.9-4.3 0-8.8 2.5-12.4 2.5-3.7 6.2-6.2 10.5-7.1 1.1-.2 2.2-.3 3.3-.3 7.9 0 14.7 5.6 16.2 13.3 1.8 9-4 17.7-13 19.5-1.2.2-2.3.3-3.3.3m0 2.5c1.2 0 2.5-.1 3.7-.4 10.3-2.1 17-12.1 14.9-22.4-1.8-9-9.7-15.3-18.6-15.3-1.2 0-2.5.1-3.7.4-10.3 2.1-17 12.1-14.9 22.4 1.7 9 9.7 15.3 18.6 15.3"/>
+  <path d="m108.54 207.56a7.3 7.3 0 11-14.317 2.862 7.3 7.3 0 0114.317-2.862"/>
+  <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.873">
+   <path class="st11" d="m107.1 217.4c1.1-.7 2-1.7 2.7-2.8"/>
+   <path class="st11" d="m91.4 211c.3 1.4.8 2.6 1.6 3.7"/>
+   <path class="st11" d="m103.4 199.1c-1.3-.3-2.7-.3-4 0-1.4.3-2.6.8-3.7 1.6-1.1.7-2 1.7-2.7 2.8"/>
+   <path class="st11" d="m111.3 207.1c-.3-1.4-.8-2.6-1.6-3.7"/>
+   <path class="st11" d="m98.2 222.8c1.8.4 3.6.4 5.4 0"/>
+   <path class="st11" d="m89.4 201.3c-1.1 1.6-1.8 3.3-2.2 5.1"/>
+   <path class="st11" d="m112.7 201.5c-1-1.5-2.3-2.9-3.9-4s-3.3-1.8-5.1-2.2-3.6-.4-5.4 0"/>
+   <path class="st11" d="m112.5 217c1.1-1.6 1.8-3.3 2.2-5.1"/>
+  </g>
+  <path d="m112.7 185.2-42.6 18.2h-.1l-1.6-3.8v-.1l42.6-18.2h.1l1.6 3.9"/>
+  <path class="st8" d="m150.3 191c1.2 0 2.3.1 3.5.3 9.6 1.9 15.9 11.3 14 20.9-1.7 8.3-9 14.3-17.4 14.3-1.2 0-2.3-.1-3.5-.3-4.7-.9-8.7-3.6-11.3-7.6s-3.6-8.7-2.6-13.4c1.6-8.2 8.9-14.2 17.3-14.2" fill="#fff"/>
+  <path d="m150.4 227.8v-2.5c-1.1 0-2.2-.1-3.3-.3-9-1.8-14.8-10.5-13-19.5 1.5-7.7 8.4-13.3 16.2-13.3 1.1 0 2.2.1 3.3.3 4.3.9 8.1 3.4 10.5 7.1 2.5 3.7 3.3 8.1 2.5 12.4-1.5 7.7-8.4 13.3-16.2 13.3v2.5c8.9 0 16.8-6.3 18.6-15.3 2.1-10.3-4.6-20.3-14.9-22.4-1.3-.3-2.5-.4-3.7-.4-8.9 0-16.8 6.3-18.6 15.3-2.1 10.3 4.6 20.3 14.9 22.4 1.2.2 2.4.4 3.7.4"/>
+  <path d="m151.74 201.53a7.3 7.3 0 11-2.862 14.317 7.3 7.3 0 012.862-14.317"/>
+  <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.873">
+   <path class="st11" d="m144.7 217.1c-1.1-.7-2-1.7-2.7-2.8"/>
+   <path class="st11" d="m160.3 210.7c-.3 1.4-.8 2.6-1.6 3.7"/>
+   <path class="st11" d="m148.3 198.8c1.3-.3 2.7-.3 4 0 1.4.3 2.6.8 3.7 1.6 1.1.7 2 1.7 2.7 2.8"/>
+   <path class="st11" d="m140.4 206.8c.3-1.4.8-2.6 1.6-3.7"/>
+   <path class="st11" d="m153.5 222.5c-1.8.4-3.6.4-5.4 0"/>
+   <path class="st11" d="m162.3 201c1.1 1.6 1.8 3.3 2.2 5.1"/>
+   <path class="st11" d="m139 201.2c1-1.5 2.3-2.9 3.9-4s3.3-1.8 5.1-2.2 3.6-.4 5.4 0"/>
+   <path class="st11" d="m139.2 216.7c-1.1-1.6-1.8-3.3-2.2-5.1"/>
+  </g>
+  <path d="M139.1 184.9l42.6 18.2h.1l1.6-3.8v-.1L140.8 181h-.1l-1.6 3.9c-.1-.1-.1 0 0 0"/>
+  <path d="m140.3 53.2a14.4 14.4 0 11-28.8 0 14.4 14.4 0 0128.8 0" fill="#828282"/>
+  <g fill="#3c3c3c">
+   <path d="m127 64.8a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0"/>
+   <path d="m127 41.7a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0"/>
+   <path d="m134.82 44.343a1.1 1.1 0 11-1.556 1.555 1.1 1.1 0 011.556-1.555"/>
+   <path d="m118.5 60.63a1.1 1.1 0 11-1.556 1.555 1.1 1.1 0 011.556-1.556"/>
+   <path d="m138.5 53.2a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0"/>
+   <path d="m115.4 53.2a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0"/>
+   <path d="m134.81 60.652a1.1 1.1 0 11-1.555 1.556 1.1 1.1 0 011.555-1.556"/>
+   <path d="m118.51 44.32a1.1 1.1 0 11-1.555 1.555 1.1 1.1 0 011.555-1.556"/>
+  </g>
+  <path d="m134.7 53.2a8.8 8.8 0 11-17.6 0 8.8 8.8 0 0117.6 0" fill="url(#SVGID_1_)"/>
+  <g id="prop0">
+   <animateTransform attributeName="transform" attributeType="XML" dur="250ms" from="0 52.1 52.2" repeatCount="indefinite" to="360 52.1 52.2" type="rotate"/>
+   <g id="prop0-full" transform="translate(-147.5)">
+    <circle cx="199.6" cy="52.2" r="41.262" fill="url(#a)" opacity=".46" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".647"/>
+    <g transform="matrix(.63652 0 0 .63652 72.55 18.973)" filter="url(#d)">
+     <path class="st0" d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+     <path class="st5" d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+     <path class="st0" d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+     <path class="st5" d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+     <path class="st9" d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     <path class="st9" d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+    </g>
+    <g transform="scale(.63652) rotate(60 230.78 165.81)" filter="url(#d)">
+     <path class="st0" d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+     <path class="st5" d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+     <path class="st0" d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+     <path class="st5" d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+     <path class="st9" d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     <path class="st9" d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+    </g>
+   </g>
+   <g id="prop0-half">
+    <g filter="url(#n)">
+     <path id="h" transform="rotate(135)" d="m40.96-73.751a40.89 40.89 0 01-20.443 35.411 40.89 40.89 0 01-40.89 0 40.89 40.89 0 01-20.447-35.411" fill="url(#b)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".647"/>
+     <use transform="rotate(180 52.1 52.2)" width="100%" height="100%" xlink:href="#h"/>
+    </g>
+    <g filter="url(#r)">
+     <g transform="rotate(-30 53.095 51.433)" opacity=".103">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="rotate(-20 53.676 51.191)" opacity=".235">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="rotate(-10 55.404 50.471)" opacity=".467">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+     <g transform="translate(.25 .6)">
+      <path class="st0" d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7" fill="#232323"/>
+      <path class="st5" d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6" fill="#444"/>
+      <path class="st0" d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7" fill="#232323"/>
+      <path class="st5" d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6" fill="#444"/>
+      <path class="st9" d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+      <path class="st9" d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="translate(-.075 .976)">
+   <path d="m55.64 47.762a4.9 4.9 0 11-6.93 6.93 4.9 4.9 0 016.93-6.93" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1.873"/>
+   <path d="m54.367 49.034a3.1 3.1 0 11-4.384 4.385 3.1 3.1 0 014.384-4.385" fill="#fff200"/>
+   <path d="m52.74 50.66a.8.8 0 11-1.13 1.132.8.8 0 011.13-1.131"/>
+  </g>
+ </g>
 </svg>

@@ -12,7 +12,7 @@ function Player(game, pos, points, angle, controller){
 	this.points = points;
 	this.angle = angle;
 	this.isMoving = false;
-	this.color = colorHash(Math.random()+"").hex;
+	this.color = Math.floor(Math.random()*360);
 	this.colliding = false;
 	this.hitbox = new Hitbox(
 		new Circle(
@@ -83,12 +83,14 @@ function Player(game, pos, points, angle, controller){
 	this.increasePoints = function(){
 		if(this.points < c.player.maxPoints){
 			this.points++;
+			game.graphics.updatePlayerPoints(this);
 		}
 	}
 	
 	this.decreasePoints = function(){
 		if(this.points > c.player.minPoints){
 			this.points--;
+			game.graphics.updatePlayerPoints(this);
 		} else {
 			game.removePlayer(this);
 		}

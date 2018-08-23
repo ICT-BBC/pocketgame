@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6.7204mm" height="11.165mm" version="1.1" viewBox="0 0 6.7204 11.165" xmlns="http://www.w3.org/2000/svg" xmlns:i="&amp;#38;ns_ai;" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g transform="translate(-98.693 -109.99)" fill="#ff0">
+  <switch transform="matrix(.26458 0 0 .26458 98.693 109.99)">
+   <foreignObject width="1" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+    <i:pgfRef xlink:href="#adobe_illustrator_pgf"/>
+   </foreignObject>
+   <g i:extraneous="self">
+    <path class="st0" d="m4.5 17.4-2.8 2.8-1.7-1.7v-17.7l4.5 4.5zm0 19.4-4.5 4.6v-17.7l1.7-1.8 2.8 2.8zm20-36.8-4.5 4.5h-14.7l-4.5-4.5zm0 42.2h-23.7l4.5-4.5h14.7zm.8-23.7-1.7 1.7-2.9-2.8v-12.1l4.5-4.5v17.7zm0 22.9-4.5-4.5v-12.1l2.9-2.8 1.7 1.8v17.6z"/>
+   </g>
+  </switch>
+ </g>
+</svg>

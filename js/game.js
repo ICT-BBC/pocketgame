@@ -1,5 +1,5 @@
 
-var DEBUG = true;
+var DEBUG = false;
 
 var c = {
 	 player: {
@@ -8,6 +8,7 @@ var c = {
 		,controllerDeadzone: 0.4
 		,minPoints: 0
 		,maxPoints: 9
+		,startingPoints: 1
 	}
 	,projectile: {
 		 speed: 500
@@ -19,8 +20,8 @@ var c = {
 		,padding: 50 // minimum possible distance to window edge
 	}
 	,graphics: {
-		 playerWidth: 60
-		,playerHeight: 69
+		 playerWidth: 100
+		,playerHeight: 120
 		,projectileDiameter: 30
 		,projectileHitboxDiameter: 26
 		,fuelWidth: 20
@@ -35,6 +36,10 @@ function Game(){
 	this.players = [];
 	this.projectiles = [];
 	this.fuels = [];
+	this.ais = [];
+	
+	this.animationFrame = null;
+	this.gameEnded = false;
 	
 	/*var canvas = document.getElementById("renderCanvas");
 	var canvasContainer = document.getElementById("canvasContainer");
@@ -63,7 +68,7 @@ function Game(){
 				 x: 200
 				,y: 200
 			}
-			,5
+			,c.player.startingPoints
 			,0
 			,new Controller(
 				this.input
@@ -85,7 +90,7 @@ function Game(){
 				 x: 200.05
 				,y: 200.05
 			}
-			,5
+			,c.player.startingPoints
 			,0
 			,new Controller(
 				this.input
@@ -100,15 +105,34 @@ function Game(){
 		)
 	);
 	
+	//this.ais.push(new AI());
+	//this.ais.push(new AI());
+	
 	this.loop = function(){
 		this.logicStep();
 		this.graphicsStep();
-		requestAnimationFrame(this.loop.bind(this));
+		if(!this.gameEnded){
+			this.animationFrame = requestAnimationFrame(this.loop.bind(this));
+			//setTimeout(this.loop.bind(this), 100);
+		}
 	};
+	
+	this.endGame = function(){
+		window.cancelAnimationFrame(this.animationFrame);
+		this.gameEnded = true;
+	}
 	
 	var timeLast = performance.now();
 	
 	this.logicStep = function(){
+		
+		if(this.players.length <= 1){
+			if(this.players[0]){
+				var winner = this.players[0];
+				this.graphics.playVictoryAnimation(winner);
+				this.endGame();
+			}
+		}
 		
 		var timeNow = performance.now();
 		var timeDiff = timeNow - timeLast;
@@ -125,6 +149,10 @@ function Game(){
 		for(var projectile of this.projectiles){
 			projectile.step();
 		}
+		
+		for(var fuel of this.fuels){
+			fuel.step();
+		}
 	};
 	
 	this.graphicsStep = function(){
@@ -138,9 +166,25 @@ function Game(){
 				 x: Math.random()*width
 				,y: Math.random()*height
 			}
-			,5
+			,c.player.startingPoints
 			,0
 			,pad
+		);
+		this.players.push(player);
+		
+		return player;
+	};
+	
+	this.createPlayerFromAI = function(controller){
+		var player = new Player(
+			 this
+			,{
+				 x: Math.random()*width
+				,y: Math.random()*height
+			}
+			,c.player.startingPoints
+			,0
+			,controller
 		);
 		this.players.push(player);
 		

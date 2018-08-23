@@ -16,22 +16,26 @@ function Fuel(game, pos){
 		)
 	);
 	
-	/*var timeLast = performance.now();
+	var timeLast = performance.now();
 		
 	this.step = function(){
 		var timeNow = performance.now();
 		var timeDiff = timeNow - timeLast;
 		timeLast = timeNow;
 		
-		var movementDist = c.projectile.speed * (timeDiff/1000);
-		
-		this.pos.x += Math.sin(this.angle)*movementDist;
-		this.pos.y -= Math.cos(this.angle)*movementDist;
+		this.hitbox.moveTo(this.pos);
 		
 		this.collidesWith = [];
 		this.isColliding = false;
 		for(var other of game.players){
-			if(other != this.player){
+			if(this.hitbox.intersects(other.hitbox)){
+				this.isColliding = true;
+				this.collidesWith.push(other);
+			}
+		}
+		
+		for(var other of game.fuels){
+			if(other != this){
 				if(this.hitbox.intersects(other.hitbox)){
 					this.isColliding = true;
 					this.collidesWith.push(other);
@@ -39,11 +43,19 @@ function Fuel(game, pos){
 			}
 		}
 		
-		if(this.isColliding){
-			game.removeProjectile(this);
+		for(var other of this.collidesWith){
+			var collisionVector = this.hitbox.getCollisionVector(other.hitbox);
+			this.pos.x += collisionVector.x * c.player.bounceSpeed*2 * (timeDiff/1000);
+			this.pos.y += collisionVector.y * c.player.bounceSpeed*2 * (timeDiff/1000);
 		}
 		
-		this.hitbox.moveTo(this.pos);
+		if(game.walls.intersects(this.hitbox.circles)){
+			this.isColliding = true;
+			
+			var collisionVector = game.walls.getCollisionVector(this.hitbox.circles);
+			this.pos.x += collisionVector.x * c.player.speed * (timeDiff/1000);
+			this.pos.y += collisionVector.y * c.player.speed * (timeDiff/1000);
+		}
 		
-	}*/
+	}
 }
