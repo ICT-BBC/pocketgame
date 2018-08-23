@@ -8,6 +8,9 @@ function Graphics(game){
 		drone: {
 			path: assetPath + "drone.svg"
 		},
+		bot: {
+			path: assetPath + "bot.svg"
+		},
 		projectile: {
 			path: assetPath + "projectile1.svg"
 		},
@@ -24,6 +27,7 @@ function Graphics(game){
 	
 	var world;
 	var droneTemplate;
+	var botTemplate;
 	var projectileTemplate;
 	var fuelTemplate;
 	var numberContainerTemplate;
@@ -55,7 +59,11 @@ function Graphics(game){
 				let rotateContainer = document.createElement("div");
 				element.appendChild(rotateContainer);
 				
-				rotateContainer.innerHTML = droneTemplate;
+				if(!player.isBot){
+					rotateContainer.innerHTML = droneTemplate;
+				} else {
+					rotateContainer.innerHTML = botTemplate;
+				}
 				rotateContainer.style.filter = "hue-rotate("+player.color+"deg)";
 				
 				player.numbersContainer = rotateContainer.appendChild(document.createElement("div"));
@@ -211,6 +219,17 @@ function Graphics(game){
 		let tempContainer = document.createElement("div");
 		tempContainer.appendChild(droneTemplate);
 		droneTemplate = tempContainer.innerHTML;
+		
+		botTemplate = document.createElement("object");
+		botTemplate.type = "image/svg+xml";
+		botTemplate.data = assets.bot.path;
+		botTemplate.className = "drone";
+		botTemplate.width = c.graphics.playerWidth;
+		botTemplate.style.marginTop = (-c.graphics.playerHeight/2)+"px";
+		botTemplate.style.marginLeft = (-c.graphics.playerWidth/2)+"px";
+		tempContainer = document.createElement("div");
+		tempContainer.appendChild(botTemplate);
+		botTemplate = tempContainer.innerHTML;
 
 		projectileTemplate = document.createElement("object");
 		projectileTemplate.type = "image/svg+xml";

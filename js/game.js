@@ -61,7 +61,7 @@ function Game(){
 	
 	this.controllerInput = new ControllerInput();
 	
-	/*this.players.push(
+	this.players.push(
 		new Player(
 			 this
 			,{
@@ -83,7 +83,7 @@ function Game(){
 		)
 	);
 	
-	this.players.push(
+	/*this.players.push(
 		new Player(
 			 this
 			,{
@@ -193,6 +193,7 @@ function Game(){
 	};
 	
 	this.removePlayer = function(player){
+		player.isAlive = false;
 		this.graphics.removeEntity(player);
 		for(var i = 0; i < this.players.length; i++){
 			if(this.players[i] == player){
@@ -253,13 +254,22 @@ function Game(){
 	};
 	
 	
+	/*this.ais.push(new AI(this));
 	this.ais.push(new AI(this));
 	this.ais.push(new AI(this));
 	this.ais.push(new AI(this));
 	this.ais.push(new AI(this));
 	this.ais.push(new AI(this));
-	this.ais.push(new AI(this));
-	this.ais.push(new AI(this));
+	this.ais.push(new AI(this));*/
+	
+	//this.ais.push(new DumbAI(this));
+	//this.ais.push(new BullyAI(this));
+	//this.ais.push(new BullyAI(this));
+	//this.ais.push(new BullyAI(this));
+	//this.ais.push(new BullyAI(this));
+	//this.ais.push(new BullyAI(this));
+	this.ais.push(new DumbAI(this));
+	this.ais.push(new BullyAI(this));
 	
 	this.addRandomFuel();
 	

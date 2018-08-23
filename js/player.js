@@ -13,6 +13,8 @@ function Player(game, pos, points, angle, controller){
 	this.angle = angle;
 	this.isMoving = false;
 	this.color = Math.floor(Math.random()*360);
+	this.isAlive = true;
+	this.isBot = false;
 	this.colliding = false;
 	this.hitbox = new Hitbox(
 		new Circle(
