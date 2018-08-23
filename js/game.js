@@ -6,7 +6,7 @@ var c = {
 		 speed: 200 //pixels per second
 		,bounceSpeed: 105 // force pushing outwards while intersecting with other player
 		,controllerDeadzone: 0.4
-		,minPoints: 0
+		,minPoints: 1
 		,maxPoints: 9
 		,startingPoints: 1
 	}
@@ -61,7 +61,7 @@ function Game(){
 	
 	this.controllerInput = new ControllerInput();
 	
-	this.players.push(
+	/*this.players.push(
 		new Player(
 			 this
 			,{
@@ -103,10 +103,7 @@ function Game(){
 				}
 			)
 		)
-	);
-	
-	//this.ais.push(new AI());
-	//this.ais.push(new AI());
+	);*/
 	
 	this.loop = function(){
 		this.logicStep();
@@ -152,6 +149,10 @@ function Game(){
 		
 		for(var fuel of this.fuels){
 			fuel.step();
+		}
+		
+		for(var ai of this.ais){
+			ai.step();
 		}
 	};
 	
@@ -250,6 +251,15 @@ function Game(){
 			}
 		}
 	};
+	
+	
+	this.ais.push(new AI(this));
+	this.ais.push(new AI(this));
+	this.ais.push(new AI(this));
+	this.ais.push(new AI(this));
+	this.ais.push(new AI(this));
+	this.ais.push(new AI(this));
+	this.ais.push(new AI(this));
 	
 	this.addRandomFuel();
 	
