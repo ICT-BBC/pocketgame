@@ -8,6 +8,7 @@
 function Fuel(game, pos){
 	this.pos = pos;
 	this.colliding = false;
+	this.isAlive = true;
 	this.hitbox = new Hitbox(
 		new Circle(
 			 c.graphics.fuelHeight/2

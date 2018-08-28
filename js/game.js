@@ -8,11 +8,11 @@ var c = {
 		,controllerDeadzone: 0.4
 		,minPoints: 1
 		,maxPoints: 9
-		,startingPoints: 1
+		,startingPoints: 5
 	}
 	,projectile: {
-		 speed: 500
-		,timeout: 700 // ms between shots
+		 speed: 700
+		,timeout: 500 // ms between shots
 	}
 	,fuel: {
 		 chancePerSecond: 0.1 // chance of one fuel appearing 
@@ -83,7 +83,7 @@ function Game(){
 		)
 	);
 	
-	/*this.players.push(
+	/*aww this.players.push(
 		new Player(
 			 this
 			,{
@@ -244,6 +244,7 @@ function Game(){
 	};
 	
 	this.removeFuel = function(fuel){
+		fuel.isAlive = false;
 		this.graphics.removeEntity(fuel);
 		for(var i = 0; i < this.fuels.length; i++){
 			if(this.fuels[i] == fuel){
@@ -254,22 +255,13 @@ function Game(){
 	};
 	
 	
-	/*this.ais.push(new AI(this));
-	this.ais.push(new AI(this));
-	this.ais.push(new AI(this));
-	this.ais.push(new AI(this));
-	this.ais.push(new AI(this));
-	this.ais.push(new AI(this));
-	this.ais.push(new AI(this));*/
-	
+	this.ais.push(new DumbAI(this));
+	//this.ais.push(new DumbAI(this));
 	//this.ais.push(new DumbAI(this));
 	//this.ais.push(new BullyAI(this));
 	//this.ais.push(new BullyAI(this));
-	//this.ais.push(new BullyAI(this));
-	//this.ais.push(new BullyAI(this));
-	//this.ais.push(new BullyAI(this));
-	this.ais.push(new DumbAI(this));
 	this.ais.push(new BullyAI(this));
+	this.ais.push(new GreedyAI(this));
 	
 	this.addRandomFuel();
 	
