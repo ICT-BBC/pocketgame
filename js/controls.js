@@ -48,11 +48,13 @@ function Gamepad(pad){
 		var x = pad.axes[0];
 		var y = pad.axes[1];
 		var shoot = pad.buttons[0].pressed;
+		var start = pad.buttons[9].pressed;
 		
 		return {
 			 x: x
 			,y: y
 			,shoot: shoot
+			,start: start
 		};
 	};
 }
@@ -76,11 +78,13 @@ function Controller(input, keys){
 		}
 		
 		var shoot = input.keys[keys.shoot];
+		var start = input.keys[keys.start];
 		
 		return {
 			 x: x
 			,y: y
 			,shoot: shoot
+			,start: start
 		};
 	};
 }

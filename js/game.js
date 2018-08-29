@@ -34,21 +34,13 @@ var game = new Game();
 function Game(){
 	
 	this.players = [];
+	this.deadPlayers = [];
 	this.projectiles = [];
 	this.fuels = [];
 	this.ais = [];
 	
 	this.animationFrame = null;
 	this.gameEnded = false;
-	
-	/*var canvas = document.getElementById("renderCanvas");
-	var canvasContainer = document.getElementById("canvasContainer");
-	
-	var height = ~~(canvasContainer.clientHeight);
-	var width = ~~(canvasContainer.clientWidth);
-
-	canvas.height = height;
-	canvas.width = width;*/
 	
 	var world = document.getElementById("world");
 	var height = world.clientHeight;
@@ -78,12 +70,13 @@ function Game(){
 					,right: "KeyD"
 					,left: "KeyA"
 					,shoot: "KeyF"
+					,start: "KeyE"
 				}
 			)
 		)
 	);
 	
-	/*aww this.players.push(
+	/*this.players.push(
 		new Player(
 			 this
 			,{
@@ -100,10 +93,41 @@ function Game(){
 					,right: "ArrowRight"
 					,left: "ArrowLeft"
 					,shoot: "Numpad0"
+					,start: "Numpad1"
 				}
 			)
 		)
 	);*/
+	
+	this.resetGame = function(){
+		for(let player of this.players){
+			this.deadPlayers.push(player);
+		}
+		this.players = [];
+		for(let oldPlayer of this.deadPlayers){
+			
+			var player = new Player(
+				 this
+				,{
+					 x: Math.random()*width
+					,y: Math.random()*height
+				}
+				,c.player.startingPoints
+				,0
+				,oldPlayer.controller
+			);
+			player.color = oldPlayer.color;
+			player.isBot = oldPlayer.isBot;
+			this.players.push(player);
+		}
+		this.deadPlayers = [];
+		this.projectiles = [];
+		this.fuels = [];
+		this.graphics.reset();
+		console.log(this.players);
+		this.gameEnded = false;
+		this.loop();
+	}
 	
 	this.loop = function(){
 		this.logicStep();
@@ -117,6 +141,7 @@ function Game(){
 	this.endGame = function(){
 		window.cancelAnimationFrame(this.animationFrame);
 		this.gameEnded = true;
+		setTimeout(this.resetGame.bind(this), 2000);
 	}
 	
 	var timeLast = performance.now();
@@ -194,6 +219,7 @@ function Game(){
 	
 	this.removePlayer = function(player){
 		player.isAlive = false;
+		this.deadPlayers.push(player);
 		this.graphics.removeEntity(player);
 		for(var i = 0; i < this.players.length; i++){
 			if(this.players[i] == player){
@@ -255,13 +281,13 @@ function Game(){
 	};
 	
 	
-	this.ais.push(new DumbAI(this));
+	//this.ais.push(new DumbAI(this));
 	//this.ais.push(new DumbAI(this));
 	//this.ais.push(new DumbAI(this));
 	//this.ais.push(new BullyAI(this));
 	//this.ais.push(new BullyAI(this));
 	this.ais.push(new BullyAI(this));
-	this.ais.push(new GreedyAI(this));
+	//this.ais.push(new GreedyAI(this));
 	
 	this.addRandomFuel();
 	

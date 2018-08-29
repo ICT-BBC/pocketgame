@@ -42,6 +42,9 @@ function Graphics(game){
 	
 	init();
 	
+	this.reset = function(){
+		world.innerHTML = "";
+	}
 	
 	this.render = function(){
 		if(DEBUG){

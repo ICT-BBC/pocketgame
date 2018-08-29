@@ -11,6 +11,7 @@ function Player(game, pos, points, angle, controller){
 	this.pos = pos;
 	this.points = points;
 	this.angle = angle;
+	this.controller = controller;
 	this.isMoving = false;
 	this.color = Math.floor(Math.random()*360);
 	this.isAlive = true;
@@ -33,7 +34,7 @@ function Player(game, pos, points, angle, controller){
 		timeLast = timeNow;
 		
 		var movementDist = c.player.speed * (timeDiff/1000);
-		var controls = controller.getControls();
+		var controls = this.controller.getControls();
 		
 		this.isMoving = (
 			   Math.abs(controls.x) > c.player.controllerDeadzone
