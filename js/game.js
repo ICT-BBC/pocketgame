@@ -53,7 +53,7 @@ function Game(){
 	
 	this.controllerInput = new ControllerInput();
 	
-	/*this.players.push(
+	this.players.push(
 		new Player(
 			 this
 			,{
@@ -74,7 +74,7 @@ function Game(){
 				}
 			)
 		)
-	);*/
+	);
 	
 	/*this.players.push(
 		new Player(
@@ -125,6 +125,9 @@ function Game(){
 		}
 		this.deadPlayers = [];
 		this.projectiles = [];
+		for(var i in this.fuels){
+			this.fuels[i].isAlive = false;
+		}
 		this.fuels = [];
 		this.graphics.reset();
 		console.log(this.players);
@@ -298,9 +301,9 @@ function Game(){
 	
 	this.addRandomFuel();
 	this.createAI();
-	this.createAI();
-	this.createAI();
-	this.createAI();
+	//this.createAI();
+	//this.createAI();
+	//this.createAI();
 	
 	this.loop();
 	

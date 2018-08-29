@@ -42,7 +42,7 @@ function DumbAI(game){
 		
 		var actionTimeDiff = this.timeNow - this.lastActionTime;
 		
-		if(actionTimeDiff > this.nextActionTimeout){w
+		if(actionTimeDiff > this.nextActionTimeout){
 			this.lastActionTime = performance.now();
 			this.nextActionTimeout = Math.random()*1000 + 300;
 			
@@ -63,63 +63,89 @@ function BullyAI(game){
 	this.target = null;
 	
 	this.findTarget = function(){
-		if(game.players.length > 1){
-			do{
-				this.target = game.players[~~(Math.random()*game.players.length)];
-			} while (this.target == this.player);
+		var potentialTargets = [];
+		
+		for(var fuel of game.fuels){
+			potentialTargets.push(fuel);
 		}
+		
+		if(game.players.length > 1){
+			for(var player of game.players){
+				if(player != this.player){
+					potentialTargets.push(player);
+				}
+			}
+		}
+		
+		this.target = potentialTargets[~~(Math.random()*potentialTargets.length)];
 	}
 	
 	this.findTarget();
 	
 	this.step = function(){
 		
-		if(!this.target || !this.target.isAlive){
-			this.findTarget();
-		}
-		
 		this.timeNow = performance.now();
 		var timeDiff = this.timeNow - this.timeLast;
 		this.timeLast = this.timeNow;
 		
+		var actionTimeDiff = this.timeNow - this.lastActionTime;
 		
-		var distX = this.target.pos.x - this.player.pos.x;
-		var distY = this.target.pos.y - this.player.pos.y;
+		if(actionTimeDiff > this.nextActionTimeout){
+			this.lastActionTime = performance.now();
+			this.nextActionTimeout = Math.random()*300 + 100;
 		
-		for(var i in this.keys){
-			this.keys[i] = false;
-		}
-		
-		if(Math.abs(distX) < Math.abs(distY)){
-			if(Math.abs(distX) <= 20){
-				if(distY < 0){
-					this.keys.up = true;
-				} else {
-					this.keys.down = true;
+			if(!this.target || !this.target.isAlive){
+				this.findTarget();
+			}
+			
+			if(!this.target || !this.target.isAlive){
+				return;
+			}
+			
+			this.timeNow = performance.now();
+			var timeDiff = this.timeNow - this.timeLast;
+			this.timeLast = this.timeNow;
+			
+			
+			var distX = this.target.pos.x - this.player.pos.x;
+			var distY = this.target.pos.y - this.player.pos.y;
+			
+			for(var i in this.keys){
+				this.keys[i] = false;
+			}
+			
+			if(Math.abs(distX) < Math.abs(distY)){
+				if(Math.abs(distX) <= 20){
+					if(distY < 0){
+						this.keys.up = true;
+					} else {
+						this.keys.down = true;
+					}
+					this.keys.shoot = true;
+				} else {			
+					if(distX < 0){
+						this.keys.left = true;
+					} else {
+						this.keys.right = true;
+					}
 				}
-				this.keys.shoot = true;
-			} else {			
-				if(distX < 0){
-					this.keys.left = true;
-				} else {
-					this.keys.right = true;
+			} else {
+				if(Math.abs(distY) <= 20){
+					if(distX < 0){
+						this.keys.left = true;
+					} else {
+						this.keys.right = true;
+					}
+					this.keys.shoot = true;
+				} else {	
+					if(distY < 0){
+						this.keys.up = true;
+					} else {
+						this.keys.down = true;
+					}
 				}
 			}
-		} else {
-			if(Math.abs(distY) <= 20){
-				if(distX < 0){
-					this.keys.left = true;
-				} else {
-					this.keys.right = true;
-				}
-				this.keys.shoot = true;
-			} else {	
-				if(distY < 0){
-					this.keys.up = true;
-				} else {
-					this.keys.down = true;
-				}
-			}
+		
 		}
 	}
 }
