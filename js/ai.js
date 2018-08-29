@@ -42,7 +42,7 @@ function DumbAI(game){
 		
 		var actionTimeDiff = this.timeNow - this.lastActionTime;
 		
-		if(actionTimeDiff > this.nextActionTimeout){
+		if(actionTimeDiff > this.nextActionTimeout){w
 			this.lastActionTime = performance.now();
 			this.nextActionTimeout = Math.random()*1000 + 300;
 			

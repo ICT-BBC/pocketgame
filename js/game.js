@@ -4,7 +4,7 @@ var DEBUG = false;
 var c = {
 	 player: {
 		 speed: 200 //pixels per second
-		,bounceSpeed: 105 // force pushing outwards while intersecting with other player
+		,bounceSpeed: 205 // force pushing outwards while intersecting with other player
 		,controllerDeadzone: 0.4
 		,minPoints: 1
 		,maxPoints: 9
@@ -53,7 +53,7 @@ function Game(){
 	
 	this.controllerInput = new ControllerInput();
 	
-	this.players.push(
+	/*this.players.push(
 		new Player(
 			 this
 			,{
@@ -74,7 +74,7 @@ function Game(){
 				}
 			)
 		)
-	);
+	);*/
 	
 	/*this.players.push(
 		new Player(
@@ -103,22 +103,25 @@ function Game(){
 		for(let player of this.players){
 			this.deadPlayers.push(player);
 		}
+		this.ais = [];
 		this.players = [];
 		for(let oldPlayer of this.deadPlayers){
-			
-			var player = new Player(
-				 this
-				,{
-					 x: Math.random()*width
-					,y: Math.random()*height
-				}
-				,c.player.startingPoints
-				,0
-				,oldPlayer.controller
-			);
-			player.color = oldPlayer.color;
-			player.isBot = oldPlayer.isBot;
-			this.players.push(player);
+			if(oldPlayer.isBot){
+				this.createAI();
+			} else {
+				var player = new Player(
+					 this
+					,{
+						 x: Math.random()*width
+						,y: Math.random()*height
+					}
+					,c.player.startingPoints
+					,0
+					,oldPlayer.controller
+				);
+				player.color = oldPlayer.color;
+				this.players.push(player);
+			}
 		}
 		this.deadPlayers = [];
 		this.projectiles = [];
@@ -126,6 +129,7 @@ function Game(){
 		this.graphics.reset();
 		console.log(this.players);
 		this.gameEnded = false;
+		this.addRandomFuel();
 		this.loop();
 	}
 	
@@ -280,16 +284,23 @@ function Game(){
 		}
 	};
 	
+	this.createAI = function(){
+		this.ais.push(new BullyAI(this));
+	}
+	
 	
 	//this.ais.push(new DumbAI(this));
 	//this.ais.push(new DumbAI(this));
 	//this.ais.push(new DumbAI(this));
 	//this.ais.push(new BullyAI(this));
 	//this.ais.push(new BullyAI(this));
-	this.ais.push(new BullyAI(this));
 	//this.ais.push(new GreedyAI(this));
 	
 	this.addRandomFuel();
+	this.createAI();
+	this.createAI();
+	this.createAI();
+	this.createAI();
 	
 	this.loop();
 	
