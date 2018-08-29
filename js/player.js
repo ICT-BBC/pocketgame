@@ -94,6 +94,10 @@ function Player(game, pos, points, angle, controller){
 		if(this.points > c.player.minPoints){
 			this.points--;
 			game.graphics.updatePlayerPoints(this);
+			this.graphics.className += " hit";
+			setTimeout(function(){
+				this.graphics.className = "droneContainer";
+			}.bind(this), 100);
 		} else {
 			game.removePlayer(this);
 		}
