@@ -282,7 +282,11 @@ function Graphics(game){
 		console.log("bort");
 		var overlay = document.createElement("div")
 		overlay.id ="victoryOverlay";
-		overlay.innerHTML = '<span>Winner!</span>';
+		overlay.innerHTML = 
+		'<div>\
+			<span>Winner!</span>\
+			<span class="pressStart">Press Start for a new game!</span>\
+		</div>';
 		overlay.style.filter = "hue-rotate("+winner.color+"deg)";
 		world.appendChild(overlay);
 		winner.graphics.style.transition = "left, top";
@@ -291,14 +295,16 @@ function Graphics(game){
 		winner.graphics.firstChild.style.transition = "width";
 		winner.graphics.firstChild.style.transitionDuration = "2s";
 		
-		setTimeout(function(){
-			
-			console.log(winner);
-			
+		setTimeout(function(){			
+			for(var child of world.childNodes){
+			if(child != winner.graphics && child != overlay){
+				world.removeChild(child);
+			}
+		}
 			overlay.style.opacity = 1;
 			winner.graphics.style.left = (width/2)+"px";
 			winner.graphics.style.top = (height/2)+"px";
-			//winner.graphics.firstChild.style.width = "300px";
+			
 		}.bind(this), 100);
 	}
 

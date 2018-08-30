@@ -15,7 +15,7 @@ var c = {
 		,timeout: 500 // ms between shots
 	}
 	,fuel: {
-		 chancePerSecond: 0.1 // chance of one fuel appearing 
+		 chancePerSecond: 0.3 // chance of one fuel appearing, kinda
 		,maxCount: 10 // maximum number of fuels on screen at one time
 		,padding: 50 // minimum possible distance to window edge
 	}
@@ -100,11 +100,6 @@ function Game(){
 	);*/
 	
 	this.resetGame = function(){
-		for(let player of this.players){
-			this.deadPlayers.push(player);
-		}
-		this.ais = [];
-		this.players = [];
 		for(let oldPlayer of this.deadPlayers){
 			if(oldPlayer.isBot){
 				this.createAI();
@@ -131,7 +126,6 @@ function Game(){
 		this.fuels = [];
 		this.graphics.reset();
 		console.log(this.players);
-		this.gameEnded = false;
 		this.addRandomFuel();
 		this.loop();
 	}
@@ -145,10 +139,29 @@ function Game(){
 		}
 	};
 	
+	this.endScreenLoop = function(){
+		for(let player of this.deadPlayers){
+			if(player.controller.getControls().start){
+				this.gameEnded = false;
+				this.resetGame();
+			}
+		}
+		if(this.gameEnded){
+			requestAnimationFrame(this.endScreenLoop.bind(this));
+		}
+	};
+	
 	this.endGame = function(){
 		window.cancelAnimationFrame(this.animationFrame);
 		this.gameEnded = true;
-		setTimeout(this.resetGame.bind(this), 2000);
+		
+		for(let player of this.players){
+			this.deadPlayers.push(player);
+		}
+		this.ais = [];
+		this.players = [];
+		this.endScreenLoop();
+		//setTimeout(this.resetGame.bind(this), 3000);
 	}
 	
 	var timeLast = performance.now();
@@ -167,7 +180,7 @@ function Game(){
 		var timeDiff = timeNow - timeLast;
 		timeLast = timeNow;
 		
-		if(this.fuels.length < c.fuel.maxCount && Math.random() < timeDiff * (c.fuel.chancePerSecond/1000)){
+		if(this.fuels.length < c.fuel.maxCount && Math.random() < timeDiff * ((c.fuel.chancePerSecond/1000)/this.fuels.length)){
 			this.addRandomFuel();
 		}
 		
