@@ -17,9 +17,6 @@ function Graphics(game){
 		fuel: {
 			path: assetPath + "fuel.svg"
 		},
-		background: {
-			path: assetPath + "floortile.svg"
-		},
 		numbers: {
 			path: assetPath + "numbers/"
 		}
@@ -197,7 +194,9 @@ function Graphics(game){
 	
 	function init(){
 		world = document.getElementById("world");
-		world.style.backgroundImage = "url("+assets.background.path+")";
+		background = document.getElementById("background");
+		floor = document.getElementById("floor");
+		//floor.style.backgroundImage = "url("+assets.background.path+")";
 		
 		width = world.clientWidth;
 		height = world.clientHeight;
@@ -276,6 +275,17 @@ function Graphics(game){
 			tempContainer.appendChild(numberTemplate);
 			numbersTemplates[i] = tempContainer.innerHTML;
 		}
+	}
+	
+	this.playBatteryHitAnimation = function(pos){
+		var element = document.createElement("div");
+		element.className = "batteryHit";
+		element.style.top = pos.y+"px";
+		element.style.left = pos.x+"px";
+		world.appendChild(element);
+		setTimeout(function(){
+			world.removeChild(element);
+		}.bind(this), 400)
 	}
 	
 	this.playVictoryAnimation = function(winner){

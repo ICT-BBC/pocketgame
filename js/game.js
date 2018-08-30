@@ -57,8 +57,8 @@ function Game(){
 		new Player(
 			 this
 			,{
-				 x: 200
-				,y: 200
+				 x: Math.random()*width
+				,y: Math.random()*height
 			}
 			,c.player.startingPoints
 			,0
@@ -76,12 +76,12 @@ function Game(){
 		)
 	);
 	
-	/*this.players.push(
+	this.players.push(
 		new Player(
 			 this
 			,{
-				 x: 200.05
-				,y: 200.05
+				 x: Math.random()*width
+				,y: Math.random()*height
 			}
 			,c.player.startingPoints
 			,0
@@ -97,7 +97,7 @@ function Game(){
 				}
 			)
 		)
-	);*/
+	);
 	
 	this.resetGame = function(){
 		for(let oldPlayer of this.deadPlayers){
@@ -313,6 +313,7 @@ function Game(){
 	
 	this.removeFuel = function(fuel){
 		fuel.isAlive = false;
+		this.graphics.playBatteryHitAnimation(fuel.pos);
 		this.graphics.removeEntity(fuel);
 		for(var i = 0; i < this.fuels.length; i++){
 			if(this.fuels[i] == fuel){
@@ -334,8 +335,8 @@ function Game(){
 	//this.ais.push(new BullyAI(this));
 	//this.ais.push(new GreedyAI(this));
 	
-	this.addRandomFuel();
-	this.createAI();
+	//this.addRandomFuel();
+	//this.createAI();
 	//this.createAI();
 	//this.createAI();
 	//this.createAI();

@@ -14,14 +14,28 @@ html, body{
 #world{
 	height: 100%;
 	width: 100%;
-	
-	background-size: 130px;
-	background-color: #d1d1d1;
 }
 
 #world > *{
 	position: absolute;
 	transform: rotate(0deg);
+}
+
+#background{
+	height: 100%;
+	width: 100%;
+}
+
+#floor{
+	height: 100%;
+	width: 100%;
+	/*position: absolute;
+	top: -500%;
+	left: -500%;
+	transform: rotate(45deg);*/
+	background-image: url("../assets/floortile.svg");
+	background-size: 130px;
+	background-color: #d1d1d1;
 }
 
 .droneContainer{
@@ -119,4 +133,36 @@ html, body{
 .pressStart{
 	font-size: 35px;
 	display: block;
+}
+
+.batteryHit{
+	position: absolute;
+	height: 0px;
+	width: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	box-shadow: 0px 0px 150px #FFBB00 inset;
+	border-radius: 10000px;
+	
+	animation-duration: 300ms;
+	animation-name: fuelHit;
+	animation-timing-function: linear;
+}
+
+@keyframes fuelHit {
+	from {
+		height: 20px;
+		width: 20px;
+		margin-top: -10px;
+		margin-left: -10px;
+		opacity: 1;
+	}
+
+	to {
+		height: 200px;
+		width: 200px;
+		margin-top: -100px;
+		margin-left: -100px;
+		opacity: 0;
+	}
 }
