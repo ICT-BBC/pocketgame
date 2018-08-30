@@ -157,6 +157,10 @@ html, body{
 		margin-left: -10px;
 		opacity: 1;
 	}
+	
+	30% {
+		opacity: 1;
+	}
 
 	to {
 		height: 200px;
