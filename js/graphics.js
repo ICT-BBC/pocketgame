@@ -5,20 +5,28 @@ function Graphics(game){
 	var assetPath = "assets/"
 
 	var assets = {
-		drone: {
+		 drone: {
 			path: assetPath + "drone.svg"
-		},
-		bot: {
+		}
+		,bot: {
 			path: assetPath + "bot.svg"
-		},
-		projectile: {
+		}
+		,projectile: {
 			path: assetPath + "projectile1.svg"
-		},
-		fuel: {
+		}
+		,fuel: {
 			path: assetPath + "fuel.svg"
-		},
-		numbers: {
+		}
+		,numbers: {
 			path: assetPath + "numbers/"
+		}
+		,scratches: {
+			 path: assetPath + "floor/scratch"
+			,count: 5
+		}
+		,splatter: {
+			 path: assetPath + "floor/splatter"
+			,count: 8
 		}
 	};
 	
@@ -37,10 +45,11 @@ function Graphics(game){
 	var context;
 	var fontSize = 36;
 	
-	init();
+	var lastSplatter = 0;
 	
 	this.reset = function(){
 		world.innerHTML = "";
+		floorDecoration.innerHTML = "";
 	}
 	
 	this.render = function(){
@@ -191,12 +200,30 @@ function Graphics(game){
 		}
 	}
 	
+	this.decorateFloor = function(){
+		var count = 30;
+		
+		for(var i = 0; i < count; i++){
+			var c = i % assets.scratches.count;
+			
+			var scratch = document.createElement("object");
+			scratch.type = "image/svg+xml";
+			scratch.data = assets.scratches.path + c + ".svg";
+			scratch.className = "scratch";
+			scratch.width = Math.random() * 90 + 10;
+			scratch.style.top = (Math.random()*height)+"px";
+			scratch.style.left = (Math.random()*width)+"px";
+			scratch.style.transform = "rotate("+(Math.random()*360)+"deg)";
+			scratch.style.opacity = Math.random()*0.3+0.2;
+			floor.appendChild(scratch);
+		}
+	}	
 	
-	function init(){
+	this.init = function(){
 		world = document.getElementById("world");
 		background = document.getElementById("background");
 		floor = document.getElementById("floor");
-		//floor.style.backgroundImage = "url("+assets.background.path+")";
+		floorDecoration = document.getElementById("decoration");
 		
 		width = world.clientWidth;
 		height = world.clientHeight;
@@ -275,6 +302,8 @@ function Graphics(game){
 			tempContainer.appendChild(numberTemplate);
 			numbersTemplates[i] = tempContainer.innerHTML;
 		}
+		
+		this.decorateFloor();
 	}
 	
 	this.playBatteryHitAnimation = function(pos){
@@ -286,6 +315,29 @@ function Graphics(game){
 		setTimeout(function(){
 			world.removeChild(element);
 		}.bind(this), 400)
+	}
+	
+	this.addOilSplatter = function(pos){
+		var splatter = document.createElement("object");
+		splatter.type = "image/svg+xml";
+		splatter.data = assets.splatter.path + lastSplatter + ".svg";
+		splatter.className = "splatter";
+		splatter.width = Math.random() * 40 + 60;
+		splatter.style.top = (pos.y - splatter.width/2)+"px";
+		splatter.style.left = (pos.x - splatter.width/2)+"px";
+		splatter.style.transform = "rotate("+(Math.random()*360)+"deg)";
+		splatter.style.opacity = Math.random()*0.5+0.2;
+		floorDecoration.appendChild(splatter);
+		
+		lastSplatter = (lastSplatter + 1) % assets.splatter.count;
+	}
+	
+	this.playPlayerHitAnimation = function(player){
+		player.graphics.className += " hit";
+		this.addOilSplatter(player.pos);
+		setTimeout(function(){
+			player.graphics.className = "droneContainer";
+		}.bind(player), 100);
 	}
 	
 	this.playVictoryAnimation = function(winner){
@@ -318,6 +370,6 @@ function Graphics(game){
 		}.bind(this), 100);
 	}
 
-	
+	this.init();
 	
 }

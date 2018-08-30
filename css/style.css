@@ -142,11 +142,13 @@ html, body{
 	margin-top: 0px;
 	margin-left: 0px;
 	box-shadow: 0px 0px 150px #FFBB00 inset;
+	border: 4px rgba(250, 100, 0, 0.3) solid;
 	border-radius: 10000px;
 	
 	animation-duration: 300ms;
 	animation-name: fuelHit;
 	animation-timing-function: linear;
+	animation-fill-mode: both;
 }
 
 @keyframes fuelHit {
@@ -169,4 +171,12 @@ html, body{
 		margin-left: -100px;
 		opacity: 0;
 	}
+}
+
+.scratch{
+	position: absolute;
+}
+
+.splatter{
+	position: absolute;
 }

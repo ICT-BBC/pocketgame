@@ -327,20 +327,11 @@ function Game(){
 		this.ais.push(new BullyAI(this));
 	}
 	
-	
-	//this.ais.push(new DumbAI(this));
-	//this.ais.push(new DumbAI(this));
-	//this.ais.push(new DumbAI(this));
-	//this.ais.push(new BullyAI(this));
-	//this.ais.push(new BullyAI(this));
-	//this.ais.push(new GreedyAI(this));
-	
-	//this.addRandomFuel();
-	//this.createAI();
-	//this.createAI();
-	//this.createAI();
-	//this.createAI();
-	
+	var aiCount = 10;
+	while(aiCount--){
+		this.createAI();
+	}
+		
 	this.loop();
 	
 }
