@@ -188,7 +188,7 @@ function Graphics(game){
 	}
 	
 	this.removeEntity = function(entity){
-		if(entity.graphics){
+		if(entity.graphics && world.contains(entity.graphics) &&(!game.gameEnded)){
 			world.removeChild(entity.graphics);
 			return entity;
 		}

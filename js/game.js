@@ -114,6 +114,7 @@ function Game(){
 					,0
 					,oldPlayer.controller
 				);
+				oldPlayer.controller.player = player;
 				player.color = oldPlayer.color;
 				this.players.push(player);
 			}
@@ -216,7 +217,11 @@ function Game(){
 			,0
 			,pad
 		);
-		this.players.push(player);
+		if(this.gameEnded){
+			this.deadPlayers.push(player);
+		} else {
+			this.players.push(player);
+		}
 		
 		return player;
 	};
@@ -255,6 +260,12 @@ function Game(){
 		for(var i = 0; i < this.players.length; i++){
 			if(this.players[i] == player){
 				this.players.splice(i, 1);
+				return i;
+			}
+		}
+		for(var i = 0; i < this.deadPlayers.length; i++){
+			if(this.deadPlayers[i] == player){
+				this.deadPlayers.splice(i, 1);
 				return i;
 			}
 		}
