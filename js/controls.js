@@ -32,7 +32,7 @@ function ControllerInput(){
 		var id = pad.index;
 		//console.log("disconn "+id);
 		
-		game.removePlayer(this.controllers[id].player);
+		game.disconnectPlayer(this.controllers[id].player);
 		this.controllers[id] = null;
 	}.bind(this));
 }

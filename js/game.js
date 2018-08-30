@@ -249,6 +249,17 @@ function Game(){
 		}
 	};
 	
+	this.disconnectPlayer = function(player){
+		player.isAlive = false;
+		this.graphics.removeEntity(player);
+		for(var i = 0; i < this.players.length; i++){
+			if(this.players[i] == player){
+				this.players.splice(i, 1);
+				return i;
+			}
+		}
+	};
+	
 	this.addProjectile = function(player){
 		var projectile = new Projectile(
 			 this
