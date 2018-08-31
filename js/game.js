@@ -160,8 +160,9 @@ function Game(){
 		
 		this.fuels = [];
 		this.graphics.reset();
-		console.log(this.players);
+		this.gameEnded = false;
 		this.addRandomFuel();
+		timeLast = performance.now();
 		this.loop();
 	}
 	
@@ -175,13 +176,20 @@ function Game(){
 	};
 	
 	this.endScreenLoop = function(){
+		var humanPlayers = 0;
 		for(let player of this.deadPlayers){
+			if(!player.isBot){
+				humanPlayers++;
+			}
 			if(player.controller.getControls().start){
 				this.gameEnded = false;
 				this.resetGame();
 			}
 		}
-		if(this.gameEnded){
+		if(humanPlayers < 1 && this.gameEnded){
+			this.graphics.showStartScreen();
+			this.startScreenLoop();
+		} else if(this.gameEnded){
 			requestAnimationFrame(this.endScreenLoop.bind(this));
 		}
 	};
@@ -190,7 +198,7 @@ function Game(){
 		for(let player of this.deadPlayers){
 			if(player.controller.getControls().start){
 				this.gameEnded = false;
-				this.startGame();
+				this.resetGame();
 			}
 		}
 		if(this.gameEnded){
@@ -209,7 +217,6 @@ function Game(){
 		this.ais = [];
 		this.players = [];
 		this.endScreenLoop();
-		//setTimeout(this.resetGame.bind(this), 3000);
 	}
 	
 	this.logicStep = function(){

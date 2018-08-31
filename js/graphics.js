@@ -344,7 +344,6 @@ function Graphics(game){
 	}
 	
 	this.playVictoryAnimation = function(winner){
-		console.log("bort");
 		var overlay = document.createElement("div")
 		overlay.id ="victoryOverlay";
 		overlay.innerHTML = 
@@ -373,6 +372,10 @@ function Graphics(game){
 		winner.graphics.style.top = (height/2-c.graphics.playerHeight/2)+"px";
 			
 		}.bind(this), 100);
+	}
+	
+	this.showStartScreen = function(){
+		startScreen.style.display = "block";
 	}
 
 	this.init();
