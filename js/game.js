@@ -118,7 +118,7 @@ function Game(){
 		}
 		this.deadPlayers = [];
 		
-		var aiCount = 0;
+		var aiCount = 10;
 		while(aiCount--){
 			this.createAI();
 		}

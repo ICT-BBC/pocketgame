@@ -216,7 +216,7 @@ body{
 	text-shadow: 2px 2px 3px #000000;
 }
 
-#startScreen > img{
+#startScreen > .droneImg{
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
@@ -228,6 +228,12 @@ body{
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 	animation-timing-function: ease-in-out
+}
+
+#startScreen > #controllerImg{
+	margin-top: 160px;
+	margin-left: 200px;
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.35));
 }
 
 @keyframes startHover {

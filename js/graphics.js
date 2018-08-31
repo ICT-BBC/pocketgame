@@ -343,7 +343,8 @@ function Graphics(game){
 		</div>';
 		overlay.style.filter = "hue-rotate("+winner.color+"deg)";
 		world.appendChild(overlay);
-		winner.graphics.style.transition = "left, top";
+		winner.graphics.style.transform += " scale(2)";
+		winner.graphics.style.transition = "left, top, transform";
 		winner.graphics.style.transitionDuration = "2s";
 		winner.graphics.style.transitionTimingFunction = "ease-in-out";
 		winner.graphics.firstChild.style.transition = "width";
@@ -355,9 +356,10 @@ function Graphics(game){
 				world.removeChild(child);
 			}
 		}
-			overlay.style.opacity = 1;
-			winner.graphics.style.left = (width/2)+"px";
-			winner.graphics.style.top = (height/2)+"px";
+		
+		overlay.style.opacity = 1;
+		winner.graphics.style.left = (width/2)+"px";
+		winner.graphics.style.top = (height/2-c.graphics.playerHeight/2)+"px";
 			
 		}.bind(this), 100);
 	}
