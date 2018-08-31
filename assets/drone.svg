@@ -22,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,13 +39,13 @@
      inkscape:window-height="1418"
      id="namedview2137"
      showgrid="false"
-     inkscape:zoom="4.2639946"
-     inkscape:cx="125.95"
-     inkscape:cy="144.7"
+     inkscape:zoom="4"
+     inkscape:cx="110.3266"
+     inkscape:cy="152.15154"
      inkscape:window-x="1600"
      inkscape:window-y="20"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2135" />
+     inkscape:current-layer="prop0" />
   <defs
      id="defs1554">
     <linearGradient
@@ -248,44 +249,44 @@
     <path
        class="st0"
        d="m112.8 230s-16.2 1.8-19.4 13 13.7 45.2 13.7 45.2-26.2-34.1-17.6-47.6 26-23.4 26-23.4-4.2 9.8-2.7 12.8"
-       fill="#232323"
-       id="path1558" />
+       id="path1558"
+       fill="#232323" />
     <path
        class="st1"
        d="m113.5 233.3s-14.3 2.5-17.3 9.3c-3 6.7 3.4 34.3 10.9 45.7-7-11.4-20.2-36-13.6-47.3s19.3-11 19.3-11l.7 3.3"
-       fill="#fff200"
-       id="path1560" />
+       id="path1560"
+       fill="#fff200" />
     <path
        d="m124.1 212.9s-49.9 20.6-33.1 48.8 16.1 26.6 16.1 26.6-16.8-37.9-10.6-46.2 22.8-9.2 22.8-9.2l4.8-20"
-       fill="none"
-       stroke="#000"
-       stroke-linecap="round"
-       stroke-linejoin="round"
        stroke-miterlimit="10"
+       id="path1562"
+       stroke-linejoin="round"
+       stroke-linecap="round"
        stroke-width="2.286"
-       id="path1562" />
+       stroke="#000"
+       fill="none" />
     <path
        class="st0"
        d="m139.2 230s16.2 1.8 19.4 13-13.7 45.2-13.7 45.2 26.2-34.1 17.6-47.6-26-23.4-26-23.4 4.2 9.8 2.7 12.8"
-       fill="#232323"
-       id="path1564" />
+       id="path1564"
+       fill="#232323" />
     <path
        class="st1"
        d="m138.5 233.3s14.3 2.5 17.3 9.3c3 6.7-3.4 34.3-10.9 45.7 7-11.4 20.2-36 13.6-47.3-6.5-11.3-19.3-11-19.3-11l-.7 3.3"
-       fill="#fff200"
-       id="path1566" />
+       id="path1566"
+       fill="#fff200" />
     <path
        d="m127.8 212.9s49.9 20.6 33.1 48.8-16.1 26.6-16.1 26.6 16.8-37.9 10.6-46.2c-6.1-8.3-23.4-9.8-23.4-9.8l-4.2-19.4"
-       fill="none"
-       stroke="#000"
-       stroke-linecap="round"
-       stroke-linejoin="round"
        stroke-miterlimit="10"
+       id="path1568"
+       stroke-linejoin="round"
+       stroke-linecap="round"
        stroke-width="1.828"
-       id="path1568" />
+       stroke="#000"
+       fill="none" />
     <g
-       fill="#6e6e6e"
-       id="g1578">
+       id="g1578"
+       fill="#6e6e6e">
       <path
          class="st4"
          d="m168 83.4c.7-1.9 1.8-3.5 2.9-5 .6-.7 1.2-1.5 1.8-2.1.6-.7 1.3-1.3 2.1-1.9 1.5-1.1 3.3-1.9 4.7-3.2 1.4-1.2 2.6-2.7 3.6-4.3.5-.8 1-1.6 1.6-2.4s1.2-1.5 1.8-2.2c1.2-1.4 2.4-2.9 3.8-4.1 1.4-1.3 2.8-2.4 4.4-3.5.8-.5 1.6-1.1 2.4-1.6s1.7-1 2.6-1.4l.3.3c-.4.9-.9 1.8-1.4 2.6s-1 1.6-1.6 2.4c-1.1 1.5-2.3 3-3.5 4.4-1.3 1.4-2.7 2.6-4.1 3.8-.7.6-1.4 1.2-2.2 1.8s-1.6 1.1-2.4 1.6c-1.6 1-3.1 2.2-4.3 3.6s-2.1 3.2-3.2 4.7c-.6.8-1.2 1.4-1.9 2.1l-2.1 1.8c-1.5 1.1-3.1 2.2-5 2.9l-.3-.3"
@@ -306,16 +307,16 @@
     <path
        class="st0"
        d="M52.2 104.2c2.3 0 4.6-.2 6.9-.5-1.1 7.1-1.7 14.5-1.7 22 0 7.8.6 15.3 1.8 22.5-2.3-.3-4.6-.5-7-.5C23.4 147.7.1 171 .1 199.8s23.3 52.1 52.1 52.1c20.5 0 38.2-11.8 46.7-29l27.1 18 27.2-18.1c8.5 17.2 26.2 29 46.7 29 28.8 0 52.1-23.3 52.1-52.1s-23.3-52.1-52.1-52.1c-2.4 0-4.7.2-7 .5 1.2-7.2 1.8-14.8 1.8-22.5 0-7.6-.6-14.9-1.7-22 2.3.3 4.6.5 6.9.5 28.8 0 52.1-23.3 52.1-52.1S228.7-.1 199.9-.1c-22.2 0-41.2 13.9-48.7 33.6-7.8-4.4-16.3-6.8-25.1-6.8s-17.3 2.4-25.1 6.8C93.4 13.9 74.4 0 52.2 0 23.4 0 .1 23.3.1 52.1s23.3 52.1 52.1 52.1M52 243c-23.7 0-42.9-19.2-42.9-42.9s19.2-42.9 42.9-42.9 42.9 19.2 42.9 42.9S75.7 243 52 243M199.6 9.2c23.7 0 42.9 19.2 42.9 42.9S223.3 95 199.6 95s-42.9-19.2-42.9-42.9 19.2-42.9 42.9-42.9m0 147.9c23.7 0 42.9 19.2 42.9 42.9s-19.2 43-42.9 43c-17.3 0-32.2-10.2-39-24.9h-.1c-2.5-5.5-3.9-11.5-3.9-17.9.1-23.8 19.3-43.1 43-43.1M52 9.2c23.7 0 43 19.2 43 42.9S75.7 95 52 95 9.1 75.8 9.1 52.1 28.3 9.2 52 9.2"
-       fill="#232323"
-       id="path1580" />
+       id="path1580"
+       fill="#232323" />
     <path
        class="st5"
        d="M126 26.7c-8.9 0-17.3 2.4-25.1 6.8C93.4 13.9 74.4 0 52.1 0 23.4 0 0 23.3 0 52.1s23.3 52.1 52.1 52.1c2.3 0 4.6-.2 6.9-.5-1.1 7.1-1.7 14.5-1.7 22 0 7.8.6 15.3 1.8 22.5-2.3-.3-4.6-.5-7-.5-28.7.1-52.1 23.5-52.1 52.2C0 228.6 23.3 252 52.1 252c20.5 0 38.2-11.8 46.7-29l27.1 18 .1-214.3M52 243c-23.7 0-42.9-19.2-42.9-42.9s19.2-42.9 42.9-42.9 42.9 19.2 42.9 42.9S75.7 243 52 243M52 9.2c23.7 0 42.9 19.2 42.9 42.9S75.7 95 52 95 9.1 75.8 9.1 52.1 28.3 9.2 52 9.2"
-       fill="#444"
-       id="path1582" />
+       id="path1582"
+       fill="#444" />
     <g
-       fill="#232323"
-       id="g1592">
+       id="g1592"
+       fill="#232323">
       <path
          class="st0"
          d="M52.1 252.2c28.8 0 52.1-23.3 52.1-52.1S80.9 148 52.1 148 0 171.3 0 200.1s23.3 52.1 52.1 52.1m0-95c23.7 0 42.9 19.2 42.9 42.9S75.8 243 52.1 243 9.2 223.8 9.2 200.1s19.2-42.9 42.9-42.9"
@@ -335,128 +336,128 @@
     </g>
     <path
        d="m125.9 241.1 24.4-32.4-24.3-182-.1 214.4"
-       fill="#444"
-       id="path1594" />
+       id="path1594"
+       fill="#444" />
     <path
        d="m126 241.1-24.5-32.4 24.5-182v214.4"
-       fill="#232323"
-       id="path1596" />
+       id="path1596"
+       fill="#232323" />
     <path
        d="m179.1 131.4h10c.3 0 .6-.3.6-.6v-10c0-.3-.3-.6-.6-.6h-10c-.3 0-.6.3-.6.6v10c0 .4.3.6.6.6"
        id="path1598" />
     <path
        class="st1"
        d="M167.7 125v1.8c0 .1 0 .1.1.1h.8c.1 0 .1 0 .1-.1V125c0-.1 0-.1-.1-.1h-.8c-.1 0-.1 0-.1.1"
-       fill="#fff200"
-       id="path1600" />
+       id="path1600"
+       fill="#fff200" />
     <path
        d="m178.7 125.9h-10"
-       fill="none"
-       stroke="#000"
        stroke-miterlimit="10"
+       id="path1602"
        stroke-width=".794"
-       id="path1602" />
+       stroke="#000"
+       fill="none" />
     <path
        class="st7"
        d="m184.1 131.4s-5.3 6.1.8 6.8c3 .3-1.7 5.8 1 8s7.3-.2 7.3-.2"
-       fill="none"
-       stroke="#000"
        stroke-miterlimit="10"
+       id="path1604"
        stroke-width=".397"
-       id="path1604" />
+       stroke="#000"
+       fill="none" />
     <path
        d="m193.6 144.7h-.9c-.1 0-.1.1-.1.1v2.5c0 .1.1.1.1.1h.9c.1 0 .1-.1.1-.1v-2.5c0-.1 0-.1-.1-.1"
        id="path1606" />
     <path
        class="st1"
        d="m183.2 131.9h1.8c.1 0 .1 0 .1-.1v-.8c0-.1 0-.1-.1-.1h-1.8c-.1 0-.1 0-.1.1v.8c0 .1 0 .1.1.1"
-       fill="#fff200"
-       id="path1608" />
+       id="path1608"
+       fill="#fff200" />
     <path
        class="st7"
        d="m184.1 120.3s-5.3-6.1.8-6.8c3-.3-1.7-5.8 1-8s7.3.2 7.3.2"
-       fill="none"
-       stroke="#000"
        stroke-miterlimit="10"
+       id="path1610"
        stroke-width=".397"
-       id="path1610" />
+       stroke="#000"
+       fill="none" />
     <path
        d="m193.6 107.1h-.9c-.1 0-.1-.1-.1-.1v-2.5c0-.1.1-.1.1-.1h.9c.1 0 .1.1.1.1v2.5s0 .1-.1.1"
        id="path1612" />
     <path
        class="st1"
        d="m183.2 120.8h1.8c.1 0 .1 0 .1-.1v-.8c0-.1 0-.1-.1-.1h-1.8c-.1 0-.1 0-.1.1v.8c0 .1 0 .1.1.1"
-       fill="#fff200"
-       id="path1614" />
+       id="path1614"
+       fill="#fff200" />
     <path
        class="st1"
        d="M178.1 125v1.8c0 .1 0 .1.1.1h.8c.1 0 .1 0 .1-.1V125c0-.1 0-.1-.1-.1h-.8c-.1 0-.1 0-.1.1"
-       fill="#fff200"
-       id="path1616" />
+       id="path1616"
+       fill="#fff200" />
     <path
        d="M73 131.4H63c-.3 0-.6-.3-.6-.6v-10c0-.3.3-.6.6-.6h10c.3 0 .6.3.6.6v10c-.1.4-.3.6-.6.6"
        id="path1618" />
     <path
        class="st1"
        d="M84.4 125v1.8c0 .1 0 .1-.1.1h-.8c-.1 0-.1 0-.1-.1V125c0-.1 0-.1.1-.1h.8c.1 0 .1 0 .1.1"
-       fill="#fff200"
-       id="path1620" />
+       id="path1620"
+       fill="#fff200" />
     <path
        d="m73.3 125.9h10.1"
-       fill="none"
-       stroke="#000"
        stroke-miterlimit="10"
+       id="path1622"
        stroke-width=".794"
-       id="path1622" />
+       stroke="#000"
+       fill="none" />
     <path
        class="st7"
        d="m68 131.4s5.3 6.1-.8 6.8c-3 .3 1.7 5.8-1 8s-7.3-.2-7.3-.2"
-       fill="none"
-       stroke="#000"
        stroke-miterlimit="10"
+       id="path1624"
        stroke-width=".397"
-       id="path1624" />
+       stroke="#000"
+       fill="none" />
     <path
        class="st1"
        d="m68.9 131.9h-1.8c-.1 0-.1 0-.1-.1v-.8c0-.1 0-.1.1-.1h1.8c.1 0 .1 0 .1.1v.8c0 .1-.1.1-.1.1"
-       fill="#fff200"
-       id="path1626" />
+       id="path1626"
+       fill="#fff200" />
     <path
        class="st7"
        d="m68 120.3s5.3-6.1-.8-6.8c-3-.3 1.7-5.8-1-8s-7.3.2-7.3.2"
-       fill="none"
-       stroke="#000"
        stroke-miterlimit="10"
+       id="path1628"
        stroke-width=".397"
-       id="path1628" />
+       stroke="#000"
+       fill="none" />
     <path
        d="m58.4 107.1h.9c.1 0 .1-.1.1-.1v-2.5c0-.1-.1-.1-.1-.1h-.9c-.1 0-.1.1-.1.1v2.5l.1.1"
        id="path1630" />
     <path
        class="st1"
        d="m68.9 120.8h-1.8c-.1 0-.1 0-.1-.1v-.8c0-.1 0-.1.1-.1h1.8c.1 0 .1 0 .1.1v.8c0 .1-.1.1-.1.1"
-       fill="#fff200"
-       id="path1632" />
+       id="path1632"
+       fill="#fff200" />
     <path
        class="st1"
        d="M74 125v1.8c0 .1 0 .1-.1.1h-.8c-.1 0-.1 0-.1-.1V125c0-.1 0-.1.1-.1h.8c.1 0 .1 0 .1.1"
-       fill="#fff200"
-       id="path1634" />
+       id="path1634"
+       fill="#fff200" />
     <path
        class="st0"
        d="m126 85.5c22.3 0 40.4 18.1 40.4 40.4s-18.1 40.4-40.4 40.4-40.4-18.1-40.4-40.4 18.2-40.4 40.4-40.4"
-       fill="#232323"
-       id="path1636" />
+       id="path1636"
+       fill="#232323" />
     <path
        d="m161.9 125.9a35.9 35.9 0 11-71.8 0 35.9 35.9 0 0171.8 0"
-       fill="#444"
-       id="path1638" />
+       id="path1638"
+       fill="#444" />
     <path
        class="st8"
        d="m126 165.1c-21.6 0-39.2-17.5-39.2-39.2s17.5-39.2 39.2-39.2c21.6 0 39.2 17.5 39.2 39.2s-17.5 39.2-39.2 39.2m0 2.4c23 0 41.6-18.7 41.6-41.6s-18.6-41.7-41.6-41.7-41.6 18.7-41.6 41.6 18.7 41.7 41.6 41.7"
-       fill="#fff"
        id="path1640"
-       style="fill:#ffff8e;fill-opacity:1" />
+       style="fill:#ffff8e;fill-opacity:1"
+       fill="#fff" />
     <g
        id="prop1">
       <animateTransform
@@ -474,111 +475,111 @@
            cx="199.6"
            cy="52.2"
            r="41.262"
-           fill="url(#a)"
-           opacity=".46"
-           stroke-linecap="round"
-           stroke-linejoin="round"
            stroke-miterlimit="10"
+           id="circle1642"
+           stroke-linejoin="round"
+           stroke-linecap="round"
            stroke-width=".647"
-           id="circle1642" />
+           fill="url(#a)"
+           opacity=".46" />
         <g
            transform="matrix(.63652 0 0 .63652 72.55 18.973)"
-           filter="url(#c)"
-           id="g1656">
+           id="g1656"
+           filter="url(#c)">
           <path
              class="st0"
              d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-             fill="#232323"
-             id="path1644" />
+             id="path1644"
+             fill="#232323" />
           <path
              class="st5"
              d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-             fill="#444"
-             id="path1646" />
+             id="path1646"
+             fill="#444" />
           <path
              class="st0"
              d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-             fill="#232323"
-             id="path1648" />
+             id="path1648"
+             fill="#232323" />
           <path
              class="st5"
              d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-             fill="#444"
-             id="path1650" />
+             id="path1650"
+             fill="#444" />
           <path
              class="st9"
              d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1652"
              stroke-width="1.873"
-             id="path1652" />
+             stroke="#000"
+             fill="none" />
           <path
              class="st9"
              d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1654"
              stroke-width="1.873"
-             id="path1654" />
+             stroke="#000"
+             fill="none" />
         </g>
         <g
            transform="scale(.63652) rotate(60 230.78 165.81)"
-           filter="url(#c)"
-           id="g1670">
+           id="g1670"
+           filter="url(#c)">
           <path
              class="st0"
              d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-             fill="#232323"
-             id="path1658" />
+             id="path1658"
+             fill="#232323" />
           <path
              class="st5"
              d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-             fill="#444"
-             id="path1660" />
+             id="path1660"
+             fill="#444" />
           <path
              class="st0"
              d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-             fill="#232323"
-             id="path1662" />
+             id="path1662"
+             fill="#232323" />
           <path
              class="st5"
              d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-             fill="#444"
-             id="path1664" />
+             id="path1664"
+             fill="#444" />
           <path
              class="st9"
              d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1666"
              stroke-width="1.873"
-             id="path1666" />
+             stroke="#000"
+             fill="none" />
           <path
              class="st9"
              d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1668"
              stroke-width="1.873"
-             id="path1668" />
+             stroke="#000"
+             fill="none" />
         </g>
       </g>
       <g
          id="prop1-half"
          transform="matrix(-1 0 0 1 251.7 0)">
         <g
-           filter="url(#m)"
-           id="g1676">
+           id="g1676"
+           filter="url(#m)">
           <path
              id="g"
              transform="rotate(135)"
              d="m40.96-73.751a40.89 40.89 0 01-20.443 35.411 40.89 40.89 0 01-40.89 0 40.89 40.89 0 01-20.447-35.411"
-             fill="url(#b)"
-             stroke-linecap="round"
-             stroke-linejoin="round"
              stroke-miterlimit="10"
-             stroke-width=".647" />
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             stroke-width=".647"
+             fill="url(#b)" />
           <use
              transform="rotate(180 52.1 52.2)"
              width="100%"
@@ -587,130 +588,130 @@
              id="use1674" />
         </g>
         <g
-           filter="url(#q)"
-           id="g1734">
+           id="g1734"
+           filter="url(#q)">
           <g
              transform="rotate(-30 53.095 51.433)"
-             opacity=".103"
-             id="g1690">
+             id="g1690"
+             opacity=".103">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1678" />
+               id="path1678"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1680" />
+               id="path1680"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1682" />
+               id="path1682"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1684" />
+               id="path1684"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1686"
                stroke-width="1.873"
-               id="path1686" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1688"
                stroke-width="1.873"
-               id="path1688" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="rotate(-20 53.676 51.191)"
-             opacity=".235"
-             id="g1704">
+             id="g1704"
+             opacity=".235">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1692" />
+               id="path1692"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1694" />
+               id="path1694"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1696" />
+               id="path1696"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1698" />
+               id="path1698"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1700"
                stroke-width="1.873"
-               id="path1700" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1702"
                stroke-width="1.873"
-               id="path1702" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="rotate(-10 55.404 50.471)"
-             opacity=".467"
-             id="g1718">
+             id="g1718"
+             opacity=".467">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1706" />
+               id="path1706"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1708" />
+               id="path1708"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1710" />
+               id="path1710"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1712" />
+               id="path1712"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1714"
                stroke-width="1.873"
-               id="path1714" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1716"
                stroke-width="1.873"
-               id="path1716" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="translate(.25 .6)"
@@ -718,39 +719,39 @@
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1720" />
+               id="path1720"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1722" />
+               id="path1722"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1724" />
+               id="path1724"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1726" />
+               id="path1726"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1728"
                stroke-width="1.873"
-               id="path1728" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1730"
                stroke-width="1.873"
-               id="path1730" />
+               stroke="#000"
+               fill="none" />
           </g>
         </g>
       </g>
@@ -760,15 +761,15 @@
        id="g1744">
       <path
          d="m203.44 49.13a4.9 4.9 0 11-6.93 6.93 4.9 4.9 0 016.93-6.93"
-         fill="#fff"
-         stroke="#000"
          stroke-miterlimit="10"
+         id="path1738"
          stroke-width="1.873"
-         id="path1738" />
+         stroke="#000"
+         fill="#fff" />
       <path
          d="m202.16 50.403a3.1 3.1 0 11-4.384 4.384 3.1 3.1 0 014.384-4.384"
-         fill="#fff200"
-         id="path1740" />
+         id="path1740"
+         fill="#fff200" />
       <path
          d="m200.54 52.029a.8.8 0 11-1.131 1.131.8.8 0 011.131-1.131"
          id="path1742" />
@@ -793,111 +794,111 @@
            cx="199.6"
            cy="52.2"
            r="41.262"
-           fill="url(#a)"
-           opacity=".46"
-           stroke-linecap="round"
-           stroke-linejoin="round"
            stroke-miterlimit="10"
+           id="circle1748"
+           stroke-linejoin="round"
+           stroke-linecap="round"
            stroke-width=".647"
-           id="circle1748" />
+           fill="url(#a)"
+           opacity=".46" />
         <g
            transform="matrix(.63652 0 0 .63652 72.55 18.973)"
-           filter="url(#e)"
-           id="g1762">
+           id="g1762"
+           filter="url(#e)">
           <path
              class="st0"
              d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-             fill="#232323"
-             id="path1750" />
+             id="path1750"
+             fill="#232323" />
           <path
              class="st5"
              d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-             fill="#444"
-             id="path1752" />
+             id="path1752"
+             fill="#444" />
           <path
              class="st0"
              d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-             fill="#232323"
-             id="path1754" />
+             id="path1754"
+             fill="#232323" />
           <path
              class="st5"
              d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-             fill="#444"
-             id="path1756" />
+             id="path1756"
+             fill="#444" />
           <path
              class="st9"
              d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1758"
              stroke-width="1.873"
-             id="path1758" />
+             stroke="#000"
+             fill="none" />
           <path
              class="st9"
              d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1760"
              stroke-width="1.873"
-             id="path1760" />
+             stroke="#000"
+             fill="none" />
         </g>
         <g
            transform="scale(.63652) rotate(60 230.78 165.81)"
-           filter="url(#e)"
-           id="g1776">
+           id="g1776"
+           filter="url(#e)">
           <path
              class="st0"
              d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-             fill="#232323"
-             id="path1764" />
+             id="path1764"
+             fill="#232323" />
           <path
              class="st5"
              d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-             fill="#444"
-             id="path1766" />
+             id="path1766"
+             fill="#444" />
           <path
              class="st0"
              d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-             fill="#232323"
-             id="path1768" />
+             id="path1768"
+             fill="#232323" />
           <path
              class="st5"
              d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-             fill="#444"
-             id="path1770" />
+             id="path1770"
+             fill="#444" />
           <path
              class="st9"
              d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1772"
              stroke-width="1.873"
-             id="path1772" />
+             stroke="#000"
+             fill="none" />
           <path
              class="st9"
              d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1774"
              stroke-width="1.873"
-             id="path1774" />
+             stroke="#000"
+             fill="none" />
         </g>
       </g>
       <g
          id="prop3-half"
          transform="matrix(-1 0 0 1 104.2 147.9)">
         <g
-           filter="url(#o)"
-           id="g1782">
+           id="g1782"
+           filter="url(#o)">
           <path
              id="i"
              transform="rotate(135)"
              d="m40.96-73.751a40.89 40.89 0 01-20.443 35.411 40.89 40.89 0 01-40.89 0 40.89 40.89 0 01-20.447-35.411"
-             fill="url(#b)"
-             stroke-linecap="round"
-             stroke-linejoin="round"
              stroke-miterlimit="10"
-             stroke-width=".647" />
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             stroke-width=".647"
+             fill="url(#b)" />
           <use
              transform="rotate(180 52.1 52.2)"
              width="100%"
@@ -906,130 +907,130 @@
              id="use1780" />
         </g>
         <g
-           filter="url(#s)"
-           id="g1840">
+           id="g1840"
+           filter="url(#s)">
           <g
              transform="rotate(-30 53.095 51.433)"
-             opacity=".103"
-             id="g1796">
+             id="g1796"
+             opacity=".103">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1784" />
+               id="path1784"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1786" />
+               id="path1786"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1788" />
+               id="path1788"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1790" />
+               id="path1790"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1792"
                stroke-width="1.873"
-               id="path1792" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1794"
                stroke-width="1.873"
-               id="path1794" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="rotate(-20 53.676 51.191)"
-             opacity=".235"
-             id="g1810">
+             id="g1810"
+             opacity=".235">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1798" />
+               id="path1798"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1800" />
+               id="path1800"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1802" />
+               id="path1802"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1804" />
+               id="path1804"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1806"
                stroke-width="1.873"
-               id="path1806" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1808"
                stroke-width="1.873"
-               id="path1808" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="rotate(-10 55.404 50.471)"
-             opacity=".467"
-             id="g1824">
+             id="g1824"
+             opacity=".467">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1812" />
+               id="path1812"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1814" />
+               id="path1814"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1816" />
+               id="path1816"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1818" />
+               id="path1818"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1820"
                stroke-width="1.873"
-               id="path1820" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1822"
                stroke-width="1.873"
-               id="path1822" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="translate(.25 .6)"
@@ -1037,39 +1038,39 @@
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1826" />
+               id="path1826"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1828" />
+               id="path1828"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1830" />
+               id="path1830"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1832" />
+               id="path1832"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1834"
                stroke-width="1.873"
-               id="path1834" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1836"
                stroke-width="1.873"
-               id="path1836" />
+               stroke="#000"
+               fill="none" />
           </g>
         </g>
       </g>
@@ -1079,15 +1080,15 @@
        id="g1850">
       <path
          d="m55.645 196.45a4.9 4.9 0 11-6.93 6.93 4.9 4.9 0 016.93-6.93"
-         fill="#fff"
-         stroke="#000"
          stroke-miterlimit="10"
+         id="path1844"
          stroke-width="1.873"
-         id="path1844" />
+         stroke="#000"
+         fill="#fff" />
       <path
          d="m54.37 197.73a3.1 3.1 0 11-4.385 4.384 3.1 3.1 0 014.384-4.384"
-         fill="#fff200"
-         id="path1846" />
+         id="path1846"
+         fill="#fff200" />
       <path
          d="m52.743 199.36a.8.8 0 11-1.131 1.131.8.8 0 011.131-1.131"
          id="path1848" />
@@ -1109,111 +1110,111 @@
            cx="199.6"
            cy="52.2"
            r="41.262"
-           fill="url(#a)"
-           opacity=".46"
-           stroke-linecap="round"
-           stroke-linejoin="round"
            stroke-miterlimit="10"
+           id="circle1852"
+           stroke-linejoin="round"
+           stroke-linecap="round"
            stroke-width=".647"
-           id="circle1852" />
+           fill="url(#a)"
+           opacity=".46" />
         <g
            transform="matrix(.63652 0 0 .63652 72.55 18.973)"
-           filter="url(#f)"
-           id="g1866">
+           id="g1866"
+           filter="url(#f)">
           <path
              class="st0"
              d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-             fill="#232323"
-             id="path1854" />
+             id="path1854"
+             fill="#232323" />
           <path
              class="st5"
              d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-             fill="#444"
-             id="path1856" />
+             id="path1856"
+             fill="#444" />
           <path
              class="st0"
              d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-             fill="#232323"
-             id="path1858" />
+             id="path1858"
+             fill="#232323" />
           <path
              class="st5"
              d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-             fill="#444"
-             id="path1860" />
+             id="path1860"
+             fill="#444" />
           <path
              class="st9"
              d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1862"
              stroke-width="1.873"
-             id="path1862" />
+             stroke="#000"
+             fill="none" />
           <path
              class="st9"
              d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1864"
              stroke-width="1.873"
-             id="path1864" />
+             stroke="#000"
+             fill="none" />
         </g>
         <g
            transform="scale(.63652) rotate(60 230.78 165.81)"
-           filter="url(#f)"
-           id="g1880">
+           id="g1880"
+           filter="url(#f)">
           <path
              class="st0"
              d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-             fill="#232323"
-             id="path1868" />
+             id="path1868"
+             fill="#232323" />
           <path
              class="st5"
              d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-             fill="#444"
-             id="path1870" />
+             id="path1870"
+             fill="#444" />
           <path
              class="st0"
              d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-             fill="#232323"
-             id="path1872" />
+             id="path1872"
+             fill="#232323" />
           <path
              class="st5"
              d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-             fill="#444"
-             id="path1874" />
+             id="path1874"
+             fill="#444" />
           <path
              class="st9"
              d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1876"
              stroke-width="1.873"
-             id="path1876" />
+             stroke="#000"
+             fill="none" />
           <path
              class="st9"
              d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path1878"
              stroke-width="1.873"
-             id="path1878" />
+             stroke="#000"
+             fill="none" />
         </g>
       </g>
       <g
          id="prop2-half"
          transform="translate(147.5 147.9)">
         <g
-           filter="url(#p)"
-           id="g1886">
+           id="g1886"
+           filter="url(#p)">
           <path
              id="j"
              transform="rotate(135)"
              d="m40.96-73.751a40.89 40.89 0 01-20.443 35.411 40.89 40.89 0 01-40.89 0 40.89 40.89 0 01-20.447-35.411"
-             fill="url(#b)"
-             stroke-linecap="round"
-             stroke-linejoin="round"
              stroke-miterlimit="10"
-             stroke-width=".647" />
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             stroke-width=".647"
+             fill="url(#b)" />
           <use
              transform="rotate(180 52.1 52.2)"
              width="100%"
@@ -1222,130 +1223,130 @@
              id="use1884" />
         </g>
         <g
-           filter="url(#t)"
-           id="g1944">
+           id="g1944"
+           filter="url(#t)">
           <g
              transform="rotate(-30 53.095 51.433)"
-             opacity=".103"
-             id="g1900">
+             id="g1900"
+             opacity=".103">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1888" />
+               id="path1888"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1890" />
+               id="path1890"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1892" />
+               id="path1892"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1894" />
+               id="path1894"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1896"
                stroke-width="1.873"
-               id="path1896" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1898"
                stroke-width="1.873"
-               id="path1898" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="rotate(-20 53.676 51.191)"
-             opacity=".235"
-             id="g1914">
+             id="g1914"
+             opacity=".235">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1902" />
+               id="path1902"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1904" />
+               id="path1904"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1906" />
+               id="path1906"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1908" />
+               id="path1908"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1910"
                stroke-width="1.873"
-               id="path1910" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1912"
                stroke-width="1.873"
-               id="path1912" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="rotate(-10 55.404 50.471)"
-             opacity=".467"
-             id="g1928">
+             id="g1928"
+             opacity=".467">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1916" />
+               id="path1916"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1918" />
+               id="path1918"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1920" />
+               id="path1920"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1922" />
+               id="path1922"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1924"
                stroke-width="1.873"
-               id="path1924" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1926"
                stroke-width="1.873"
-               id="path1926" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="translate(.25 .6)"
@@ -1353,39 +1354,39 @@
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path1930" />
+               id="path1930"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path1932" />
+               id="path1932"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path1934" />
+               id="path1934"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path1936" />
+               id="path1936"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1938"
                stroke-width="1.873"
-               id="path1938" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path1940"
                stroke-width="1.873"
-               id="path1940" />
+               stroke="#000"
+               fill="none" />
           </g>
         </g>
       </g>
@@ -1395,15 +1396,15 @@
        id="g1954">
       <path
          d="m203.25 195.65a4.9 4.9 0 11-6.93 6.93 4.9 4.9 0 016.93-6.93"
-         fill="#fff"
-         stroke="#000"
          stroke-miterlimit="10"
+         id="path1948"
          stroke-width="1.873"
-         id="path1948" />
+         stroke="#000"
+         fill="#fff" />
       <path
          d="m201.97 196.92a3.1 3.1 0 11-4.384 4.384 3.1 3.1 0 014.384-4.384"
-         fill="#fff200"
-         id="path1950" />
+         id="path1950"
+         fill="#fff200" />
       <path
          d="m200.35 198.55a.8.8 0 11-1.132 1.13.8.8 0 011.132-1.13"
          id="path1952" />
@@ -1411,8 +1412,8 @@
     <path
        class="st8"
        d="m101.4 191.3c8.4 0 15.8 6 17.4 14.3.9 4.7 0 9.4-2.6 13.4s-6.7 6.6-11.3 7.6c-1.2.2-2.3.3-3.5.3-8.4 0-15.8-6-17.4-14.3-1.9-9.6 4.3-19 14-20.9 1-.3 2.2-.4 3.4-.4"
-       fill="#fff"
-       id="path1956" />
+       id="path1956"
+       fill="#fff" />
     <path
        d="m101.4 225.6c-7.9 0-14.7-5.6-16.2-13.3-.9-4.3 0-8.8 2.5-12.4 2.5-3.7 6.2-6.2 10.5-7.1 1.1-.2 2.2-.3 3.3-.3 7.9 0 14.7 5.6 16.2 13.3 1.8 9-4 17.7-13 19.5-1.2.2-2.3.3-3.3.3m0 2.5c1.2 0 2.5-.1 3.7-.4 10.3-2.1 17-12.1 14.9-22.4-1.8-9-9.7-15.3-18.6-15.3-1.2 0-2.5.1-3.7.4-10.3 2.1-17 12.1-14.9 22.4 1.7 9 9.7 15.3 18.6 15.3"
        id="path1958" />
@@ -1420,13 +1421,13 @@
        d="m108.54 207.56a7.3 7.3 0 11-14.317 2.862 7.3 7.3 0 0114.317-2.862"
        id="path1960" />
     <g
-       fill="none"
-       stroke="#000"
-       stroke-linecap="round"
-       stroke-linejoin="round"
        stroke-miterlimit="10"
+       id="g1978"
+       stroke-linejoin="round"
+       stroke-linecap="round"
        stroke-width="1.873"
-       id="g1978">
+       stroke="#000"
+       fill="none">
       <path
          class="st11"
          d="m107.1 217.4c1.1-.7 2-1.7 2.7-2.8"
@@ -1461,13 +1462,10 @@
          id="path1976" />
     </g>
     <path
-       d="m112.7 185.2-42.6 18.2h-.1l-1.6-3.8v-.1l42.6-18.2h.1l1.6 3.9"
-       id="path1980" />
-    <path
        class="st8"
        d="m150.3 191c1.2 0 2.3.1 3.5.3 9.6 1.9 15.9 11.3 14 20.9-1.7 8.3-9 14.3-17.4 14.3-1.2 0-2.3-.1-3.5-.3-4.7-.9-8.7-3.6-11.3-7.6s-3.6-8.7-2.6-13.4c1.6-8.2 8.9-14.2 17.3-14.2"
-       fill="#fff"
-       id="path1982" />
+       id="path1982"
+       fill="#fff" />
     <path
        d="m150.4 227.8v-2.5c-1.1 0-2.2-.1-3.3-.3-9-1.8-14.8-10.5-13-19.5 1.5-7.7 8.4-13.3 16.2-13.3 1.1 0 2.2.1 3.3.3 4.3.9 8.1 3.4 10.5 7.1 2.5 3.7 3.3 8.1 2.5 12.4-1.5 7.7-8.4 13.3-16.2 13.3v2.5c8.9 0 16.8-6.3 18.6-15.3 2.1-10.3-4.6-20.3-14.9-22.4-1.3-.3-2.5-.4-3.7-.4-8.9 0-16.8 6.3-18.6 15.3-2.1 10.3 4.6 20.3 14.9 22.4 1.2.2 2.4.4 3.7.4"
        id="path1984" />
@@ -1475,13 +1473,13 @@
        d="m151.74 201.53a7.3 7.3 0 11-2.862 14.317 7.3 7.3 0 012.862-14.317"
        id="path1986" />
     <g
-       fill="none"
-       stroke="#000"
-       stroke-linecap="round"
-       stroke-linejoin="round"
        stroke-miterlimit="10"
+       id="g2004"
+       stroke-linejoin="round"
+       stroke-linecap="round"
        stroke-width="1.873"
-       id="g2004">
+       stroke="#000"
+       fill="none">
       <path
          class="st11"
          d="m144.7 217.1c-1.1-.7-2-1.7-2.7-2.8"
@@ -1516,15 +1514,12 @@
          id="path2002" />
     </g>
     <path
-       d="M139.1 184.9l42.6 18.2h.1l1.6-3.8v-.1L140.8 181h-.1l-1.6 3.9c-.1-.1-.1 0 0 0"
-       id="path2006" />
-    <path
        d="m140.3 53.2a14.4 14.4 0 11-28.8 0 14.4 14.4 0 0128.8 0"
-       fill="#828282"
-       id="path2008" />
+       id="path2008"
+       fill="#828282" />
     <g
-       fill="#3c3c3c"
-       id="g2026">
+       id="g2026"
+       fill="#3c3c3c">
       <path
          d="m127 64.8a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0"
          id="path2010" />
@@ -1552,8 +1547,8 @@
     </g>
     <path
        d="m134.7 53.2a8.8 8.8 0 11-17.6 0 8.8 8.8 0 0117.6 0"
-       fill="url(#SVGID_1_)"
-       id="path2028" />
+       id="path2028"
+       fill="url(#SVGID_1_)" />
     <g
        id="prop0">
       <animateTransform
@@ -1571,110 +1566,110 @@
            cx="199.6"
            cy="52.2"
            r="41.262"
-           fill="url(#a)"
-           opacity=".46"
-           stroke-linecap="round"
-           stroke-linejoin="round"
            stroke-miterlimit="10"
+           id="circle2030"
+           stroke-linejoin="round"
+           stroke-linecap="round"
            stroke-width=".647"
-           id="circle2030" />
+           fill="url(#a)"
+           opacity=".46" />
         <g
            transform="matrix(.63652 0 0 .63652 72.55 18.973)"
-           filter="url(#d)"
-           id="g2044">
+           id="g2044"
+           filter="url(#d)">
           <path
              class="st0"
              d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-             fill="#232323"
-             id="path2032" />
+             id="path2032"
+             fill="#232323" />
           <path
              class="st5"
              d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-             fill="#444"
-             id="path2034" />
+             id="path2034"
+             fill="#444" />
           <path
              class="st0"
              d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-             fill="#232323"
-             id="path2036" />
+             id="path2036"
+             fill="#232323" />
           <path
              class="st5"
              d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-             fill="#444"
-             id="path2038" />
+             id="path2038"
+             fill="#444" />
           <path
              class="st9"
              d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path2040"
              stroke-width="1.873"
-             id="path2040" />
+             stroke="#000"
+             fill="none" />
           <path
              class="st9"
              d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path2042"
              stroke-width="1.873"
-             id="path2042" />
+             stroke="#000"
+             fill="none" />
         </g>
         <g
            transform="scale(.63652) rotate(60 230.78 165.81)"
-           filter="url(#d)"
-           id="g2058">
+           id="g2058"
+           filter="url(#d)">
           <path
              class="st0"
              d="m228.05 24-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-             fill="#232323"
-             id="path2046" />
+             id="path2046"
+             fill="#232323" />
           <path
              class="st5"
              d="m228.05 24-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-             fill="#444"
-             id="path2048" />
+             id="path2048"
+             fill="#444" />
           <path
              class="st0"
              d="m171.15 80.4 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-             fill="#232323"
-             id="path2050" />
+             id="path2050"
+             fill="#232323" />
           <path
              class="st5"
              d="m171.15 80.4 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-             fill="#444"
-             id="path2052" />
+             id="path2052"
+             fill="#444" />
           <path
              class="st9"
              d="m198.05 53.7c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path2054"
              stroke-width="1.873"
-             id="path2054" />
+             stroke="#000"
+             fill="none" />
           <path
              class="st9"
              d="m201.05 50.8c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-             fill="none"
-             stroke="#000"
              stroke-miterlimit="10"
+             id="path2056"
              stroke-width="1.873"
-             id="path2056" />
+             stroke="#000"
+             fill="none" />
         </g>
       </g>
       <g
          id="prop0-half">
         <g
-           filter="url(#n)"
-           id="g2064">
+           id="g2064"
+           filter="url(#n)">
           <path
              id="h"
              transform="rotate(135)"
              d="m40.96-73.751a40.89 40.89 0 01-20.443 35.411 40.89 40.89 0 01-40.89 0 40.89 40.89 0 01-20.447-35.411"
-             fill="url(#b)"
-             stroke-linecap="round"
-             stroke-linejoin="round"
              stroke-miterlimit="10"
-             stroke-width=".647" />
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             stroke-width=".647"
+             fill="url(#b)" />
           <use
              transform="rotate(180 52.1 52.2)"
              width="100%"
@@ -1683,130 +1678,130 @@
              id="use2062" />
         </g>
         <g
-           filter="url(#r)"
-           id="g2122">
+           id="g2122"
+           filter="url(#r)">
           <g
              transform="rotate(-30 53.095 51.433)"
-             opacity=".103"
-             id="g2078">
+             id="g2078"
+             opacity=".103">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path2066" />
+               id="path2066"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path2068" />
+               id="path2068"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path2070" />
+               id="path2070"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path2072" />
+               id="path2072"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path2074"
                stroke-width="1.873"
-               id="path2074" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path2076"
                stroke-width="1.873"
-               id="path2076" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="rotate(-20 53.676 51.191)"
-             opacity=".235"
-             id="g2092">
+             id="g2092"
+             opacity=".235">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path2080" />
+               id="path2080"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path2082" />
+               id="path2082"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path2084" />
+               id="path2084"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path2086" />
+               id="path2086"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path2088"
                stroke-width="1.873"
-               id="path2088" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path2090"
                stroke-width="1.873"
-               id="path2090" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="rotate(-10 55.404 50.471)"
-             opacity=".467"
-             id="g2106">
+             id="g2106"
+             opacity=".467">
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path2094" />
+               id="path2094"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path2096" />
+               id="path2096"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path2098" />
+               id="path2098"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path2100" />
+               id="path2100"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path2102"
                stroke-width="1.873"
-               id="path2102" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path2104"
                stroke-width="1.873"
-               id="path2104" />
+               stroke="#000"
+               fill="none" />
           </g>
           <g
              transform="translate(.25 .6)"
@@ -1814,39 +1809,39 @@
             <path
                class="st0"
                d="m80.3 23.4-27 26.6s.7 1.9 4.8-.9c6.7-5.4 21.9-21.9 22.2-25.7"
-               fill="#232323"
-               id="path2108" />
+               id="path2108"
+               fill="#232323" />
             <path
                class="st5"
                d="m80.3 23.4-27 26.6s-1.9-2.1 1.7-5.4 10.8-12.1 19.8-18.6c3.2-2.5 4.8-3.2 5.5-2.6"
-               fill="#444"
-               id="path2110" />
+               id="path2110"
+               fill="#444" />
             <path
                class="st0"
                d="m23.4 79.8 27.1-26.6s-.7-1.9-4.8.9c-6.8 5.4-22 21.9-22.3 25.7"
-               fill="#232323"
-               id="path2112" />
+               id="path2112"
+               fill="#232323" />
             <path
                class="st5"
                d="m23.4 79.8 27.1-26.6s1.9 2.1-1.7 5.4-10.8 12.1-19.8 18.6c-3.3 2.5-4.9 3.2-5.6 2.6"
-               fill="#444"
-               id="path2114" />
+               id="path2114"
+               fill="#444" />
             <path
                class="st9"
                d="m50.3 53.1c1.2 1.2 1.5 2.8-6.1 10.4-10.3 10.3-19.6 17.7-20.8 16.5s6.2-10.5 16.5-20.8c7.7-7.1 9.2-7.3 10.4-6.1"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path2116"
                stroke-width="1.873"
-               id="path2116" />
+               stroke="#000"
+               fill="none" />
             <path
                class="st9"
                d="m53.3 50.2c-1.2-1.2-1.5-2.8 6.1-10.4 10.4-10.4 19.7-17.8 20.9-16.6s-6.2 10.5-16.5 20.8c-7.7 7.2-9.3 7.4-10.5 6.2"
-               fill="none"
-               stroke="#000"
                stroke-miterlimit="10"
+               id="path2118"
                stroke-width="1.873"
-               id="path2118" />
+               stroke="#000"
+               fill="none" />
           </g>
         </g>
       </g>
@@ -1856,18 +1851,35 @@
        id="g2132">
       <path
          d="m55.64 47.762a4.9 4.9 0 11-6.93 6.93 4.9 4.9 0 016.93-6.93"
-         fill="#fff"
-         stroke="#000"
          stroke-miterlimit="10"
+         id="path2126"
          stroke-width="1.873"
-         id="path2126" />
+         stroke="#000"
+         fill="#fff" />
       <path
          d="m54.367 49.034a3.1 3.1 0 11-4.384 4.385 3.1 3.1 0 014.384-4.385"
-         fill="#fff200"
-         id="path2128" />
+         id="path2128"
+         fill="#fff200" />
       <path
          d="m52.74 50.66a.8.8 0 11-1.13 1.132.8.8 0 011.13-1.131"
          id="path2130" />
+    </g>
+    <g
+       id="g1559">
+      <g
+         id="g1563"
+         transform="translate(0.147695)">
+        <path
+           d="m 132.39918,197.35077 36.4755,-9.04812 0.0637,-0.0562 -0.93406,-4.01412 -0.0513,-0.0819 -36.4755,9.04812 -0.0637,0.0562 0.98545,4.09606 c -0.11506,-0.0257 -0.0636,0.0562 0,0"
+           id="path2006"
+           inkscape:connector-curvature="0"
+           style="stroke-width:0.90046072" />
+        <path
+           style="stroke-width:0.90046072"
+           inkscape:connector-curvature="0"
+           id="path1565"
+           d="m 118.8911,197.35077 -36.475492,-9.04812 -0.0637,-0.0562 0.93406,-4.01412 0.0513,-0.0819 36.475492,9.04812 0.0637,0.0562 -0.98545,4.09606 c 0.11506,-0.0257 0.0636,0.0562 0,0" />
+      </g>
     </g>
   </g>
 </svg>

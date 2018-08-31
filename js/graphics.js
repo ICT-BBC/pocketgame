@@ -31,6 +31,7 @@ function Graphics(game){
 	};
 	
 	var world;
+	var startScreen = document.getElementById("startScreen");
 	var droneTemplate;
 	var botTemplate;
 	var projectileTemplate;
@@ -50,6 +51,7 @@ function Graphics(game){
 	this.reset = function(){
 		world.innerHTML = "";
 		floorDecoration.innerHTML = "";
+		startScreen.style.display = "none";
 	}
 	
 	this.render = function(){
@@ -206,9 +208,8 @@ function Graphics(game){
 		for(var i = 0; i < count; i++){
 			var c = i % assets.scratches.count;
 			
-			var scratch = document.createElement("object");
-			scratch.type = "image/svg+xml";
-			scratch.data = assets.scratches.path + c + ".svg";
+			var scratch = document.createElement("img");
+			scratch.src = assets.scratches.path + c + ".svg";
 			scratch.className = "scratch";
 			scratch.width = Math.random() * 90 + 10;
 			scratch.style.top = (Math.random()*height)+"px";
@@ -238,9 +239,8 @@ function Graphics(game){
 			world.appendChild(canvas);
 		}
 
-		droneTemplate = document.createElement("object");
-		droneTemplate.type = "image/svg+xml";
-		droneTemplate.data = assets.drone.path;
+		droneTemplate = document.createElement("img");
+		droneTemplate.src = assets.drone.path;
 		droneTemplate.className = "drone";
 		droneTemplate.width = c.graphics.playerWidth;
 		droneTemplate.style.marginTop = (-c.graphics.playerHeight/2)+"px";
@@ -249,9 +249,8 @@ function Graphics(game){
 		tempContainer.appendChild(droneTemplate);
 		droneTemplate = tempContainer.innerHTML;
 		
-		botTemplate = document.createElement("object");
-		botTemplate.type = "image/svg+xml";
-		botTemplate.data = assets.bot.path;
+		botTemplate = document.createElement("img");
+		botTemplate.src = assets.bot.path;
 		botTemplate.className = "drone";
 		botTemplate.width = c.graphics.playerWidth;
 		botTemplate.style.marginTop = (-c.graphics.playerHeight/2)+"px";
@@ -260,9 +259,8 @@ function Graphics(game){
 		tempContainer.appendChild(botTemplate);
 		botTemplate = tempContainer.innerHTML;
 
-		projectileTemplate = document.createElement("object");
-		projectileTemplate.type = "image/svg+xml";
-		projectileTemplate.data = assets.projectile.path;
+		projectileTemplate = document.createElement("img");
+		projectileTemplate.src = assets.projectile.path;
 		projectileTemplate.className = "projectile";
 		projectileTemplate.width = c.graphics.projectileDiameter;
 		projectileTemplate.style.marginTop = (-c.graphics.projectileDiameter/2)+"px";
@@ -277,9 +275,8 @@ function Graphics(game){
 		tempContainer.appendChild(numberContainerTemplate);
 		numberContainerTemplate = tempContainer.innerHTML;
 
-		fuelTemplate = document.createElement("object");
-		fuelTemplate.type = "image/svg+xml";
-		fuelTemplate.data = assets.fuel.path;
+		fuelTemplate = document.createElement("img");
+		fuelTemplate.src = assets.fuel.path;
 		fuelTemplate.className = "fuel";
 		fuelTemplate.width = c.graphics.fuelWidth;
 		fuelTemplate.style.marginTop = (-c.graphics.fuelHeight/2)+"px";
@@ -289,15 +286,11 @@ function Graphics(game){
 		fuelTemplate = tempContainer.innerHTML;
 		
 		
-		var numberTemplate = document.createElement("object");
-		numberTemplate.type = "image/svg+xml";
+		var numberTemplate = document.createElement("img");
 		numberTemplate.className = "number";
-		//numberTemplate.width = c.graphics.numberWidth;
-		//numberTemplate.style.marginTop = (-c.graphics.numberHeight/2)+"px";
-		//numberTemplate.style.marginLeft = (-c.graphics.numberWidth/2)+"px";
 		
 		for(var i = 0; i <= 9; i++){
-			numberTemplate.data = assets.numbers.path + i + ".svg";
+			numberTemplate.src = assets.numbers.path + i + ".svg";
 			tempContainer = document.createElement("div");
 			tempContainer.appendChild(numberTemplate);
 			numbersTemplates[i] = tempContainer.innerHTML;
@@ -318,9 +311,8 @@ function Graphics(game){
 	}
 	
 	this.addOilSplatter = function(pos){
-		var splatter = document.createElement("object");
-		splatter.type = "image/svg+xml";
-		splatter.data = assets.splatter.path + lastSplatter + ".svg";
+		var splatter = document.createElement("img");
+		splatter.src = assets.splatter.path + lastSplatter + ".svg";
 		splatter.className = "splatter";
 		splatter.width = Math.random() * 40 + 60;
 		splatter.style.top = (pos.y - splatter.width/2)+"px";

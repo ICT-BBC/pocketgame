@@ -40,7 +40,7 @@ function Game(){
 	this.ais = [];
 	
 	this.animationFrame = null;
-	this.gameEnded = false;
+	this.gameEnded = true;
 	
 	var world = document.getElementById("world");
 	var height = world.clientHeight;
@@ -53,51 +53,81 @@ function Game(){
 	
 	this.controllerInput = new ControllerInput();
 	
-	this.players.push(
-		new Player(
-			 this
-			,{
-				 x: Math.random()*width
-				,y: Math.random()*height
-			}
-			,c.player.startingPoints
-			,0
-			,new Controller(
-				this.input
-				,{
-					 up: "KeyW"
-					,down: "KeyS"
-					,right: "KeyD"
-					,left: "KeyA"
-					,shoot: "KeyF"
-					,start: "KeyE"
-				}
-			)
-		)
-	);
+	var timeLast = performance.now();
 	
-	this.players.push(
-		new Player(
-			 this
-			,{
-				 x: Math.random()*width
-				,y: Math.random()*height
-			}
-			,c.player.startingPoints
-			,0
-			,new Controller(
-				this.input
+	this.startGame = function(){
+		this.players.push(
+			new Player(
+				 this
 				,{
-					 up: "ArrowUp"
-					,down: "ArrowDown"
-					,right: "ArrowRight"
-					,left: "ArrowLeft"
-					,shoot: "Numpad0"
-					,start: "Numpad1"
+					 x: Math.random()*width
+					,y: Math.random()*height
 				}
+				,c.player.startingPoints
+				,0
+				,new Controller(
+					this.input
+					,{
+						 up: "KeyW"
+						,down: "KeyS"
+						,right: "KeyD"
+						,left: "KeyA"
+						,shoot: "KeyF"
+						,start: "KeyE"
+					}
+				)
 			)
-		)
-	);
+		);
+		
+		this.players.push(
+			new Player(
+				 this
+				,{
+					 x: Math.random()*width
+					,y: Math.random()*height
+				}
+				,c.player.startingPoints
+				,0
+				,new Controller(
+					this.input
+					,{
+						 up: "ArrowUp"
+						,down: "ArrowDown"
+						,right: "ArrowRight"
+						,left: "ArrowLeft"
+						,shoot: "Numpad0"
+						,start: "Numpad1"
+					}
+				)
+			)
+		);
+		
+		for(let oldPlayer of this.deadPlayers){
+			var player = new Player(
+				 this
+				,{
+					 x: Math.random()*width
+					,y: Math.random()*height
+				}
+				,c.player.startingPoints
+				,0
+				,oldPlayer.controller
+			);
+			oldPlayer.controller.player = player;
+			this.players.push(player);
+		}
+		this.deadPlayers = [];
+		
+		var aiCount = 0;
+		while(aiCount--){
+			this.createAI();
+		}
+		
+		this.graphics.reset();
+		this.gameEnded = false;
+		timeLast = performance.now();
+		this.loop();
+	}
 	
 	this.resetGame = function(){
 		for(let oldPlayer of this.deadPlayers){
@@ -152,6 +182,19 @@ function Game(){
 		}
 	};
 	
+	this.startScreenLoop = function(){
+		for(let player of this.deadPlayers){
+			if(player.controller.getControls().start){
+				this.gameEnded = false;
+				this.startGame();
+			}
+		}
+		if(this.gameEnded){
+			requestAnimationFrame(this.startScreenLoop.bind(this));
+		}
+	};
+	
+	
 	this.endGame = function(){
 		window.cancelAnimationFrame(this.animationFrame);
 		this.gameEnded = true;
@@ -164,8 +207,6 @@ function Game(){
 		this.endScreenLoop();
 		//setTimeout(this.resetGame.bind(this), 3000);
 	}
-	
-	var timeLast = performance.now();
 	
 	this.logicStep = function(){
 		
@@ -327,11 +368,7 @@ function Game(){
 		this.ais.push(new BullyAI(this));
 	}
 	
-	var aiCount = 10;
-	while(aiCount--){
-		this.createAI();
-	}
-		
-	this.loop();
+	this.startScreenLoop();
+	//this.startGame();
 	
 }
