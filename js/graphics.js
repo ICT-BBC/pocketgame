@@ -339,7 +339,7 @@ function Graphics(game){
 		overlay.innerHTML = 
 		'<div>\
 			<span>Winner!</span>\
-			<span class="pressStart">Press Start for a new game!</span>\
+			<span class="pressStart">Drücke Start für eine neue Runde!</span>\
 		</div>';
 		overlay.style.filter = "hue-rotate("+winner.color+"deg)";
 		world.appendChild(overlay);
