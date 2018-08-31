@@ -56,7 +56,7 @@ function Game(){
 	var timeLast = performance.now();
 	
 	this.startGame = function(){
-		this.players.push(
+		/*this.players.push(
 			new Player(
 				 this
 				,{
@@ -100,7 +100,7 @@ function Game(){
 					}
 				)
 			)
-		);
+		);*/
 		
 		for(let oldPlayer of this.deadPlayers){
 			var player = new Player(
@@ -118,8 +118,8 @@ function Game(){
 		}
 		this.deadPlayers = [];
 		
-		var aiCount = 0;
-		while(aiCount--){
+		var aiCount = Math.max(0, 2 - this.players.length);
+		for(var i = 0; i < aiCount; i++){
 			this.createAI();
 		}
 		
@@ -131,9 +131,7 @@ function Game(){
 	
 	this.resetGame = function(){
 		for(let oldPlayer of this.deadPlayers){
-			if(oldPlayer.isBot){
-				this.createAI();
-			} else {
+			if(!oldPlayer.isBot){
 				var player = new Player(
 					 this
 					,{
@@ -154,6 +152,12 @@ function Game(){
 		for(var i in this.fuels){
 			this.fuels[i].isAlive = false;
 		}
+		
+		var aiCount = Math.max(0, 2 - this.players.length);
+		for(var i = 0; i < aiCount; i++){
+			this.createAI();
+		}
+		
 		this.fuels = [];
 		this.graphics.reset();
 		console.log(this.players);

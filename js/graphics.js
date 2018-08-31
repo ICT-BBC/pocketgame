@@ -28,6 +28,10 @@ function Graphics(game){
 			 path: assetPath + "floor/splatter"
 			,count: 8
 		}
+		,cog: {
+			 path: assetPath + "debris/cog"
+			,count: 7
+		}
 	};
 	
 	var world;
@@ -330,6 +334,13 @@ function Graphics(game){
 		setTimeout(function(){
 			player.graphics.className = "droneContainer";
 		}.bind(player), 100);
+	}
+	
+	this.initConfetti = function(parent){
+		var confettiCount = 20;
+		while(confettiCount--){
+			
+		}
 	}
 	
 	this.playVictoryAnimation = function(winner){

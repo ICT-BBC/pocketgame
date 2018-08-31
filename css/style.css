@@ -188,6 +188,10 @@ body{
 	position: absolute;
 }
 
+.cog{
+	position: absolute;
+}
+
 #startScreen{
 	position: absolute;
 	z-index: 99999999999999999999;
@@ -237,6 +241,7 @@ body{
 #startScreen > #controllerImg{
 	margin-top: 160px;
 	margin-left: 200px;
+	height: 30%;
 	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.35));
 }
 
