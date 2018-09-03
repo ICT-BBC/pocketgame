@@ -129,6 +129,7 @@ body{
 	font-size: 70px;
 	text-align: center;
 	position: absolute;
+	z-index: 10000;
 	bottom: 50px;
 	width: 100%;
 	text-shadow: 2px 2px 0px #000000;
@@ -254,5 +255,23 @@ body{
 	to {
 		filter: drop-shadow(-27px -40px 7px rgba(0, 0, 0, 0.35));
 		transform: translateY(-10px) translateX(-3px) rotate(135deg);
+	}
+}
+
+.confetti{
+	position: absolute;
+	
+	animation-name: confetti;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes confetti {
+	from {
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+
+	to {
+		transform: translate(0px, 1000px) rotate(1000deg);
 	}
 }

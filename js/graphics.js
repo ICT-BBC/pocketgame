@@ -36,6 +36,7 @@ function Graphics(game){
 	
 	var world;
 	var startScreen = document.getElementById("startScreen");
+	var startText = document.getElementById("startText");
 	var droneTemplate;
 	var botTemplate;
 	var projectileTemplate;
@@ -51,6 +52,8 @@ function Graphics(game){
 	var fontSize = 36;
 	
 	var lastSplatter = 0;
+	
+	startText.innerHTML = language.getString("startScreen");
 	
 	this.reset = function(){
 		world.innerHTML = "";
@@ -338,8 +341,20 @@ function Graphics(game){
 	
 	this.initConfetti = function(parent){
 		var confettiCount = 20;
+		
 		while(confettiCount--){
+			var c = confettiCount % assets.cog.count;
 			
+			var confetti = document.createElement("img");
+			confetti.src = assets.cog.path + c + ".svg";
+			confetti.className = "confetti";
+			confetti.width = Math.random() * 40 + 20;
+			confetti.style.top = (-confetti.width)+"px"
+			confetti.style.left = (Math.random()*width)+"px";
+			confetti.style.animationDelay = (-Math.random()*3)+"s";
+			confetti.style.animationDuration = (Math.random()*1+1.5)+"s";
+			confetti.style.filter = "brightness("+(20+Math.random()*60)+"%)";
+			parent.appendChild(confetti);
 		}
 	}
 	
@@ -348,8 +363,8 @@ function Graphics(game){
 		overlay.id ="victoryOverlay";
 		overlay.innerHTML = 
 		'<div>\
-			<span>Winner!</span>\
-			<span class="pressStart">Drücke Start für eine neue Runde!</span>\
+			<span>'+language.getString("winner")+'</span>\
+			<span class="pressStart">'+language.getString("endScreen")+'</span>\
 		</div>';
 		overlay.style.filter = "hue-rotate("+winner.color+"deg)";
 		world.appendChild(overlay);
@@ -366,6 +381,8 @@ function Graphics(game){
 				world.removeChild(child);
 			}
 		}
+		
+		this.initConfetti(overlay);
 		
 		overlay.style.opacity = 1;
 		winner.graphics.style.left = (width/2)+"px";
