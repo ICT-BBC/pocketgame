@@ -55,8 +55,12 @@ function Game(){
 	
 	var timeLast = performance.now();
 	
-	this.startGame = function(){
-		/*this.players.push(
+	setTimeout(function(){
+		//this.gameEnded = true;
+	}.bind(this), 5000);
+	
+	/*this.startGame = function(){
+		this.players.push(
 			new Player(
 				 this
 				,{
@@ -100,7 +104,7 @@ function Game(){
 					}
 				)
 			)
-		);*/
+		);
 		
 		for(let oldPlayer of this.deadPlayers){
 			var player = new Player(
@@ -127,7 +131,7 @@ function Game(){
 		this.gameEnded = false;
 		timeLast = performance.now();
 		this.loop();
-	}
+	}*/
 	
 	this.resetGame = function(){
 		for(let oldPlayer of this.deadPlayers){
@@ -153,7 +157,7 @@ function Game(){
 			this.fuels[i].isAlive = false;
 		}
 		
-		var aiCount = Math.max(0, 2 - this.players.length);
+		var aiCount = Math.max(0, 4 - this.players.length);
 		for(var i = 0; i < aiCount; i++){
 			this.createAI();
 		}

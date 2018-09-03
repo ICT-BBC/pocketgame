@@ -92,8 +92,7 @@ function Graphics(game){
 				world.appendChild(element);
 			}
 			
-			player.graphics.style.top = player.pos.y + "px";
-			player.graphics.style.left = player.pos.x + "px";
+			player.graphics.style.transform = "translate("+player.pos.x+"px, "+player.pos.y+"px)";
 			player.graphics.firstChild.style.transform = "rotate("+(player.angle-Math.PI)+"rad)";
 			player.numbersContainer.firstChild.style.transform = "rotate("+(-player.angle-Math.PI)+"rad)";
 			
@@ -139,9 +138,8 @@ function Graphics(game){
 				world.appendChild(element);
 			}
 			
-			projectile.graphics.style.top = projectile.pos.y + "px";
-			projectile.graphics.style.left = projectile.pos.x + "px";
-			projectile.graphics.firstChild.firstChild.style.transform = "rotate("+(projectile.angle-Math.PI)+"rad)";
+			projectile.graphics.style.transform = "translate("+projectile.pos.x+"px, "+projectile.pos.y+"px)";
+			//projectile.graphics.firstChild.firstChild.style.transform = "rotate("+(projectile.angle-Math.PI)+"rad)";
 			
 			if(DEBUG){
 				context.beginPath();
@@ -173,9 +171,8 @@ function Graphics(game){
 				world.appendChild(element);
 			}
 			
-			fuel.graphics.style.top = fuel.pos.y + "px";
-			fuel.graphics.style.left = fuel.pos.x + "px";
-			fuel.graphics.firstChild.style.transform = "rotate("+(fuel.angle-Math.PI)+"rad)";
+			fuel.graphics.style.transform = "translate("+fuel.pos.x+"px, "+fuel.pos.y+"px)";
+			//fuel.graphics.firstChild.style.transform = "rotate("+(fuel.angle-Math.PI)+"rad)";
 			
 			if(DEBUG){
 				context.beginPath();
@@ -322,9 +319,8 @@ function Graphics(game){
 		splatter.src = assets.splatter.path + lastSplatter + ".svg";
 		splatter.className = "splatter";
 		splatter.width = Math.random() * 40 + 60;
-		splatter.style.top = (pos.y - splatter.width/2)+"px";
-		splatter.style.left = (pos.x - splatter.width/2)+"px";
-		splatter.style.transform = "rotate("+(Math.random()*360)+"deg)";
+		splatter.style.transform = "translate("+(pos.x - splatter.width/2)+"px, "+(pos.y - splatter.width/2)+"px) rotate("+(Math.random()*360)+"deg)";
+		splatter.style.transform = "translate("+(pos.x - splatter.width/2)+"px, "+(pos.y - splatter.width/2)+"px) rotate("+(Math.random()*360)+"deg)";
 		splatter.style.opacity = Math.random()*0.5+0.2;
 		floorDecoration.appendChild(splatter);
 		
@@ -368,26 +364,26 @@ function Graphics(game){
 		</div>';
 		overlay.style.filter = "hue-rotate("+winner.color+"deg)";
 		world.appendChild(overlay);
-		winner.graphics.style.transform += " scale(2)";
-		winner.graphics.style.transition = "left, top, transform";
+		winner.graphics.style.transition = "transform";
 		winner.graphics.style.transitionDuration = "2s";
 		winner.graphics.style.transitionTimingFunction = "ease-in-out";
-		winner.graphics.firstChild.style.transition = "width";
-		winner.graphics.firstChild.style.transitionDuration = "2s";
+		
 		
 		setTimeout(function(){			
 			for(var child of world.childNodes){
-			if(child != winner.graphics && child != overlay){
-				world.removeChild(child);
+				if(child != winner.graphics && child != overlay){
+					world.removeChild(child);
+				}
 			}
-		}
-		
-		this.initConfetti(overlay);
-		
-		overlay.style.opacity = 1;
-		winner.graphics.style.left = (width/2)+"px";
-		winner.graphics.style.top = (height/2-c.graphics.playerHeight/2)+"px";
 			
+			this.initConfetti(overlay);
+			
+			overlay.style.opacity = 1;
+			
+			winner.graphics.style.transform = "translate("+(width/2)+"px, "+(height/2-c.graphics.playerHeight/2)+"px) scale(2)";
+			console.log("translate("+(width/2)+"px, "+(height/2-c.graphics.playerHeight/2)+"px), scale(2)");
+			console.log(winner.graphics.style.transform);
+				
 		}.bind(this), 100);
 	}
 	
