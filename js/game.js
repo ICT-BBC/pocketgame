@@ -1,5 +1,5 @@
 
-var DEBUG = false;
+var DEBUG = true;
 
 var c = {
 	 player: {
@@ -54,6 +54,8 @@ function Game(){
 	this.controllerInput = new ControllerInput();
 	
 	var timeLast = performance.now();
+	
+	var minPlayers = 2;
 	
 	setTimeout(function(){
 		//this.gameEnded = true;
@@ -157,7 +159,7 @@ function Game(){
 			this.fuels[i].isAlive = false;
 		}
 		
-		var aiCount = Math.max(0, 4 - this.players.length);
+		var aiCount = Math.max(0, minPlayers - this.players.length);
 		for(var i = 0; i < aiCount; i++){
 			this.createAI();
 		}

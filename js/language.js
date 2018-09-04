@@ -19,14 +19,14 @@ function LanguageHandler(){
 			,endScreen: "Drücke Start für eine neue Runde!"
 		}
 		,fr: {
-			 startScreen: "TODO Branche ton contrôleur et appuye sur Start!"
+			 startScreen: "Branche ta console et appuye sur «Start»!"
 			,winner: "Winner!"
-			,endScreen: "TODO Appuye sur Start pour un nouveau match!"
+			,endScreen: "Presse «Start» pour un nouveau tour."
 		}
 		,it: {
-			 startScreen: "TODO Collega il controller e premi Start!"
+			 startScreen: "Collega il tuo Controller e premi «Start»!"
 			,winner: "Winner!"
-			,endScreen: "TODO Premi Start per un nuovo round!"
+			,endScreen: "Premi «Start» per iniziare un nuovo turno."
 		}
 		,rm: {
 			 startScreen: "Rumantsch rumantsch rumantsch!"

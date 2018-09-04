@@ -234,13 +234,10 @@ function Graphics(game){
 		height = world.clientHeight;
 		
 		if(DEBUG){
-			canvas = document.createElement("canvas");
-			canvas.id = "debugCanvas";
+			canvas = document.getElementById("debugCanvas");
 			canvas.height = height;
 			canvas.width = width;
 			context = canvas.getContext("2d");
-			
-			world.appendChild(canvas);
 		}
 
 		droneTemplate = document.createElement("img");
