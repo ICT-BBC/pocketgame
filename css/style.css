@@ -219,25 +219,56 @@ body{
 	background-size: 300px;
 	background-color: #d1d1d1;
 	text-align: center;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 #startScreen > *{
 	display: block;
 }
 
-#startScreen > div{
+#startScreen > .textContainer{
 	filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.3));
 	background-color: #666666;
-	padding: 13px 0px 20px 0px;
-	height: 90px;
-	border-radius: 5px;
-	margin-top: 50px;
-}
-
-#startScreen > div > span{
-	font-size: 50px;
 	color: #FFFF00;
 	text-shadow: 2px 2px 3px #000000;
+	
+}
+
+#startTextContainer{
+	margin-top: 50px;
+	padding: 13px 0px 20px 0px;
+	font-size: 50px;
+	width: 100%;
+}
+
+#keyboardTextContainer{
+	margin-bottom: 50px;
+	align-self: flex-start;
+	font-size: 30px;
+	padding: 6px 50px 8px 50px;
+	display: inline-block;
+}
+
+#controllerImgContainer{
+	flex-grow: 1;
+	width: 100%;
+	padding: 70px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#controllerImg{
+	flex-grow: 1;
+	max-width: 50%;
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.35));
+	background-image: url(../assets/controller.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: center;
 }
 
 #startScreen > .droneImg{
@@ -254,13 +285,6 @@ body{
 	animation-timing-function: ease-in-out
 }
 
-#startScreen > #controllerImg{
-	margin-top: 160px;
-	margin-left: 200px;
-	height: 30%;
-	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.35));
-}
-
 @keyframes startHover {
 	from {
 		filter: drop-shadow(-20px -30px 5px rgba(0, 0, 0, 0.35));
@@ -271,6 +295,81 @@ body{
 		filter: drop-shadow(-27px -40px 7px rgba(0, 0, 0, 0.35));
 		transform: translateY(-10px) translateX(-3px) rotate(135deg);
 	}
+}
+
+#keyboardScreen{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-image: url("../assets/floortile.svg");
+	background-size: 300px;
+	background-color: #d1d1d1;
+	z-index: 100000000;
+	padding-top: 50px;
+	
+	display: none;
+}
+
+#keyboardScreen > div{
+	display: flex;
+	justify-content: center;
+}
+
+#selectPlayerContainer > div{
+	box-shadow: 0px 0px 50px rgba(255, 255, 0, 0.9);
+	background-color: #666666;
+	color: #FFFF00;
+	text-shadow: 2px 2px 3px #000000;
+	margin: 30px;
+	padding: 10px 30px;
+	font-size: 30px;
+	width: 30%;
+	
+	animation-duration: 2s;
+	animation-name: glow;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out
+}
+
+#selectPlayerContainer > div:first-child{
+	animation-delay: -2s;
+}
+
+@keyframes glow {
+	from {
+		background-color: #777777;
+		box-shadow: 0px 0px 50px rgba(255, 255, 0, 0.9);
+	}
+
+	to {
+		background-color: #555555;
+		box-shadow: 0px 0px 30px rgba(255, 255, 0, 0.9);
+	}
+}
+
+.playerControls{
+	filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.3));
+	background-color: #888888;
+	color: #FFFF00;
+	text-shadow: 2px 2px 3px #000000;
+	margin: 30px;
+	padding: 10px 30px;
+	font-size: 40px;
+	width: 30%;
+}
+
+.playerControls > *{
+	display: block;
+	margin: 10px;
+}
+
+.playerControls > img{
+	width: 100%;
+	margin-bottom: 35px;
+	filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
 }
 
 .confetti{

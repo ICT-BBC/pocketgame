@@ -19,11 +19,39 @@
 		<div id="world"></div>
 		
 		<div id="startScreen">
-			<div>
+			<div id="startTextContainer" class="textContainer">
 				<span id="startText"></span>
 			</div>
+			<div id="controllerImgContainer">
+				<div id="controllerImg"></div>
+			</div>
+			<div id="keyboardTextContainer" class="textContainer">
+				<span id="keyboardText">...or press Enter for keyboard controls</span>
+			</div>
+			
+			<div id="keyboardScreen">
+				<div id="selectPlayerContainer">
+					<div>
+						Press 1 for one player!
+					</div>
+					<div>
+						Press 2 for two players!
+					</div>
+				</div>
+				<div id="playerControlsContainer">
+					<div class="playerControls">
+						<img src="assets/keyboard1.svg" />
+						<span>Player 1</span>
+					</div>
+					<div class="playerControls">
+						<img src="assets/keyboard2.svg" />
+						<span>Player 2</span>
+					</div>
+				</div>
+				
+			</div>
+			
 			<img class="droneImg" src="assets/drone_static.svg" width="300">
-			<img id="controllerImg" src="assets/controller.svg" width="500">
 		</div>
 		
 		<script type="text/javascript" src="./js/lib.js"></script>

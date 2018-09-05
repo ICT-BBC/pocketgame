@@ -36,6 +36,7 @@ function Graphics(game){
 	
 	var world;
 	var startScreen = document.getElementById("startScreen");
+	var keyboardScreen = document.getElementById("keyboardScreen");
 	var startText = document.getElementById("startText");
 	var droneTemplate;
 	var botTemplate;
@@ -386,6 +387,14 @@ function Graphics(game){
 	
 	this.showStartScreen = function(){
 		startScreen.style.display = "block";
+	}
+	
+	this.showKeyboardScreen = function(){
+		keyboardScreen.style.display = "block";
+	}
+	
+	this.hideKeyboardScreen = function(){
+		keyboardScreen.style.display = "none";
 	}
 
 	this.init();

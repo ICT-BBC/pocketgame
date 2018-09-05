@@ -1,5 +1,5 @@
 
-var DEBUG = true;
+var DEBUG = false;
 
 var c = {
 	 player: {
@@ -56,10 +56,6 @@ function Game(){
 	var timeLast = performance.now();
 	
 	var minPlayers = 2;
-	
-	setTimeout(function(){
-		//this.gameEnded = true;
-	}.bind(this), 5000);
 	
 	/*this.startGame = function(){
 		this.players.push(
@@ -135,7 +131,58 @@ function Game(){
 		this.loop();
 	}*/
 	
-	this.resetGame = function(){
+	this.resetGame = function(keyboardPlayers){
+		
+		if(keyboardPlayers >= 1){
+			this.deadPlayers.push(
+				new Player(
+					 this
+					,{
+						 x: Math.random()*width
+						,y: Math.random()*height
+					}
+					,c.player.startingPoints
+					,0
+					,new Controller(
+						this.input
+						,{
+							 up: "KeyW"
+							,down: "KeyS"
+							,right: "KeyD"
+							,left: "KeyA"
+							,shoot: "KeyF"
+							,start: "KeyE"
+						}
+					)
+				)
+			);
+		}
+		
+		if(keyboardPlayers >= 2){
+			this.deadPlayers.push(
+				new Player(
+					 this
+					,{
+						 x: Math.random()*width
+						,y: Math.random()*height
+					}
+					,c.player.startingPoints
+					,0
+					,new Controller(
+						this.input
+						,{
+							 up: "ArrowUp"
+							,down: "ArrowDown"
+							,right: "ArrowRight"
+							,left: "ArrowLeft"
+							,shoot: "Numpad0"
+							,start: "Numpad1"
+						}
+					)
+				)
+			);
+		}
+		
 		for(let oldPlayer of this.deadPlayers){
 			if(!oldPlayer.isBot){
 				var player = new Player(
@@ -201,6 +248,10 @@ function Game(){
 	};
 	
 	this.startScreenLoop = function(){
+		if(this.input.keys["Enter"]){
+			this.graphics.showKeyboardScreen();
+			this.keyboardScreenLoop();
+		}
 		for(let player of this.deadPlayers){
 			if(player.controller.getControls().start){
 				this.gameEnded = false;
@@ -211,6 +262,26 @@ function Game(){
 			requestAnimationFrame(this.startScreenLoop.bind(this));
 		}
 	};
+	
+	this.keyboardScreenLoop = function(){
+		if(!this.gameEnded){
+			return;
+		};
+		
+		if(this.input.keys["Digit2"] || this.input.keys["Numpad2"]){
+			this.gameEnded = false;
+			this.resetGame(2);
+			return;
+		}
+		if(this.input.keys["Digit1"] || this.input.keys["Numpad1"]){
+			this.gameEnded = false;
+			this.resetGame(1);
+			return;
+		}
+		if(this.gameEnded){
+			requestAnimationFrame(this.keyboardScreenLoop.bind(this));
+		}
+	}
 	
 	
 	this.endGame = function(){
