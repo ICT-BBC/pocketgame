@@ -263,7 +263,7 @@ body{
 
 #controllerImg{
 	flex-grow: 1;
-	max-width: 50%;
+	max-width: 35%;
 	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.35));
 	background-image: url(../assets/controller.svg);
 	background-size: contain;
@@ -383,9 +383,11 @@ body{
 @keyframes confetti {
 	from {
 		transform: translate(0px, 0px) rotate(0deg);
+		opacity: 1;
 	}
 
 	to {
-		transform: translate(0px, 1000px) rotate(1000deg);
+		transform: translate(0px, 1600px) rotate(2000deg);
+		opacity: 0;
 	}
 }

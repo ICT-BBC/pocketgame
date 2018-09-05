@@ -334,7 +334,7 @@ function Graphics(game){
 	}
 	
 	this.initConfetti = function(parent){
-		var confettiCount = 20;
+		var confettiCount = 30;
 		
 		while(confettiCount--){
 			var c = confettiCount % assets.cog.count;
@@ -346,7 +346,7 @@ function Graphics(game){
 			confetti.style.top = (-confetti.width)+"px"
 			confetti.style.left = (Math.random()*width)+"px";
 			confetti.style.animationDelay = (-Math.random()*3)+"s";
-			confetti.style.animationDuration = (Math.random()*1+1.5)+"s";
+			confetti.style.animationDuration = (Math.random()*1+3)+"s";
 			confetti.style.filter = "brightness("+(20+Math.random()*60)+"%)";
 			parent.appendChild(confetti);
 		}
