@@ -24,8 +24,8 @@ var c = {
 		,playerHeight: 120
 		,projectileDiameter: 30
 		,projectileHitboxDiameter: 26
-		,fuelWidth: 20
-		,fuelHeight: 35
+		,fuelWidth: 27
+		,fuelHeight: 27*1.75
 	}
 };
 

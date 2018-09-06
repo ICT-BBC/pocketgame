@@ -208,7 +208,7 @@ function Graphics(game){
 	}
 	
 	this.decorateFloor = function(){
-		var count = 30;
+		var count = 50;
 		
 		for(var i = 0; i < count; i++){
 			var c = i % assets.scratches.count;
