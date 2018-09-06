@@ -40,7 +40,6 @@ function LanguageHandler(){
 		if(!search){
 			search = defaultLanguage;
 		}
-		console.log(search);
 		return search;
 	}
 	

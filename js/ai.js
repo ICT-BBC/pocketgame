@@ -26,7 +26,6 @@ function AI(game){
 	this.timeLast = performance.now();
 	this.lastActionTime = 0;
 	this.nextActionTimeout = Math.random()*1000 + 300;
-	//var nextActionTimeout = 100;
 	
 	this.step = function(){}
 	
@@ -60,6 +59,9 @@ function DumbAI(game){
 function BullyAI(game){
 	AI.call(this, game);
 	
+	this.lastTargetChangeTime = 0;
+	this.nextTargetChangeTime = Math.random()*10000 + 1000;
+	
 	this.target = null;
 	
 	this.findTarget = function(){
@@ -87,6 +89,15 @@ function BullyAI(game){
 		this.timeNow = performance.now();
 		var timeDiff = this.timeNow - this.timeLast;
 		this.timeLast = this.timeNow;
+		
+		var actionTimeDiff = this.timeNow - this.lastTargetChangeTime;
+		
+		if(actionTimeDiff > this.nextTargetChangeTime){
+			this.lastTargetChangeTime = performance.now();
+			this.nextTargetChangeTime = Math.random()*10000 + 1000;
+			
+			this.findTarget();
+		}
 		
 		var actionTimeDiff = this.timeNow - this.lastActionTime;
 		

@@ -16,10 +16,8 @@ function ControllerInput(){
 	this.controllers = [];
 	
 	window.addEventListener("gamepadconnected", function(e){
-		//console.log(e);
 		var pad = e.gamepad;
 		var id = pad.index;
-		//console.log("connect "+id);
 		
 		var padObject = new Gamepad(pad);
 		padObject.player = game.createPlayerFromGamepad(padObject);
@@ -27,10 +25,8 @@ function ControllerInput(){
 	}.bind(this));
 	
 	window.addEventListener("gamepaddisconnected", function(e){
-		//console.log(e);
 		var pad = e.gamepad;
 		var id = pad.index;
-		//console.log("disconn "+id);
 		
 		game.disconnectPlayer(this.controllers[id].player);
 		this.controllers[id] = null;
