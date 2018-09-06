@@ -12,26 +12,41 @@ function LanguageHandler(){
 			 startScreen: "Connect your controller and press Start!"
 			,winner: "Winner!"
 			,endScreen: "Press Start for a new match!"
+			,keyboardText: "...or press Enter for keyboard controls"
+			,pressOne: "Press 1 for one player!"
+			,pressTwo: "Press 2 for two players!"
+			,playerOne: "Player 1"
+			,playerTwo: "Player 2"
 		}
 		,de: {
 			 startScreen: "Schliesse deinen Controller an und drücke Start!"
 			,winner: "Winner!"
 			,endScreen: "Drücke Start für eine neue Runde!"
+			,keyboardText: "...oder drücke Enter für Tastatursteuerung"
+			,pressOne: "Drücke 1 für einen Spieler!"
+			,pressTwo: "Drücke 2 für zwei Spieler!"
+			,playerOne: "Spieler 1"
+			,playerTwo: "Spieler 2"
 		}
 		,fr: {
 			 startScreen: "Branche ta console et appuye sur «Start»!"
 			,winner: "Winner!"
 			,endScreen: "Presse «Start» pour un nouveau tour."
+			,keyboardText: ""
+			,pressOne: ""
+			,pressTwo: ""
+			,playerOne: ""
+			,playerTwo: ""
 		}
 		,it: {
 			 startScreen: "Collega il tuo Controller e premi «Start»!"
 			,winner: "Winner!"
 			,endScreen: "Premi «Start» per iniziare un nuovo turno."
-		}
-		,rm: {
-			 startScreen: "Rumantsch rumantsch rumantsch!"
-			,winner: "Winner!"
-			,endScreen: "Rumantsch!"
+			,keyboardText: ""
+			,pressOne: ""
+			,pressTwo: ""
+			,playerOne: ""
+			,playerTwo: ""
 		}
 	}
 	

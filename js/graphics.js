@@ -37,7 +37,6 @@ function Graphics(game){
 	var world;
 	var startScreen = document.getElementById("startScreen");
 	var keyboardScreen = document.getElementById("keyboardScreen");
-	var startText = document.getElementById("startText");
 	var droneTemplate;
 	var botTemplate;
 	var projectileTemplate;
@@ -54,7 +53,18 @@ function Graphics(game){
 	
 	var lastSplatter = 0;
 	
+	var startText = document.getElementById("startText");
 	startText.innerHTML = language.getString("startScreen");
+	var keyboardText = document.getElementById("keyboardText");
+	keyboardText.innerHTML = language.getString("keyboardText");
+	var pressOne = document.getElementById("pressOne");
+	pressOne.innerHTML = language.getString("pressOne");
+	var pressTwo = document.getElementById("pressTwo");
+	pressTwo.innerHTML = language.getString("pressTwo");
+	var playerOne = document.getElementById("playerOne");
+	playerOne.innerHTML = language.getString("playerOne");
+	var playerTwo = document.getElementById("playerTwo");
+	playerTwo.innerHTML = language.getString("playerTwo");
 	
 	this.reset = function(){
 		world.innerHTML = "";
@@ -379,8 +389,6 @@ function Graphics(game){
 			overlay.style.opacity = 1;
 			
 			winner.graphics.style.transform = "translate("+(width/2)+"px, "+(height/2-c.graphics.playerHeight/2)+"px) scale(2)";
-			console.log("translate("+(width/2)+"px, "+(height/2-c.graphics.playerHeight/2)+"px), scale(2)");
-			console.log(winner.graphics.style.transform);
 				
 		}.bind(this), 100);
 	}
