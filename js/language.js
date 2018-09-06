@@ -11,7 +11,7 @@ function LanguageHandler(){
 		 en: {
 			 startScreen: "Connect your controller and press Start!"
 			,winner: "Winner!"
-			,endScreen: "Press Start for a new match!"
+			,endScreen: "Press Start or Enter for a new match!"
 			,keyboardText: "...or press Enter for keyboard controls"
 			,pressOne: "Press 1 for one player!"
 			,pressTwo: "Press 2 for two players!"
@@ -21,7 +21,7 @@ function LanguageHandler(){
 		,de: {
 			 startScreen: "Schliesse deinen Controller an und drücke Start!"
 			,winner: "Winner!"
-			,endScreen: "Drücke Start für eine neue Runde!"
+			,endScreen: "Drücke Start oder Enter für eine neue Runde!"
 			,keyboardText: "...oder drücke Enter für Tastatursteuerung"
 			,pressOne: "Drücke 1 für einen Spieler!"
 			,pressTwo: "Drücke 2 für zwei Spieler!"
@@ -31,7 +31,7 @@ function LanguageHandler(){
 		,fr: {
 			 startScreen: "Branche ta console et appuye sur «Start»!"
 			,winner: "Winner!"
-			,endScreen: "Presse «Start» pour un nouveau tour."
+			,endScreen: "Presse «Start» ou «Enter» pour un nouveau tour."
 			,keyboardText: ""
 			,pressOne: ""
 			,pressTwo: ""
@@ -41,7 +41,7 @@ function LanguageHandler(){
 		,it: {
 			 startScreen: "Collega il tuo Controller e premi «Start»!"
 			,winner: "Winner!"
-			,endScreen: "Premi «Start» per iniziare un nuovo turno."
+			,endScreen: "Premi «Start» o «Enter» per iniziare un nuovo turno."
 			,keyboardText: ""
 			,pressOne: ""
 			,pressTwo: ""

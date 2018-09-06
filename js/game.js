@@ -57,80 +57,6 @@ function Game(){
 	
 	var minPlayers = 2;
 	
-	/*this.startGame = function(){
-		this.players.push(
-			new Player(
-				 this
-				,{
-					 x: Math.random()*width
-					,y: Math.random()*height
-				}
-				,c.player.startingPoints
-				,0
-				,new Controller(
-					this.input
-					,{
-						 up: "KeyW"
-						,down: "KeyS"
-						,right: "KeyD"
-						,left: "KeyA"
-						,shoot: "KeyF"
-						,start: "KeyE"
-					}
-				)
-			)
-		);
-		
-		this.players.push(
-			new Player(
-				 this
-				,{
-					 x: Math.random()*width
-					,y: Math.random()*height
-				}
-				,c.player.startingPoints
-				,0
-				,new Controller(
-					this.input
-					,{
-						 up: "ArrowUp"
-						,down: "ArrowDown"
-						,right: "ArrowRight"
-						,left: "ArrowLeft"
-						,shoot: "Numpad0"
-						,start: "Numpad1"
-					}
-				)
-			)
-		);
-		
-		for(let oldPlayer of this.deadPlayers){
-			var player = new Player(
-				 this
-				,{
-					 x: Math.random()*width
-					,y: Math.random()*height
-				}
-				,c.player.startingPoints
-				,0
-				,oldPlayer.controller
-			);
-			oldPlayer.controller.player = player;
-			this.players.push(player);
-		}
-		this.deadPlayers = [];
-		
-		var aiCount = Math.max(0, 2 - this.players.length);
-		for(var i = 0; i < aiCount; i++){
-			this.createAI();
-		}
-		
-		this.graphics.reset();
-		this.gameEnded = false;
-		timeLast = performance.now();
-		this.loop();
-	}*/
-	
 	this.resetGame = function(keyboardPlayers){
 		
 		if(keyboardPlayers >= 1){
@@ -239,6 +165,10 @@ function Game(){
 				this.resetGame();
 			}
 		}
+		if(this.input.keys["Enter"] || this.input.keys["NumpadEnter"]){
+				this.gameEnded = false;
+				this.resetGame();
+			}
 		if(humanPlayers < 1 && this.gameEnded){
 			this.graphics.showStartScreen();
 			this.startScreenLoop();
@@ -248,7 +178,7 @@ function Game(){
 	};
 	
 	this.startScreenLoop = function(){
-		if(this.input.keys["Enter"]){
+		if(this.input.keys["Enter"] || this.input.keys["NumpadEnter"]){
 			this.graphics.showKeyboardScreen();
 			this.keyboardScreenLoop();
 		}
