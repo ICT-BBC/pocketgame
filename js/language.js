@@ -32,7 +32,7 @@ function LanguageHandler(){
 			 startScreen: "Branche ta console et appuye sur «Start»!"
 			,winner: "Winner!"
 			,endScreen: "Presse «Start» ou «Enter» pour un nouveau tour."
-			,keyboardText: "... ou prese «Enter» pour les contrôles du clavier"
+			,keyboardText: "... ou presse «Enter» pour les contrôles du clavier"
 			,pressOne: "Presse 1 pour un joueur!"
 			,pressTwo: "Presse 2 pour deux joueurs!"
 			,playerOne: "Joueur 1"
