@@ -54,7 +54,21 @@ function Graphics(game){
 	var lastSplatter = 0;
 	
 	var startText = document.getElementById("startText");
-	startText.innerHTML = language.getString("startScreen");
+	
+	console.log(language);
+	if(language.isDefault){
+		var langs = ["de", "en", "fr", "it"];
+		for(var i in langs){
+			let startString = document.createElement("span");
+			startString.className = "languageScroller";
+			startString.style.animationDelay = (-i*4)+"s";
+			startString.innerHTML = language.getString("startScreen", langs[i]);
+			startText.appendChild(startString);
+		}
+	} else {
+		startText.innerHTML = language.getString("startScreen");
+	}
+	
 	var keyboardText = document.getElementById("keyboardText");
 	keyboardText.innerHTML = language.getString("keyboardText");
 	var pressOne = document.getElementById("pressOne");

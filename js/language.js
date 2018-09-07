@@ -4,8 +4,6 @@ var language = new LanguageHandler();
 function LanguageHandler(){
 	
 	var defaultLanguage = "de";
-	
-	var language = detectLanguage();
 
 	var lang = {
 		 en: {
@@ -50,16 +48,23 @@ function LanguageHandler(){
 		}
 	}
 	
-	function detectLanguage(){
+	this.detectLanguage = function(){
 		var search = location.search.trim().substring(1).split("/")[0];
 		if(!search){
+			this.isDefault = true;
 			search = defaultLanguage;
 		}
 		return search;
 	}
 	
-	this.getString = function(string){
+	this.getString = function(string, language){
+		if(!language){
+			language = this.language;
+		}
 		return lang[language][string];
 	}
+	
+	this.isDefault = false;
+	this.language = this.detectLanguage();
 
 }
