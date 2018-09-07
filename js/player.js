@@ -7,13 +7,17 @@
 	angle: radians
 */
 
+Player.nextColor = 0;
+
 function Player(game, pos, points, angle, controller){
 	this.pos = pos;
 	this.points = points;
 	this.angle = angle;
 	this.controller = controller;
 	this.isMoving = false;
-	this.color = Math.floor(Math.random()*360);
+	
+	this.color = Player.nextColor;
+	Player.nextColor += 137.5/2;
 	this.isAlive = true;
 	this.isBot = false;
 	this.colliding = false;
@@ -32,6 +36,8 @@ function Player(game, pos, points, angle, controller){
 		var timeNow = performance.now();
 		var timeDiff = timeNow - timeLast;
 		timeLast = timeNow;
+		
+		this.color += timeDiff/10;
 		
 		var movementDist = (c.player.speed + 100 - Math.sqrt(this.points/9)*130) * (timeDiff/1000);
 		var controls = this.controller.getControls();
