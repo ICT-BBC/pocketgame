@@ -226,7 +226,7 @@ function Graphics(game){
 			var scratch = document.createElement("img");
 			scratch.src = assets.scratches.path + c + ".svg";
 			scratch.className = "scratch";
-			scratch.width = Math.random() * 90 + 10;
+			scratch.width = Math.random() * 70 + 30;
 			scratch.style.top = (Math.random()*height)+"px";
 			scratch.style.left = (Math.random()*width)+"px";
 			scratch.style.transform = "rotate("+(Math.random()*360)+"deg)";
@@ -342,6 +342,37 @@ function Graphics(game){
 			player.graphics.className = "droneContainer";
 		}.bind(player), 100);
 	}
+	
+	this.addFlyingDebris = function(pos){
+		
+		var splatters = 3;
+		while(splatters--){
+			this.addOilSplatter(pos);
+		}
+		
+		var count = 10;
+		
+		while(count--){
+			var c = count % assets.cog.count;
+			
+			var debrisContainer = document.createElement("div");
+			debrisContainer.className = "debrisContainer";
+			debrisContainer.style.transform = "rotate("+(Math.random()*360)+"deg)";
+			debrisContainer.style.top = pos.y+"px"
+			debrisContainer.style.left = pos.x+"px";
+			
+			var debris = document.createElement("img");
+			debris.src = assets.cog.path + c + ".svg";
+			debris.className = "debris";
+			debris.width = Math.random() * 30 + 10;
+			debris.style.animationDuration = (Math.random()*300+300)+"ms";
+			debris.style.filter = "brightness("+(20+Math.random()*60)+"%)";
+			
+			debrisContainer.appendChild(debris);
+			floorDecoration.appendChild(debrisContainer);
+		}
+	}
+	
 	
 	this.initConfetti = function(parent){
 		var confettiCount = 30;

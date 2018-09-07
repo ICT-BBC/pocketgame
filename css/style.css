@@ -391,3 +391,24 @@ body{
 		opacity: 0;
 	}
 }
+
+.debrisContainer{
+	position: absolute;
+}
+
+.debris{	
+	animation-name: debris;
+	/*animation-iteration-count: infinite;*/
+	animation-timing-function: ease-out;
+	animation-fill-mode: both;
+}
+
+@keyframes debris {
+	from {
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+
+	to {
+		transform: translate(0px, 300%) rotate(360deg);
+	}
+}

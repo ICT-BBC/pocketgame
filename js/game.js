@@ -303,6 +303,7 @@ function Game(){
 	
 	this.removePlayer = function(player){
 		player.isAlive = false;
+		this.graphics.addFlyingDebris(player.pos);
 		this.deadPlayers.push(player);
 		this.graphics.removeEntity(player);
 		for(var i = 0; i < this.players.length; i++){
