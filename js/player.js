@@ -37,8 +37,6 @@ function Player(game, pos, points, angle, controller){
 		var timeDiff = timeNow - timeLast;
 		timeLast = timeNow;
 		
-		this.color += timeDiff/10;
-		
 		var movementDist = (c.player.speed + 100 - Math.sqrt(this.points/9)*130) * (timeDiff/1000);
 		var controls = this.controller.getControls();
 		
