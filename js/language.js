@@ -32,21 +32,21 @@ function LanguageHandler(){
 			 startScreen: "Branche ta console et appuye sur «Start»!"
 			,winner: "Winner!"
 			,endScreen: "Presse «Start» ou «Enter» pour un nouveau tour."
-			,keyboardText: ""
-			,pressOne: ""
-			,pressTwo: ""
-			,playerOne: ""
-			,playerTwo: ""
+			,keyboardText: "... ou prese «Enter» pour les contrôles du clavier"
+			,pressOne: "Presse 1 pour un joueur!"
+			,pressTwo: "Presse 2 pour deux joueurs!"
+			,playerOne: "Joueur 1"
+			,playerTwo: "Joueur 2"
 		}
 		,it: {
 			 startScreen: "Collega il tuo Controller e premi «Start»!"
 			,winner: "Winner!"
 			,endScreen: "Premi «Start» o «Enter» per iniziare un nuovo turno."
-			,keyboardText: ""
-			,pressOne: ""
-			,pressTwo: ""
-			,playerOne: ""
-			,playerTwo: ""
+			,keyboardText: "... o premi «Enter» per i comandi della tastiera"
+			,pressOne: "Premi 1 per un giocatore!"
+			,pressTwo: "Premi 2 per due giocatori!"
+			,playerOne: "Giocatore 1"
+			,playerTwo: "Giocatore 2"
 		}
 	}
 	
