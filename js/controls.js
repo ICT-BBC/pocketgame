@@ -41,10 +41,10 @@ function Gamepad(pad){
 		
 		this.pad = navigator.getGamepads()[pad.index];
 		
-		var x = pad.axes[0];
-		var y = pad.axes[1];
-		var shoot = pad.buttons[0].pressed;
-		var start = pad.buttons[9].pressed;
+		var x = this.pad.axes[0];
+		var y = this.pad.axes[1];
+		var shoot = this.pad.buttons[0].pressed;
+		var start = this.pad.buttons[9].pressed;
 		
 		return {
 			 x: x
