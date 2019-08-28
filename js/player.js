@@ -9,6 +9,8 @@
 
 Player.nextColor = 0;
 
+
+
 function Player(game, pos, points, angle, controller){
 	this.pos = pos;
 	this.points = points;

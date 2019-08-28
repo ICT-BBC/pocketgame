@@ -1,5 +1,6 @@
 
 
+
 function Graphics(game){
 	
 	var assetPath = "assets/"
@@ -54,6 +55,10 @@ function Graphics(game){
 	var lastSplatter = 0;
 	
 	var startText = document.getElementById("startText");
+
+
+	var colorStep = 140/2;
+	var playerColors = [3*colorStep, colorStep, 2*colorStep, 0]; // these is the color shift that will be applied on the original color set in the svg, which is yellow. So 0 means yellow.
 	
 	console.log(language);
 	if(language.isDefault){
@@ -107,7 +112,12 @@ function Graphics(game){
 				} else {
 					rotateContainer.innerHTML = botTemplate;
 				}
-				rotateContainer.style.filter = "hue-rotate("+player.color+"deg)";
+
+				let color = player.color;
+				if (player.controller.pad != undefined) {
+					color = playerColors[player.controller.pad.index];
+				}
+				rotateContainer.style.filter = "hue-rotate("+color+"deg)";
 				
 				player.numbersContainer = rotateContainer.appendChild(document.createElement("div"));
 				player.numbersContainer.className = "numbersContainer";
