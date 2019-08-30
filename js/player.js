@@ -30,6 +30,9 @@ function Player(game, pos, points, angle, controller){
 			,this.pos.y
 		)
 	);
+
+	this.colorStep = 140/2;
+	this.playerColors = [3*this.colorStep, this.colorStep, 2*this.colorStep, 0]; // these is the color shift that will be applied on the original color set in the svg, which is yellow. So 0 means yellow.
 	
 	var timeLast = performance.now();
 	var lastShotTime = 0;
@@ -87,6 +90,14 @@ function Player(game, pos, points, angle, controller){
 			lastShotTime = timeNow;
 		}
 		
+	}
+
+	this.getColorHueRotationInDegrees = function() {
+		let color = this.color;
+		if (this.controller.pad != undefined) {
+			color = this.playerColors[this.controller.pad.index];
+		}
+		return color;
 	}
 	
 	this.increasePoints = function(){

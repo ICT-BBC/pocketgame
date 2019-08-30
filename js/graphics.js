@@ -56,10 +56,6 @@ function Graphics(game){
 	
 	var startText = document.getElementById("startText");
 
-
-	var colorStep = 140/2;
-	var playerColors = [3*colorStep, colorStep, 2*colorStep, 0]; // these is the color shift that will be applied on the original color set in the svg, which is yellow. So 0 means yellow.
-	
 	console.log(language);
 	if(language.isDefault){
 		var langs = ["de", "en", "fr", "it"];
@@ -113,12 +109,10 @@ function Graphics(game){
 					rotateContainer.innerHTML = botTemplate;
 				}
 
-				let color = player.color;
-				if (player.controller.pad != undefined) {
-					color = playerColors[player.controller.pad.index];
-				}
+				let color = player.getColorHueRotationInDegrees();
+
 				rotateContainer.style.filter = "hue-rotate("+color+"deg)";
-				
+
 				player.numbersContainer = rotateContainer.appendChild(document.createElement("div"));
 				player.numbersContainer.className = "numbersContainer";
 				player.numbersContainer.innerHTML = numbersTemplates[player.points];
@@ -160,7 +154,8 @@ function Graphics(game){
 			if(!projectile.graphics){
 				let element = document.createElement("div");
 				element.className = "projectileContainer";
-				element.style.filter = "hue-rotate("+projectile.player.color+"deg)";
+                let color = projectile.player.getColorHueRotationInDegrees();
+				element.style.filter = "hue-rotate("+color+"deg)";
 					
 				let rotateContainer = document.createElement("div");
 				element.appendChild(rotateContainer);
